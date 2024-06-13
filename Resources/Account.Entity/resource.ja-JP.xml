@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.LeadConversionScore.Caption" Value="リード変換スコア" />
+			<Item Name="Columns.PriceList.Caption" Value="価格表" />
+		</Items>
+	</Group>
+</Resources>

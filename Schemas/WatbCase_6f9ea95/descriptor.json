@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+    "Name": "WatbCase_6f9ea95",
+    "ModifiedOnUtc": "\/Date(1718289121000)\/",
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Статуси контрагента",
+    "DependsOn": []
+  }
+}

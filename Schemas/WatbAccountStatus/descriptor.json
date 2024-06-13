@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "502374bc-a061-4699-9a2a-31e23f9ecc29",
+    "Name": "WatbAccountStatus",
+    "ModifiedOnUtc": "\/Date(1718287925000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Статус контрагента",
+    "DependsOn": []
+  }
+}

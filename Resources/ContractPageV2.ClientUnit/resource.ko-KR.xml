@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AmountTip.Value" Value="총계약금액 주문에 따라 계약이 생성되면 필드는 편집할 수 없게 되고 계약 내 총 제품 수로 계산됩니다. 제품은 주문에서 계약서에 복사됩니다.&#xA;계약이 주문에 연결되지 않은 경우 필드를 편집할 수 있습니다.&#xA;&lt;a href=&quot;#&quot; data-filename-help-id=&quot;1582&quot;&gt; 자세히 보기&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="주문 통화 변경" />
+			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="계약내역" />
+			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="금액" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="이 계약의 주문 통화는 기준 통화로 변환됩니다. 계속?" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="주문된 제품 중 {0} 계약에 추가할 제품은 무엇입니까?" />
+			<Item Name="LocalizableStrings.OrderTip.Value" Value="[계정] 필드가 지정된 경우 선택한 계정에 대한 주문만 사용할 수 있습니다." />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="모두 추가" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="제품 선택" />
+		</Items>
+	</Group>
+</Resources>

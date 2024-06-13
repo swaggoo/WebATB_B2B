@@ -1,0 +1,21 @@
+﻿{
+  "Descriptor": {
+    "UId": "8108c094-174d-5046-f412-15f04639e24f",
+    "Name": "WebATB_B2B",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1718030501000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/WebATB_B2B.csproj",
+    "DependsOn": [
+      {
+        "UId": "7be7e506-9704-4753-a3a6-f3d17c74bf13",
+        "Name": "WebATB"
+      },
+      {
+        "UId": "e14dcfb1-e53c-4439-a876-af7f97083ed9",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise"
+      }
+    ]
+  }
+}

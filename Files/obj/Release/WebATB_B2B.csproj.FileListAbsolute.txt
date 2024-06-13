@@ -1,0 +1,9 @@
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\Bin\WebATB_B2B.dll
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\Bin\WebATB_B2B.pdb
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.csproj.AssemblyReference.cache
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.GeneratedMSBuildEditorConfig.editorconfig
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.AssemblyInfoInputs.cache
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.AssemblyInfo.cs
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.csproj.CoreCompileInputs.cache
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.dll
+D:\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\WebATB_B2B\Files\obj\Release\WebATB_B2B.pdb

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "a8a456f7-d9c1-4aef-8678-0847db52a1d1",
+    "Name": "WatbAccountFileWithDocTypeDetail",
+    "ModifiedOnUtc": "\/Date(1718292223000)\/",
+    "Parent": {
+      "UId": "0c43958a-a409-47bc-a3cb-9bc32451a45a",
+      "Name": "FileDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Файл контрагента з типом документа"
+  }
+}

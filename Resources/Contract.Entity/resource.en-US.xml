@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.WatbContractCodeERP.Caption" Value="Код договору ЕРП" />
+			<Item Name="Columns.WatbContractExternalNumber.Caption" Value="Номер договору" />
+			<Item Name="Columns.WatbContractTerms.Caption" Value="Умови договору" />
+			<Item Name="Columns.WatbContractType.Caption" Value="Вид договору" />
+			<Item Name="Columns.WatbDuration.Caption" Value="Термін дії" />
+			<Item Name="Columns.WatbIsActive.Caption" Value="Активний" />
+			<Item Name="Columns.WatbSigner.Caption" Value="ПІБ Підписанта" />
+			<Item Name="Columns.WatbSignerPosition.Caption" Value="Посада підписанта" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Схема раздела: &quot;Контрагенты&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Контрагенты" />
+			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Обогатить данными из соц. сетей" />
+		</Items>
+	</Group>
+</Resources>

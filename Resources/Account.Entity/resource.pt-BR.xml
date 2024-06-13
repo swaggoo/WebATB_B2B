@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-BR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Pontuação de conversão de Leads" />
+			<Item Name="Columns.PriceList.Caption" Value="Lista de Preços" />
+		</Items>
+	</Group>
+</Resources>

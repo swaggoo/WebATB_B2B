@@ -1,0 +1,100 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "DcmSchemaManager",
+      "UId": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+      "A2": "WatbCase_6f9ea95",
+      "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "8108c094-174d-5046-f412-15f04639e24f",
+      "B8": "8.1.2.3941",
+      "FJ1": [],
+      "IJ1": true,
+      "BK8": "51b280eb-d8a3-4932-81b9-ef61a0877aab",
+      "IJ10": true,
+      "EntitySchemaUId": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+      "BK15": [],
+      "BK37": {
+        "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+        "UId": "cdd58be7-2dba-4a5e-869b-1ad5d6d7513a",
+        "A2": "NotificationCaption",
+        "A3": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+        "A4": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+        "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+        "L8": {
+          "GS1": 3,
+          "GS2": "[#[PropertyValue:Caption]#]"
+        }
+      },
+      "Stages": [
+        {
+          "BL1": "Terrasoft.Core.DcmProcess.DcmSchemaStage",
+          "UId": "bf89b1ab-b9d4-4b7f-aea6-ab66c112847a",
+          "A2": "Stage1",
+          "A3": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+          "A4": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+          "A5": "8108c094-174d-5046-f412-15f04639e24f",
+          "Color": "#80A7EB",
+          "StageRecordId": "7e1b25b0-c5f8-4a62-87c7-1acabca4aa24",
+          "Elements": []
+        },
+        {
+          "BL1": "Terrasoft.Core.DcmProcess.DcmSchemaStage",
+          "UId": "e0fbbbe9-bb0a-43e7-ab5a-8ad59edf18e1",
+          "A2": "Stage2",
+          "A3": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+          "A4": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+          "A5": "8108c094-174d-5046-f412-15f04639e24f",
+          "Color": "#F9D68D",
+          "StageRecordId": "1fba3241-b34c-40c5-a630-70184f1ee06a",
+          "Elements": []
+        },
+        {
+          "BL1": "Terrasoft.Core.DcmProcess.DcmSchemaStage",
+          "UId": "8b214a47-7aff-4ae8-9d05-dffe773d0c0e",
+          "A2": "Stage3",
+          "A3": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+          "A4": "5de69f03-4c81-46a3-8968-3fece3b4a97e",
+          "A5": "8108c094-174d-5046-f412-15f04639e24f",
+          "Color": "#85C280",
+          "StageRecordId": "d11b8021-1a7b-4109-8d7b-1f7fdeafb5de",
+          "Elements": []
+        }
+      ],
+      "Transitions": [],
+      "StageConnections": {
+        "Connections": [
+          {
+            "Source": "e0fbbbe9-bb0a-43e7-ab5a-8ad59edf18e1",
+            "Target": "bf89b1ab-b9d4-4b7f-aea6-ab66c112847a"
+          },
+          {
+            "Source": "bf89b1ab-b9d4-4b7f-aea6-ab66c112847a",
+            "Target": "e0fbbbe9-bb0a-43e7-ab5a-8ad59edf18e1"
+          },
+          {
+            "Source": "8b214a47-7aff-4ae8-9d05-dffe773d0c0e",
+            "Target": "bf89b1ab-b9d4-4b7f-aea6-ab66c112847a"
+          },
+          {
+            "Source": "bf89b1ab-b9d4-4b7f-aea6-ab66c112847a",
+            "Target": "8b214a47-7aff-4ae8-9d05-dffe773d0c0e"
+          },
+          {
+            "Source": "8b214a47-7aff-4ae8-9d05-dffe773d0c0e",
+            "Target": "e0fbbbe9-bb0a-43e7-ab5a-8ad59edf18e1"
+          },
+          {
+            "Source": "e0fbbbe9-bb0a-43e7-ab5a-8ad59edf18e1",
+            "Target": "8b214a47-7aff-4ae8-9d05-dffe773d0c0e"
+          }
+        ]
+      },
+      "StageColumnUId": "f822d8ba-48f2-4e5e-b26b-8e852bdcd75f",
+      "Filters": "{\"className\":\"Terrasoft.FilterGroup\",\"items\":{\"4fdca13b-19aa-4688-9dfd-76d5a49779c7\":{\"className\":\"Terrasoft.InFilter\",\"filterType\":4,\"comparisonType\":3,\"isEnabled\":true,\"trimDateTimeParameterToDate\":false,\"leftExpression\":{\"className\":\"Terrasoft.ColumnExpression\",\"expressionType\":0,\"columnPath\":\"WatbDepartmentType\"},\"isAggregative\":false,\"key\":\"4fdca13b-19aa-4688-9dfd-76d5a49779c7\",\"dataValueType\":10,\"leftExpressionCaption\":\"Тип підрозділу\",\"referenceSchemaName\":\"WatbAccountDepartmentType\",\"rightExpressions\":[{\"className\":\"Terrasoft.ParameterExpression\",\"expressionType\":2,\"parameter\":{\"className\":\"Terrasoft.Parameter\",\"dataValueType\":10,\"value\":{\"Name\":\"B2B\",\"Id\":\"05c7545e-7e05-45f0-902c-712d5bb16644\",\"value\":\"05c7545e-7e05-45f0-902c-712d5bb16644\",\"displayValue\":\"B2B\"}}}]}},\"logicalOperation\":0,\"isEnabled\":true,\"filterType\":6,\"rootSchemaName\":\"Account\",\"key\":\"\"}",
+      "SystemElements": []
+    }
+  }
+}

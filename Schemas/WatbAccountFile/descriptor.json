@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ae2eab88-be7e-4d83-a564-13191b003f39",
+    "Name": "WatbAccountFile",
+    "ModifiedOnUtc": "\/Date(1718287104000)\/",
+    "Parent": {
+      "UId": "149d2eaf-cbd2-49fa-b565-637748ff823c",
+      "Name": "AccountFile"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Object",
+    "DependsOn": []
+  }
+}

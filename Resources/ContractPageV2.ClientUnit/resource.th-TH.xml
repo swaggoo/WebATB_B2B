@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AmountTip.Value" Value="จำนวนมูลค่าสัญญาทั้งหมด  ถ้าสัญญาถูกสร้างตามคำสั่งซื้อ ฟิลด์จะแก้ไขไม่ได้ และถูกคำนวณเป็นจำนวนเงินทั้งหมดของผลิตภัณฑ์ในสัญญา  ผลิตภัณฑ์จะถูกคัดลอกไปยังสัญญาจากคำสั่งซื้อ  ฟิลด์จะแก้ไขได้ถ้าสัญญาไม่เชื่อมต่อกับคำสั่งซื้อ&#xA;&lt;a href=&quot;#&quot; data-context-help-id=&quot;1582&quot; &gt;Read more&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="เปลี่ยนสกุลเงินตามคำสั่งซื้อ" />
+			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="รายละเอียดสัญญา" />
+			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="จำนวน" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="สกุลเงินตามคำสั่งซื้อสำหรับสัญญานี้จะถูกแปลงเป็นสกุลเงินฐาน  ต้องการทำต่อหรือไม่?" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="ผลิตภัณฑ์ที่สั่งตัวไหนที่คุณต้องการเพิ่มในสัญญา {0}?" />
+			<Item Name="LocalizableStrings.OrderTip.Value" Value="ถ้ามีการระบุฟิลด์ [ลูกค้า จะมีเฉพาะคำสั่งสำหรับลูกค้าที่เลือก" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="เพิ่มทั้งหมด" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="เลือกผลิตภัณฑ์" />
+		</Items>
+	</Group>
+</Resources>

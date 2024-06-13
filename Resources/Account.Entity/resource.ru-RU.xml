@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Рейтинг перевода в Лид" />
+			<Item Name="Columns.PriceList.Caption" Value="Прайс-лист" />
+		</Items>
+	</Group>
+</Resources>

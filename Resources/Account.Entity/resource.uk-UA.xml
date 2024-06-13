@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.WatbAccountCodeERP.Caption" Value="Код контрагента в ERP" />
+			<Item Name="Columns.WatbDepartmentType.Caption" Value="Тип підрозділу" />
+			<Item Name="Columns.WatbDirector.Caption" Value="Директор" />
+			<Item Name="Columns.WatbDiscount.Caption" Value="Знижка %" />
+			<Item Name="Columns.WatbEDRPOU.Caption" Value="ЄДРПОУ" />
+			<Item Name="Columns.WatbEmail.Caption" Value="Електронна пошта (п. 2.1)" />
+			<Item Name="Columns.WatbIsNoNeedUploadContract.Caption" Value="Без завантаження договору" />
+			<Item Name="Columns.WatbIsNoNeedUploadDocuments.Caption" Value="Без завантаження установочних документів" />
+			<Item Name="Columns.WatbIsVATPayer.Caption" Value="Платник ПДВ" />
+			<Item Name="Columns.WatbNumberInExternalSystem.Caption" Value="Номер" />
+			<Item Name="Columns.WatbPostponement.Caption" Value="Відтермінування" />
+			<Item Name="Columns.WatbPrimaryContact.Caption" Value="Контактна особа 1" />
+			<Item Name="Columns.WatbSecondaryAlternativeName.Caption" Value="Альтернативні назва 2" />
+			<Item Name="Columns.WatbSecondaryContact.Caption" Value="Контактна особа 2" />
+			<Item Name="Columns.WatbSignerFullName.Caption" Value="ПІБ підписанта" />
+			<Item Name="Columns.WatbSignerPosition.Caption" Value="Посада підписанта" />
+			<Item Name="Columns.WatbStatus.Caption" Value="Статус" />
+			<Item Name="Columns.Web.Caption" Value="Сайт" />
+		</Items>
+	</Group>
+</Resources>

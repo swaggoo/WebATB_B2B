@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AmountTip.Value" Value="Підсумкова сума договору. Якщо договір створений за замовленням, поле недоступне для редагування і розраховується автоматично як сумарна вартість продуктів в договорі. Продукти в договір копіюються з замовлення при створенні договору.&#xA;Якщо договір не пов'язаний із замовленням, то поле є для редагування&#xA;&lt;a href=&quot;#&quot; data-context-help-id=&quot;1582&quot; &gt;Докладніше…&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Змінити валюту в замовленні" />
+			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Паспорт договору" />
+			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Сума" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Валюта в замовленні за цим договором буде переведена в базову валюту. Продовжити?" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Зв'язати продукти в замовленні з договором {0}?" />
+			<Item Name="LocalizableStrings.OrderTip.Value" Value="Замовлення, за яким створено договір. Якщо заповнено поле [Контрагент], для вибору доступні тільки замовлення обраного контрагента" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Додати усі" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Вибрати" />
+		</Items>
+	</Group>
+</Resources>

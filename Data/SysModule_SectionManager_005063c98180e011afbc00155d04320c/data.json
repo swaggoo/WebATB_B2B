@@ -1,0 +1,121 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "005063c9-8180-e011-afbc-00155d04320c"
+        },
+        {
+          "SchemaColumnUId": "1e4741cc-9a6e-446f-9865-5f5910fadd67",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "327a0dc4-df63-4f6e-9d33-bc403d284cb6",
+          "Value": "85bd15bd-2aa4-4922-a7e6-157d1ed0549b"
+        },
+        {
+          "SchemaColumnUId": "34dfc288-1b25-4d53-bdf3-16b58a84e276",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "380d55b9-487c-429b-9aff-e04101ffc307",
+          "Value": "21399637-e87f-406c-a73b-74faf2fd1ba2",
+          "DisplayValue": "лента-контрагенты.png"
+        },
+        {
+          "SchemaColumnUId": "3da3c3b2-02fb-4cca-80c3-7946d4e8f565",
+          "Value": "Контрагенти"
+        },
+        {
+          "SchemaColumnUId": "3f098e0d-6cbd-4e8f-bc3e-00709f2d8d82",
+          "Value": "9be7bf65-7380-e011-afbc-00155d04320c",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "48b260f5-5aad-608c-73a9-2b835ef697f4",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "48ed5be5-6dcd-44ba-6294-a29c8daef880",
+          "Value": "#FFAC07"
+        },
+        {
+          "SchemaColumnUId": "63f1eb37-455a-4a53-ace2-fa5ef4c3d10f",
+          "Value": "0ea4450d-036f-48fb-a896-fc1c745ed7d9",
+          "DisplayValue": "Icon%20_%20Accounts%20-%2032x32%20_%20solid.svg"
+        },
+        {
+          "SchemaColumnUId": "6d827ba7-a622-47cc-8f11-b40b91c7441a",
+          "Value": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAsFJREFUeNpMk02LHFUUhp/7WXVrOjPdM5MPhsnEDxDBQDYiuBRc+B/yP3SpS9G1C/+AW0GzdRcJAVFERAWzCEkmpjPpodvqqq6uj+u53RO1oLjn1q3znvd9z7nq9pf3GGL85GCUfZxbw1/zmmt7gdmy4ZXDHcpVT9m0FN4yXazQSin+91gvSf0QOZ4U7OVOfu54/coI/VxxsJNhdMu4cEwKT90OAgBRGdY6MMj6L4A1GmM1TvZ2s8rrNHatt5UuzpQ2LO2YT+++tgGxzhlMhPO6o1wPeNmfzhuaqHi27Fl3W6qtxI2yLBnxxZPbvDD7ROMTA5084GicM8osj89rTg53uXv/B1oloE1Pkp3Ofn9a883uZ5Sj6yJD/+dBArBGqOtE06IE+YPzr3gv+4Oh2Kc9/RV3dJPOP+JvDmMUyTHGz8WODy8AYFG3VCKh6QamZcvlQYBO3kFNbtDOZ2RvvM/w5/e4yTHu4Abdk58rZf3Wg8TgyjgwkvjpYs3VgwIbMhBWSszV3oGw087J3m5j79kAvGTgpD/GbN1PUox1DC8e0FczVGzpTn8iVmfEfkW3OpPEVMBtAYQAZRuFfkfbR2aV9B6FP36LYe+EWE7JXn2XVt9H7x5hJtfpp79tvLroAlzecQSZtudlw6F0RMlQpZ4nr7WwEVJokaSTpBQ7vwVwFxKsuJ+G6eUqAUZ0di7DZlu9WminRDbaZd0wEOMkn1rcXwv9flDMpfcB+T5/KLrP5bRjmP6CWs3ELEtcPJLckCgloIxh6NgvLOkyzWQiJ5cyGpFjrr6JLo5YS6I/fluM/BFz7RZDfYaqn4nZEb334Dt8GFUuL8hCIC8KQjCEPFE3uFyxEyyJecgN3kcpFClcV309/gh159s7sSoXlMuKqqpYylvVK7nGLct6TZ5lAiyguSfPg4DnEgcKKXRJgP8RYADMyxLUx0pd0gAAAABJRU5ErkJggg=="
+        },
+        {
+          "SchemaColumnUId": "7b904e78-84bf-408c-a7a1-1287e66837d3",
+          "Value": "Список контрагентів"
+        },
+        {
+          "SchemaColumnUId": "80769c54-f4f4-43cb-93f8-0824715969a6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "9a366fd1-19c8-4ba7-9bdd-039f164c08ec",
+          "Value": "139"
+        },
+        {
+          "SchemaColumnUId": "a0fd39b2-b680-4515-ac3c-72322db4f1b8",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "af5bbb5e-9c78-44b7-8fdd-2bfc4353b4a8",
+          "Value": "65bb2306-7314-4605-a863-04a410798497"
+        },
+        {
+          "SchemaColumnUId": "b3fefb7f-2aab-4b16-97aa-6ca3f3bd7ac2",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "bd3cf32d-f9b5-471b-a0ca-f541296b979d",
+          "Value": "UsrDepartmentType"
+        },
+        {
+          "SchemaColumnUId": "cb4bb1d2-d369-406e-8150-502dd7af2199",
+          "Value": "4e1670dc-10db-4217-929a-669f906e5d75"
+        },
+        {
+          "SchemaColumnUId": "d3afc924-2d21-4c0e-b2f3-9f8c180221f9",
+          "Value": "b659d704-3955-e011-981f-00155d043204",
+          "DisplayValue": "Include record in multiple folders"
+        },
+        {
+          "SchemaColumnUId": "d57c3c34-e293-4aed-bff6-91dc90408958",
+          "Value": "df58589e-26a6-44d1-b8d4-edf1734d02b4"
+        },
+        {
+          "SchemaColumnUId": "dedaabd6-732d-47ac-b229-50a8ee02292c",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "e0c474a3-e4bc-457e-bb67-c1ec1b399f60",
+          "Value": "Account"
+        },
+        {
+          "SchemaColumnUId": "e6243d2b-cc8f-4b2d-8646-36bac9fb48e9",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "ed272316-b65f-41db-a9b4-e53ab939e4d6",
+          "Value": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2dJREFUeNqsVD1vXEUUPfP9vLte47CRSRAWFJFQkCigiShIRYVS0FNDxd/Ij6CmoqAKVFDEVSQKUgDCqUAC4thry959ft8zw5n31vaaUDKr0Zy3774795x7ZkSMEf/n0J9++QRM+eHE6cfTzKBqPeouYGsj4a4PyozG0bLCJv/LtMJ8WaMN4T5f7a0n++qze9BGSbBIf2NscXt7hGXRYFF3eJ14QZzG1siiaDrc2sow3bAouel53fn/rNBwx0RaKwUlBFd5DaehJLHW/fOAFYwfpIqQ8FJzFauEqUKCqg04zBu0pJs2PyJuiNO7sotIv7PSo2hjYoThO4FGbuDhTx/AC8PIg7TxUOErpPzaNEPetDjJW2zz+aTo8OrEYdNpNF7gzs6kj21DzjhuDIOH+5+glCNEIa9X2NNRpMcXG1ZzA4enTx7jt7NTOCNxuGjw19T2Hx0tG1aK+pt3fkAhMyZbrGs4JEyJtVRMHFl2ZHKNt6p9fO6+hth5G3F7gVDlUFu3AWJf5T/W8Y2ePhPcJ/u9y6aksaw9taoQGCHZkPk5SwgCcTqDefMeurPnwNnf0LvvER/0ONt9H/WfTxGrE49/U55Rs9mE9qBlcjZohxY5zzSkNoyVkJyRDF7Gqo+5TKj1lYZaCVKVMAH9mj5MwWmGtBr7EpbGQJm1hEYNlCNpNrRHslfCyT5RsIo2R/3se8A3iJ4ylHPidoWPEZsC0qZmiaumXAw6Ad3gVtSrc6CmN2HvfAS/fIGQv4C+9S7CChvi9uBndM9/uV5horxJvW6MNI9VoCUCZpsOx/SfZLcFT0eij6RXKmSFh/9VT/sq4ZqGMk2fLIQeJ09Ky6akpGbVoDTNoJ241JCUxdrRSyNpl9cBXYicxJUHvcCKIsJ8n8ejAM7nCH+c9vohtPTlKTWqhgovNNQrH2Y8DWMrecRiPycZLwBWr7Z3IWd3EYsjhGwKtXMX/vBXyPFNiNEMnpuF42frTdFsQuDxUhg7JmCnBefYDQklNQ5JuN5vK93U4MELDEqSmKQhN3/fg3GuNizbaAdDPSxtYI0brixeupbNcVbBcbXc2BJbMuoxV4bU302/6BOKR4++jVVRoKwqlGWJqq5QJVzVKOu2XwWbkzkHmzkmtgO2xM5ycs0yjHihPHjwsfhHgAEAStB1ERnVffgAAAAASUVORK5CYII="
+        },
+        {
+          "SchemaColumnUId": "eea74681-e019-4885-9a1e-e8261f2665ea",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "f3a29fb6-f13d-443e-8360-d4f51e8bcec8",
+          "Value": "null"
+        }
+      ]
+    }
+  ]
+}

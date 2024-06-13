@@ -1,0 +1,10 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Contract/Contract.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Contract/Contract.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbAccountDepartmentType/WatbAccountDepartmentType.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbAccountDepartmentType/WatbAccountDepartmentType.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbAccountFile/WatbAccountFile.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbAccountFile/WatbAccountFile.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbAccountStatus/WatbAccountStatus.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbAccountStatus/WatbAccountStatus.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbContractType/WatbContractType.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbContractType/WatbContractType.cs')" />
+	</ItemGroup>
+</Project>

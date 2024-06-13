@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2e00f390-e926-4ffe-adea-e3260531f8d5",
+    "Name": "WatbAccountDepartmentType",
+    "ModifiedOnUtc": "\/Date(1718287876000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тип підрозділу контрагента",
+    "DependsOn": []
+  }
+}

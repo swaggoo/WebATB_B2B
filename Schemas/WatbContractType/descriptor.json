@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0046aed6-d7e6-4cf4-b93e-ffa694a7426a",
+    "Name": "WatbContractType",
+    "ModifiedOnUtc": "\/Date(1718287986000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Вид договору",
+    "DependsOn": []
+  }
+}

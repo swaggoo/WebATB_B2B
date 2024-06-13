@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "1dc2be81-0027-5180-341f-483a2b6e73fa",
+    "Name": "WatbAddAccountB2BTimelineScript",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1718287964000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

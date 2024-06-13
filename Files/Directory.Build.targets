@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/WebATB_B2B/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/WebATB_B2B/Data/**" />
+		<Compile Remove="$(PkgPath)/WebATB_B2B/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/WebATB_B2B/Schemas\**" />
+		<Compile Remove="$(PkgPath)/WebATB_B2B/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/WebATB_B2B/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/WebATB_B2B/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/WebATB_B2B/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/WebATB_B2B/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/WebATB_B2B/Resources/**" />
+		<None Remove="$(PkgPath)/WebATB_B2B/Assemblies/**" />
+		<None Remove="$(PkgPath)/WebATB_B2B/Data/**" />
+		<None Remove="$(PkgPath)/WebATB_B2B/SqlScripts/**" />
+		<None Remove="$(PkgPath)/WebATB_B2B/Schemas/**" />
+		<None Remove="$(PkgPath)/WebATB_B2B/Resources/**" />
+  </ItemGroup>
+</Project>
