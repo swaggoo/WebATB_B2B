@@ -20,12 +20,12 @@ define("ContractPageV2", [], function () {
 		
 					const monthsText = this.getMonthsText(totalMonths);
 		
-					this.set('UsrDuration', `${totalMonths} ${monthsText}`);
+					this.set('WatbDuration', `${totalMonths} ${monthsText}`);
 		
 					if (end > new Date()) {
-						this.set('UsrIsActive', true);
+						this.set('WatbIsActive', true);
 					} else {
-						this.set('UsrIsActive', false);
+						this.set('WatbIsActive', false);
 					}
 
 					callback.call(scope || this, { success: true });
@@ -54,7 +54,7 @@ define("ContractPageV2", [], function () {
 						"row": 0,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrContractExternalNumber",
+					"bindTo": "WatbContractExternalNumber",
 					"enabled": true
 				},
 				"parentName": "Header",
@@ -72,7 +72,7 @@ define("ContractPageV2", [], function () {
 						"row": 1,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrContractCodeERP",
+					"bindTo": "WatbContractCodeERP",
 					"enabled": true
 				},
 				"parentName": "Header",
@@ -90,7 +90,7 @@ define("ContractPageV2", [], function () {
 						"row": 1,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrSigner",
+					"bindTo": "WatbSigner",
 					"enabled": true,
 					"contentType": 5
 				},
@@ -109,7 +109,7 @@ define("ContractPageV2", [], function () {
 						"row": 2,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrSignerPosition",
+					"bindTo": "WatbSignerPosition",
 					"enabled": true,
 					"contentType": 5
 				},
@@ -164,7 +164,7 @@ define("ContractPageV2", [], function () {
 						"row": 3,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrContractType",
+					"bindTo": "WatbContractType",
 					"enabled": true,
 					"contentType": 3
 				},
@@ -218,7 +218,7 @@ define("ContractPageV2", [], function () {
 						"row": 5,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrDuration",
+					"bindTo": "WatbDuration",
 					"enabled": true
 				},
 				"parentName": "Header",
@@ -236,7 +236,7 @@ define("ContractPageV2", [], function () {
 						"row": 5,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrContractTerms",
+					"bindTo": "WatbContractTerms",
 					"enabled": true
 				},
 				"parentName": "Header",
@@ -254,7 +254,7 @@ define("ContractPageV2", [], function () {
 						"row": 6,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrIsActive",
+					"bindTo": "WatbIsActive",
 					"enabled": true
 				},
 				"parentName": "Header",
