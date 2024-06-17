@@ -11,6 +11,7 @@
 			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="Correo electrónico" />
 			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="Archivos adjuntos" />
 			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="Oportunidades" />
+			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Oportunidades" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="Oportunidades" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="Actividades" />
 			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Objeto" />

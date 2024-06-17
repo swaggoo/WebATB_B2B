@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="Columns.AlternativeName.Caption" Value="Альтернативна назва" />
 			<Item Name="Columns.WatbAccountCodeERP.Caption" Value="Код контрагента в ERP" />
 			<Item Name="Columns.WatbDepartmentType.Caption" Value="Тип підрозділу" />
 			<Item Name="Columns.WatbDirector.Caption" Value="Директор" />
@@ -16,7 +17,7 @@
 			<Item Name="Columns.WatbPrimaryContact.Caption" Value="Контактна особа 1" />
 			<Item Name="Columns.WatbSecondaryAlternativeName.Caption" Value="Альтернативні назва 2" />
 			<Item Name="Columns.WatbSecondaryContact.Caption" Value="Контактна особа 2" />
-			<Item Name="Columns.WatbSignerFullName.Caption" Value="ПІБ підписанта" />
+			<Item Name="Columns.WatbSigner.Caption" Value="ПІБ Підписанта" />
 			<Item Name="Columns.WatbSignerPosition.Caption" Value="Посада підписанта" />
 			<Item Name="Columns.WatbStatus.Caption" Value="Статус" />
 			<Item Name="Columns.Web.Caption" Value="Сайт" />

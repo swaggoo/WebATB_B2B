@@ -11,6 +11,7 @@
 			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="이메일" />
 			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="첨부 파일" />
 			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="기회" />
+			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="기회" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="기회" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="활동" />
 			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="개체" />

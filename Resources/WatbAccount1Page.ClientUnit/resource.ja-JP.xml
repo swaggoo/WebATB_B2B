@@ -11,6 +11,7 @@
 			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="メール" />
 			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="添付" />
 			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="案件" />
+			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="案件" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="案件" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="アクティビティ" />
 			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="オブジェクト" />

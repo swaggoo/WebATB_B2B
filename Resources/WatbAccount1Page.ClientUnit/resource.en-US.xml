@@ -11,6 +11,7 @@
 			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="Email" />
 			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="Attachments" />
 			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="Opportunities" />
+			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Opportunities" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="Opportunities" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="Activities" />
 			<Item Name="LocalizableStrings.TabContactsAndStructureTabCaption.Value" Value="Контакти та структура" />

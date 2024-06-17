@@ -2,8 +2,8 @@
   "MetaData": {
     "Schema": {
       "ManagerName": "SourceCodeSchemaManager",
-      "UId": "826c9b39-7647-4228-8acf-5ae93f95b856",
-      "A2": "WatbContractOnInsertedHandler",
+      "UId": "a55795c8-9d0d-4722-a0f9-0b996555938e",
+      "A2": "WatbContractChangeListener",
       "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18",
       "B1": [],
       "B2": [],

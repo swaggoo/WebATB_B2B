@@ -75,134 +75,146 @@ define("WatbAccount1Page", [], function () {
 					"detailColumn": "Account",
 					"masterColumn": "Id"
 				}
+			},
+			"OpportunityDetailV289d1c87d": {
+				"schemaName": "OpportunityDetailV2",
+				"entitySchemaName": "Opportunity",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
-			asyncValidate: function(callback, scope) {
+			asyncValidate: function (callback, scope) {
 				this.callParent([
-                    function (response) {
-                        if (!this.validateResponse(response)) {
-                            return;
-                        }
-                        this.tryUpdateAccountStatus(function (response) {
-                            if (!this.validateResponse(response)) {
-                                return;
-                            }
-                            callback.call(scope, response);
-                        }, this);
-                    }, this
-                ]);
+					function (response) {
+						if (!this.validateResponse(response)) {
+							return;
+						}
+						this.tryUpdateAccountStatus(function (response) {
+							if (!this.validateResponse(response)) {
+								return;
+							}
+							callback.call(scope, response);
+						}, this);
+					}, this
+				]);
 			},
 			tryUpdateAccountStatus: function (callback, scope) {
 				var me = this;
 
-				var name = this.get('Name');
-				var signerFullname = this.get('WatbSignerFullName');
-				var phone = this.get('Phone');
-				var email = this.get('WatbEmail');
-				var edrpou = this.get('WatbEDRPOU');
-				
-				var isRequiredFieldsFilled = name && signerFullname && phone && email && edrpou;
-				var currentAccountId = this.get('Id');
-				
-				if (!isRequiredFieldsFilled) {
-					this.set('WatbStatus', { value: '7e1b25b0-c5f8-4a62-87c7-1acabca4aa24', displayValue: 'Новий' });
-					callback.call(scope, { success: true });
-					return;
-				}
-				
-				var documentAddressTypeId = '9958c503-9788-438f-998c-e68dfe5887c7';
-				
-				var addressESQ = Ext.create("Terrasoft.EntitySchemaQuery", {
-					rootSchemaName: "AccountAddress"
-				});
-				addressESQ.addColumn("Id");
-				addressESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Account.Id", currentAccountId));
-				addressESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "AddressType.Id", documentAddressTypeId));
-				
-				var documentESQ = Ext.create("Terrasoft.EntitySchemaQuery", {
-					rootSchemaName: "WatbAccountFile"
-				});
-				documentESQ.addColumn("Id");
-				documentESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Account.Id", currentAccountId));
-				
-				var contractESQ = Ext.create("Terrasoft.EntitySchemaQuery", {
-					rootSchemaName: "Contract"
-				});
-				contractESQ.addColumn("Id");
-				contractESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Account.Id", currentAccountId));
-				
-				Terrasoft.chain(
-					(next) => {
-						addressESQ.getEntityCollection((result) => {
-							if (result.success) {
-								var isAccountHasAddressForDocuments = result.collection.getCount() > 0;
-								next(isAccountHasAddressForDocuments);
-							} else {
-								console.error("Error executing address query: ", result.errorInfo);
-								callback.call(scope, { success: false });
-							}
-						});
-					},
-					(next, isAccountHasAddressForDocuments) => {
-						documentESQ.getEntityCollection((result) => {
-							if (result.success) {
-								var isDocumentUploaded = result.collection.getCount() > 0 || me.get('WatbIsNoNeedUploadDocuments');
-								next(isAccountHasAddressForDocuments, isDocumentUploaded);
-							} else {
-								console.error("Error executing document query: ", result.errorInfo);
-								callback.call(scope, { success: false });
-							}
-						});
-					},
-					(next, isAccountHasAddressForDocuments, isDocumentUploaded) => {
-						contractESQ.getEntityCollection((result) => {
-							if (result.success) {
-								var isContractUploaded = result.collection.getCount() > 0 || me.get('WatbIsNoNeedUploadContract');
-								next(isAccountHasAddressForDocuments, isDocumentUploaded, isContractUploaded);
-							} else {
-								console.error("Error executing contract query: ", result.errorInfo);
-								callback.call(scope, { success: false });
-							}
-						});
-					},
-					(next, isAccountHasAddressForDocuments, isDocumentUploaded, isContractUploaded) => {
-						if (isAccountHasAddressForDocuments) {
-							if (isDocumentUploaded && isContractUploaded) {
-								this.set('WatbStatus', { value: 'd11b8021-1a7b-4109-8d7b-1f7fdeafb5de', displayValue: 'Діючий' });
-							} else {
-								this.set('WatbStatus', { value: '1fba3241-b34c-40c5-a630-70184f1ee06a', displayValue: 'Активний' });
-							}
-						}
-				
+				this.isAccountStatusChangedManually((isChangedManually) => {
+					if (isChangedManually) {
 						callback.call(scope, { success: true });
-					},
-					this
-				);
+						return;
+					}
+
+					var name = this.get('Name');
+					var signer = this.get('WatbSigner');
+					var phone = this.get('Phone');
+					var email = this.get('WatbEmail');
+					var edrpou = this.get('WatbEDRPOU');
+
+					var isRequiredFieldsFilled = name && signer && phone && email && edrpou;
+					var currentAccountId = this.get('Id');
+
+					var documentAddressTypeId = '9958c503-9788-438f-998c-e68dfe5887c7';
+
+					var addressESQ = Ext.create("Terrasoft.EntitySchemaQuery", {
+						rootSchemaName: "AccountAddress"
+					});
+					addressESQ.addColumn("Id");
+					addressESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Account.Id", currentAccountId));
+					addressESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "AddressType.Id", documentAddressTypeId));
+
+					var documentESQ = Ext.create("Terrasoft.EntitySchemaQuery", {
+						rootSchemaName: "WatbAccountFile"
+					});
+					documentESQ.addColumn("Id");
+					documentESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Account.Id", currentAccountId));
+
+					var contractESQ = Ext.create("Terrasoft.EntitySchemaQuery", {
+						rootSchemaName: "Contract"
+					});
+					contractESQ.addColumn("Id");
+					contractESQ.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Account.Id", currentAccountId));
+
+					Terrasoft.chain(
+						(next) => {
+							addressESQ.getEntityCollection((result) => {
+								if (result.success) {
+									var isAccountHasAddressForDocuments = result.collection.getCount() > 0;
+									next(isAccountHasAddressForDocuments);
+								} else {
+									console.error("Error executing address query: ", result.errorInfo);
+									callback.call(scope, { success: false });
+								}
+							});
+						},
+						(next, isAccountHasAddressForDocuments) => {
+							documentESQ.getEntityCollection((result) => {
+								if (result.success) {
+									var isDocumentUploaded = result.collection.getCount() > 0 || me.get('WatbIsNoNeedUploadDocuments');
+									next(isAccountHasAddressForDocuments, isDocumentUploaded);
+								} else {
+									console.error("Error executing document query: ", result.errorInfo);
+									callback.call(scope, { success: false });
+								}
+							});
+						},
+						(next, isAccountHasAddressForDocuments, isDocumentUploaded) => {
+							contractESQ.getEntityCollection((result) => {
+								if (result.success) {
+									var isContractUploaded = result.collection.getCount() > 0 || me.get('WatbIsNoNeedUploadContract');
+									next(isAccountHasAddressForDocuments, isDocumentUploaded, isContractUploaded);
+								} else {
+									console.error("Error executing contract query: ", result.errorInfo);
+									callback.call(scope, { success: false });
+								}
+							});
+						},
+						(next, isAccountHasAddressForDocuments, isDocumentUploaded, isContractUploaded) => {
+							if (isRequiredFieldsFilled && isAccountHasAddressForDocuments) {
+								if (isDocumentUploaded && isContractUploaded) {
+									this.set('WatbStatus', { value: 'd11b8021-1a7b-4109-8d7b-1f7fdeafb5de', displayValue: 'Діючий' });
+								} else {
+									this.set('WatbStatus', { value: '1fba3241-b34c-40c5-a630-70184f1ee06a', displayValue: 'Активний' });
+								}
+							}
+							else {
+								this.set('WatbStatus', { value: '7e1b25b0-c5f8-4a62-87c7-1acabca4aa24', displayValue: 'Новий' });
+							}
+							callback.call(scope, { success: true });
+						},
+						this
+					);
+				});
+			},
+			isAccountStatusChangedManually: function (callback) {
+				var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+					rootSchemaName: "Account"
+				});
+				var currentAccountId = this.get('Id');
+				var newAccountStatus = this.get("WatbStatus").value;
+				esq.addColumn("Id");
+
+				esq.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "Id", currentAccountId));
+				esq.filters.addItem(Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "WatbStatus.Id", newAccountStatus));
+
+				esq.getEntityCollection((result) => {
+					if (result.success) {
+						callback(result.collection.getCount() === 0);
+					} else {
+						console.error("Error executing account query: ", result.errorInfo);
+						callback(false);
+					}
+				});
 			}
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
-			{
-				"operation": "insert",
-				"name": "WatbDepartmentType361895c7-3cc5-428d-adc9-3303e6db2832",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "WatbDepartmentType",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 0
-			},
 			{
 				"operation": "insert",
 				"name": "STRING96e0e31d-e98f-4797-bf40-95a08dfda096",
@@ -211,7 +223,7 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 1,
+						"row": 0,
 						"layoutName": "ProfileContainer"
 					},
 					"bindTo": "WatbNumberInExternalSystem",
@@ -219,7 +231,7 @@ define("WatbAccount1Page", [], function () {
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -229,10 +241,29 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 2,
+						"row": 1,
 						"layoutName": "ProfileContainer"
 					},
 					"bindTo": "Name"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP85257b47-7b83-4503-b061-cf48e9c66fc1",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "WatbSigner",
+					"enabled": true,
+					"contentType": 5
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -240,7 +271,7 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "STRINGebb0e0c4-7cb7-46fe-9c2f-3aa3a8148b2b",
+				"name": "LOOKUPe3a9f33a-379e-4f50-b657-e0679ece6ee6",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -249,8 +280,9 @@ define("WatbAccount1Page", [], function () {
 						"row": 3,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "WatbSignerFullName",
-					"enabled": true
+					"bindTo": "WatbSignerPosition",
+					"enabled": true,
+					"contentType": 5
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -441,42 +473,6 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "Type6fcc82a1-b4fb-43b4-9045-8c60b354809b",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 14,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "Type"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 14
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUPe3a9f33a-379e-4f50-b657-e0679ece6ee6",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 15,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "WatbSignerPosition",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 15
-			},
-			{
-				"operation": "insert",
 				"name": "TabMainInformation",
 				"values": {
 					"caption": {
@@ -526,7 +522,8 @@ define("WatbAccount1Page", [], function () {
 						"row": 0,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
-					"bindTo": "AlternativeName"
+					"bindTo": "AlternativeName",
+					"enabled": true
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
@@ -708,6 +705,17 @@ define("WatbAccount1Page", [], function () {
 				"parentName": "TabMainInformation",
 				"propertyName": "items",
 				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "OpportunityDetailV289d1c87d",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "TabMainInformation",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",

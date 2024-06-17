@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3c42a20d-bb02-46ca-b129-8b6475500023",
+    "Name": "AccountMiniPage",
+    "ModifiedOnUtc": "\/Date(1718370762000)\/",
+    "Parent": {
+      "UId": "939d0ab2-fe0e-475d-b857-9f60f1f149fc",
+      "Name": "AccountMiniPage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "AccountMiniPage"
+  }
+}

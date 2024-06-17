@@ -8,17 +8,17 @@ define("ContractPageV2", [], function () {
 		methods: {
 			asyncValidate: function (callback, scope) {
 				this.callParent([function () {
-					const beginDate = this.get('StartDate');
-					const endDate = this.get('EndDate');
+					var beginDate = this.get('StartDate');
+					var endDate = this.get('EndDate');
 		
-					const start = new Date(beginDate);
-					const end = new Date(endDate);
+					var start = new Date(beginDate);
+					var end = new Date(endDate);
 		
-					const yearsDifference = end.getFullYear() - start.getFullYear();
-					const monthsDifference = end.getMonth() - start.getMonth();
-					const totalMonths = yearsDifference * 12 + monthsDifference;
+					var yearsDifference = end.getFullYear() - start.getFullYear();
+					var monthsDifference = end.getMonth() - start.getMonth();
+					var totalMonths = yearsDifference * 12 + monthsDifference;
 		
-					const monthsText = this.getMonthsText(totalMonths);
+					var monthsText = this.getMonthsText(totalMonths);
 		
 					this.set('WatbDuration', `${totalMonths} ${monthsText}`);
 		
