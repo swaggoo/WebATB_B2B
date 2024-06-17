@@ -96,12 +96,12 @@ namespace FX.Services
 
         private bool HasDocument(UserConnection userConnection, Guid accountId)
         {
-            var contractESQ = new EntitySchemaQuery(userConnection.EntitySchemaManager, "WatbAccountFile");
-            contractESQ.AddColumn("Id");
-            contractESQ.Filters.Add(contractESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
+            var accountFileESQ = new EntitySchemaQuery(userConnection.EntitySchemaManager, "WatbAccountFile");
+            accountFileESQ.AddColumn("Id");
+            accountFileESQ.Filters.Add(accountFileESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
 
-            var contractCollection = contractESQ.GetEntityCollection(userConnection);
-            return contractCollection.Count > 0;
+            var accountFileCollection = accountFileESQ.GetEntityCollection(userConnection);
+            return accountFileCollection.Count > 0;
         }
 
         private void SetAccountStatus(UserConnection userConnection, Guid accountId, Guid statusId)
