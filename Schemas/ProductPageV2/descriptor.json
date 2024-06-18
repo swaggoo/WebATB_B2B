@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2cf3d9a8-d3b1-45b5-af64-170e7155a810",
+    "Name": "ProductPageV2",
+    "ModifiedOnUtc": "\/Date(1718627459000)\/",
+    "Parent": {
+      "UId": "0daec87e-a84d-44bc-9dd0-c90b8d1baa33",
+      "Name": "ProductPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Сторінка редагування продукту"
+  }
+}

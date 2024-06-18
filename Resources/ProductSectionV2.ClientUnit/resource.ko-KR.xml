@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="제품 카탈로그 설정" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="제품 유형 및 필터 설정" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="카탈로그" />
+		</Items>
+	</Group>
+</Resources>

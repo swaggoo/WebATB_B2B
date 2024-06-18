@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="הגדר מוצר קטלוג" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="הגדר סוגי מוצרים ומסננים" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="קטלוג" />
+		</Items>
+	</Group>
+</Resources>

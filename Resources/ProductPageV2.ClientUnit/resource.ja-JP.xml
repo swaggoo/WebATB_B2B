@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.BasePriceGroupCaption.Value" Value="基本価格" />
+			<Item Name="LocalizableStrings.CategoryGroupCaption.Value" Value="区分" />
+			<Item Name="LocalizableStrings.PricesTabCaption.Caption" Value="PricesTabCaption" />
+			<Item Name="LocalizableStrings.PricesTabCaption.Value" Value="価格・在庫" />
+			<Item Name="LocalizableStrings.ProductInformation.Value" Value="製品情報" />
+			<Item Name="LocalizableStrings.SelectionInformationTabCaption.Value" Value="製品選択情報" />
+			<Item Name="LocalizableStrings.SpecificationTabCaption.Caption" Value="SpecificationTabCaption" />
+			<Item Name="LocalizableStrings.SpecificationTabCaption.Value" Value="機能" />
+		</Items>
+	</Group>
+</Resources>

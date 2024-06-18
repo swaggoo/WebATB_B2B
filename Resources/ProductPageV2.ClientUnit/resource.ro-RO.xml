@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.BasePriceGroupCaption.Value" Value="Pret de baza" />
+			<Item Name="LocalizableStrings.CategoryGroupCaption.Value" Value="Segmentare" />
+			<Item Name="LocalizableStrings.PricesTabCaption.Caption" Value="PricesTabCaption" />
+			<Item Name="LocalizableStrings.PricesTabCaption.Value" Value="Preturi si disponibilitate" />
+			<Item Name="LocalizableStrings.ProductInformation.Value" Value="Informații produs" />
+			<Item Name="LocalizableStrings.SelectionInformationTabCaption.Value" Value="Informatii selectie produs" />
+			<Item Name="LocalizableStrings.SpecificationTabCaption.Caption" Value="SpecificationTabCaption" />
+			<Item Name="LocalizableStrings.SpecificationTabCaption.Value" Value="Caracteristici" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="Përcakto katalogun e produkteve" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="Përcakto llojet e produktit dhe filtrat" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="Katalogu" />
+		</Items>
+	</Group>
+</Resources>

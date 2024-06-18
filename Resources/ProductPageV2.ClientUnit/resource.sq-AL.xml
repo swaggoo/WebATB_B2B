@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.BasePriceGroupCaption.Value" Value="Çmimi bazë" />
+			<Item Name="LocalizableStrings.CategoryGroupCaption.Value" Value="Segmentimi" />
+			<Item Name="LocalizableStrings.PricesTabCaption.Caption" Value="PricesTabCaption" />
+			<Item Name="LocalizableStrings.PricesTabCaption.Value" Value="Çmimet dhe disponueshmëria" />
+			<Item Name="LocalizableStrings.ProductInformation.Value" Value="Informacioni për produktin" />
+			<Item Name="LocalizableStrings.SelectionInformationTabCaption.Value" Value="Informacioni për përzgjedhjen e produktit" />
+			<Item Name="LocalizableStrings.SpecificationTabCaption.Caption" Value="SpecificationTabCaption" />
+			<Item Name="LocalizableStrings.SpecificationTabCaption.Value" Value="Veçoritë" />
+		</Items>
+	</Group>
+</Resources>

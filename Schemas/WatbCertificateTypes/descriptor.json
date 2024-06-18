@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "625d7fa8-b304-45cf-8ffc-1cb9aac71aaa",
+    "Name": "WatbCertificateTypes",
+    "ModifiedOnUtc": "\/Date(1718622002000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Види сертифікатів"
+  }
+}

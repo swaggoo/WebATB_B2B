@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.WatbCertificateTypes.Caption" Value="Вид сертифікату" />
+			<Item Name="Columns.WatbNominal.Caption" Value="Номінал" />
+		</Items>
+	</Group>
+</Resources>

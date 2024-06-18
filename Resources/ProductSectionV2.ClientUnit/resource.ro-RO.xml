@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="Setati catalogul de produse" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="Setati tipurile si filtrele de produs" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="Catalog" />
+		</Items>
+	</Group>
+</Resources>

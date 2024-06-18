@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pl-PL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="Konfiguracja katalogu produktu" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="Set up product types and filters" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="Katalog" />
+		</Items>
+	</Group>
+</Resources>

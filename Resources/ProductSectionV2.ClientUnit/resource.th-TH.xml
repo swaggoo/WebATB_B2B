@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="ตั้งค่าแคตตาล็อคผลิตภัณฑ์" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="ตั้งค่าประเภทผลิตภัณฑ์และตัวกรอง" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="แคตตาล็อก" />
+		</Items>
+	</Group>
+</Resources>

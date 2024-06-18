@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="Настроить каталог продуктов" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="Настроить типы и фильтры продуктов" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="Каталог" />
+		</Items>
+	</Group>
+</Resources>

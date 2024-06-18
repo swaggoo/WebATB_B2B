@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="Instellen productcatalogus" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="Opzetten productsoorten en filters" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="Catalogus" />
+		</Items>
+	</Group>
+</Resources>

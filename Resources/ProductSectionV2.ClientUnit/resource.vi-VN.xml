@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ConfigureProductCatalogue.Value" Value="Thiết lập danh mục sản phẩm" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Caption" Value="ConfigureProductTypes" />
+			<Item Name="LocalizableStrings.ConfigureProductTypes.Value" Value="Thiết lập kiểu và bộ lọc sản phẩm" />
+			<Item Name="LocalizableStrings.ProductCatalogueRootCaption.Value" Value="Danh mục" />
+		</Items>
+	</Group>
+</Resources>
