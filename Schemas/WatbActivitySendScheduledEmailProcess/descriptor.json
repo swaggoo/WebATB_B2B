@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1e12cf01-4bca-4407-abed-0d8c932b0726",
+    "Name": "WatbActivitySendScheduledEmailProcess",
+    "ModifiedOnUtc": "\/Date(1720428108000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Send scheduled Email message",
+    "DependsOn": []
+  }
+}

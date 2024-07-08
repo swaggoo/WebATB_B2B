@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "37618693-b1be-4ae4-b888-62ce41dadbf8",
+    "Name": "WatbActivityScheduleEmailEventListener",
+    "ModifiedOnUtc": "\/Date(1720186382000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "WatbActivityScheduleEmailEventListener",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Схема деталі: &quot;Email розсилки&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Email рассылки" />
+		</Items>
+	</Group>
+</Resources>

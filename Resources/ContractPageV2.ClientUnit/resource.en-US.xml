@@ -13,6 +13,7 @@
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="If the [Account] field is specified, only orders for the selected account are available" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Add all" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Select products" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Invoices" />
 		</Items>
 	</Group>
 </Resources>

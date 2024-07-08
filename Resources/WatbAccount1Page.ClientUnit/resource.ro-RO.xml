@@ -9,6 +9,7 @@
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Structura organizationala" />
 			<Item Name="LocalizableStrings.ContractDetailV23c6e7da0DetailCaptionOnPage.Value" Value="Contracte" />
 			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="Email" />
+			<Item Name="LocalizableStrings.EmailDetailV2c4bfdbbeDetailCaptionOnPage.Value" Value="Email" />
 			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="Atasamente" />
 			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="Oportunitati" />
 			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Oportunitati" />
@@ -24,6 +25,10 @@
 			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Atasamente" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Atasamente" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Atasamente" />
+			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Activitati" />
+			<Item Name="LocalizableStrings.WatbContractDetailDetailCaptionOnPage.Value" Value="Contracte" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Facturi" />
+			<Item Name="LocalizableStrings.WatbOrderDetailDetailCaptionOnPage.Value" Value="Comenzi" />
 		</Items>
 	</Group>
 </Resources>

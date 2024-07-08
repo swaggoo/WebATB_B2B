@@ -8,6 +8,11 @@
     "ProjectPath": "Files/WebATB_B2B.csproj",
     "DependsOn": [
       {
+        "UId": "789c617e-760f-4576-a608-ee12728eae0a",
+        "PackageVersion": "7.8.0",
+        "Name": "MarketingCampaign"
+      },
+      {
         "UId": "7be7e506-9704-4753-a3a6-f3d17c74bf13",
         "Name": "WebATB"
       },

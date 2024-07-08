@@ -3,7 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Section schema: &quot;Accounts&quot;" />
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="Aktualizováno firem: {0} z {1}" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Načíst ze sociálních sítí" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Nastavit ceník" />
 		</Items>
 	</Group>
 </Resources>

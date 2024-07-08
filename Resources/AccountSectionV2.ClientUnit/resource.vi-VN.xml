@@ -3,7 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Section schema: &quot;Accounts&quot;" />
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="Các tổ chức đã được chỉnh sửa: {0} trong số {1}" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Cập nhật với dữ liệu mạng xã hội" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Thiết lập danh sách giá cả" />
 		</Items>
 	</Group>
 </Resources>

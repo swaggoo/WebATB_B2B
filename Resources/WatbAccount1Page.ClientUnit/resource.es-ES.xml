@@ -9,6 +9,7 @@
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Estructura de organización" />
 			<Item Name="LocalizableStrings.ContractDetailV23c6e7da0DetailCaptionOnPage.Value" Value="Contratos" />
 			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="Correo electrónico" />
+			<Item Name="LocalizableStrings.EmailDetailV2c4bfdbbeDetailCaptionOnPage.Value" Value="Correo electrónico" />
 			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="Archivos adjuntos" />
 			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="Oportunidades" />
 			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Oportunidades" />
@@ -24,6 +25,10 @@
 			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Archivos adjuntos" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Archivos adjuntos" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Archivos adjuntos" />
+			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Actividades" />
+			<Item Name="LocalizableStrings.WatbContractDetailDetailCaptionOnPage.Value" Value="Contratos" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Facturas" />
+			<Item Name="LocalizableStrings.WatbOrderDetailDetailCaptionOnPage.Value" Value="Pedidos" />
 		</Items>
 	</Group>
 </Resources>

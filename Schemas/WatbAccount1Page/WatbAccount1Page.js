@@ -12,22 +12,6 @@ define("WatbAccount1Page", [], function () {
 					"masterColumn": "Id"
 				}
 			},
-			"AccountAddressDetailV2777fccfe": {
-				"schemaName": "AccountAddressDetailV2",
-				"entitySchemaName": "AccountAddress",
-				"filter": {
-					"detailColumn": "Account",
-					"masterColumn": "Id"
-				}
-			},
-			"ContractDetailV23c6e7da0": {
-				"schemaName": "ContractDetailV2",
-				"entitySchemaName": "Contract",
-				"filter": {
-					"detailColumn": "Account",
-					"masterColumn": "Id"
-				}
-			},
 			"OpportunityDetailV25cb23b02": {
 				"schemaName": "OpportunityDetailV2",
 				"entitySchemaName": "Opportunity",
@@ -50,6 +34,13 @@ define("WatbAccount1Page", [], function () {
 				"filter": {
 					"detailColumn": "Account",
 					"masterColumn": "Id"
+				}
+			},
+			"WatbBulkEmailLinkDetail": {
+				"schemaName": "WatbBulkEmailLinkDetail",
+				"filter": {
+					"masterColumn": "Id",
+					"detailColumn": "Account"
 				}
 			},
 			"AccountOrganizationChartDetailV23dd69f63": {
@@ -76,9 +67,57 @@ define("WatbAccount1Page", [], function () {
 					"masterColumn": "Id"
 				}
 			},
-			"OpportunityDetailV289d1c87d": {
-				"schemaName": "OpportunityDetailV2",
-				"entitySchemaName": "Opportunity",
+			"WatbAccountAddressesDetail": {
+				"schemaName": "AccountAddressDetailV2",
+				"entitySchemaName": "AccountAddress",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
+			},
+			"WatbEmailDetail": {
+				"schemaName": "EmailDetailV2",
+				"entitySchemaName": "Activity",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
+			},
+			"WatbBulkEmailDetail": {
+				"schemaName": "WatbBulkEmailLinkDetail",
+				"entitySchemaName": "WatbBulkEmailLink",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
+			},
+			"WatbContractDetail": {
+				"schemaName": "ContractDetailV2",
+				"entitySchemaName": "Contract",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
+			},
+			"WatbOrderDetail": {
+				"schemaName": "OrderDetailV2",
+				"entitySchemaName": "Order",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
+			},
+			"WatbInvoiceDetail": {
+				"schemaName": "InvoiceDetailV2",
+				"entitySchemaName": "Invoice",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
+			},
+			"WatbActivityDetail": {
+				"schemaName": "OpportunityHistoryActivityDetail",
+				"entitySchemaName": "Activity",
 				"filter": {
 					"detailColumn": "Account",
 					"masterColumn": "Id"
@@ -435,44 +474,6 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP9f47c33e-9353-425e-a1a2-227c22141fdb",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 12,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "WatbPrimaryContact",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 12
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP8f684687-8c18-4166-b127-5a5896b93e8f",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 13,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "WatbSecondaryContact",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 13
-			},
-			{
-				"operation": "insert",
 				"name": "TabMainInformation",
 				"values": {
 					"caption": {
@@ -675,6 +676,40 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
+				"name": "WatbPrimaryContactfd46c2a9-a844-4ac1-babe-722fdb9c1b5f",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
+						"layoutName": "TabMainInformationGridLayout39a4f714"
+					},
+					"bindTo": "WatbPrimaryContact"
+				},
+				"parentName": "TabMainInformationGridLayout39a4f714",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "WatbSecondaryContactd3ac7a45-537a-4ac6-9a1a-a90e585e9f1a",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 5,
+						"layoutName": "TabMainInformationGridLayout39a4f714"
+					},
+					"bindTo": "WatbSecondaryContact"
+				},
+				"parentName": "TabMainInformationGridLayout39a4f714",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
 				"name": "AccountCommunicationDetail",
 				"values": {
 					"itemType": 2,
@@ -686,7 +721,7 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "AccountAddressDetailV2777fccfe",
+				"name": "WatbAccountAddressesDetail",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
@@ -697,7 +732,7 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "ContractDetailV23c6e7da0",
+				"name": "WatbEmailDetail",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
@@ -708,7 +743,7 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "OpportunityDetailV289d1c87d",
+				"name": "WatbBulkEmailDetail",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
@@ -754,58 +789,62 @@ define("WatbAccount1Page", [], function () {
 				"index": 1
 			},
 			{
-				"operation": "merge",
-				"name": "TimelineTab",
-				"values": {
-					"order": 2
-				}
-			},
-			{
 				"operation": "insert",
-				"name": "TabHistory",
+				"name": "WatbSalesTab",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.TabHistoryTabCaption"
+						"bindTo": "Resources.Strings.WatbSalesTabTabCaption"
 					},
 					"items": [],
-					"order": 3
+					"order": 2
 				},
 				"parentName": "Tabs",
 				"propertyName": "tabs",
-				"index": 3
+				"index": 2
 			},
 			{
 				"operation": "insert",
-				"name": "OpportunityDetailV25cb23b02",
+				"name": "WatbContractDetail",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
 				},
-				"parentName": "TabHistory",
+				"parentName": "WatbSalesTab",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "OpportunityHistoryActivityDetail1e15040f",
+				"name": "WatbOrderDetail",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
 				},
-				"parentName": "TabHistory",
+				"parentName": "WatbSalesTab",
 				"propertyName": "items",
 				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "EmailDetailV299a1161f",
+				"name": "WatbInvoiceDetail",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
 				},
-				"parentName": "TabHistory",
+				"parentName": "WatbSalesTab",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "WatbActivityDetail",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "WatbSalesTab",
+				"propertyName": "items",
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -815,11 +854,11 @@ define("WatbAccount1Page", [], function () {
 						"bindTo": "Resources.Strings.TabFilesAndNotesTabCaption"
 					},
 					"items": [],
-					"order": 4
+					"order": 3
 				},
 				"parentName": "Tabs",
 				"propertyName": "tabs",
-				"index": 4
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -886,16 +925,11 @@ define("WatbAccount1Page", [], function () {
 				"index": 0
 			},
 			{
-				"operation": "remove",
-				"name": "ESNTab"
-			},
-			{
-				"operation": "remove",
-				"name": "ESNFeedContainer"
-			},
-			{
-				"operation": "remove",
-				"name": "ESNFeed"
+				"operation": "merge",
+				"name": "TimelineTab",
+				"values": {
+					"order": 4
+				}
 			}
 		]/**SCHEMA_DIFF*/
 	};

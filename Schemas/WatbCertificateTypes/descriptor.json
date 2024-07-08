@@ -8,6 +8,7 @@
       "Name": "BaseLookup"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Види сертифікатів"
+    "Caption": "Види сертифікатів",
+    "DependsOn": []
   }
 }

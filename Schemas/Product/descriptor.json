@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Продукт"
+    "Caption": "Product",
+    "DependsOn": []
   }
 }

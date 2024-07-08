@@ -15,6 +15,7 @@
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="Заказ, по которому создан договор. Если заполнено поле [Контрагент], для&#xA;выбора доступны только заказы выбранного контрагента" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Все" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Выбрать" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Счета" />
 		</Items>
 	</Group>
 </Resources>

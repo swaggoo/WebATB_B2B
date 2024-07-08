@@ -3,14 +3,17 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.AmountTip.Value" Value="契約金額（総額）の入力項目。契約が受注によるものである場合、受注画面で計算されたこの契約の総額が編集不可の状態で入力欄に表示されます。&#xA;受注契約でない場合（契約と受注が紐づけされていない場合）は入力欄が編集可能になります。&#xA;&lt;a href=&quot;#&quot; data-context-help-id=&quot;1582&quot; &gt;詳細&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="注文通貨を変更" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="契約情報詳細" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="総額" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="この契約の注文通貨は基本通貨に変換されます。続行しますか？" />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="注文した製品のうちどれを契約 {0} に追加しますか?" />
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="選択しているアカウントに紐づいている受注情報を選択することができます" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="すべて追加" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="製品を選択" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="請求書" />
 		</Items>
 	</Group>
 </Resources>

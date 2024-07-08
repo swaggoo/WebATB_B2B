@@ -3,7 +3,16 @@ define("ContractPageV2", [], function () {
 		entitySchemaName: "Contract",
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
-		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		details: /**SCHEMA_DETAILS*/{
+			"WatbInvoiceDetail": {
+				"schemaName": "InvoiceDetailV2",
+				"entitySchemaName": "Invoice",
+				"filter": {
+					"detailColumn": "Contract",
+					"masterColumn": "Id"
+				}
+			}
+		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
 			asyncValidate: function (callback, scope) {
@@ -45,24 +54,6 @@ define("ContractPageV2", [], function () {
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "STRINGdf7b03df-6a2a-44ad-b26a-c762f7b5f279",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "WatbContractExternalNumber",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
 				"name": "STRINGd2f14af6-88cc-4293-b23c-993e3089b8d8",
 				"values": {
 					"layout": {
@@ -77,7 +68,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 2
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -96,7 +87,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 3
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -115,7 +106,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 4
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -132,7 +123,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 5
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -151,7 +142,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 6
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -170,7 +161,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 7
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -187,7 +178,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 8
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -205,7 +196,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 9
+				"index": 7
 			},
 			{
 				"operation": "insert",
@@ -223,7 +214,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 10
+				"index": 8
 			},
 			{
 				"operation": "insert",
@@ -241,7 +232,7 @@ define("ContractPageV2", [], function () {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 11
+				"index": 9
 			},
 			{
 				"operation": "insert",
@@ -256,6 +247,42 @@ define("ContractPageV2", [], function () {
 					},
 					"bindTo": "WatbIsActive",
 					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "State2e815330-8f1b-482f-9105-71a0c7451af5",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Header"
+					},
+					"bindTo": "State",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "WatbContractExternalNumbereabfd190-b3bb-4de2-929e-ecdece1915c8",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 0,
+						"layoutName": "Header"
+					},
+					"bindTo": "WatbContractExternalNumber"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -326,25 +353,33 @@ define("ContractPageV2", [], function () {
 				}
 			},
 			{
+				"operation": "insert",
+				"name": "WatbInvoiceDetail",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "HistoryTab",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
 				"operation": "merge",
-				"name": "ContractVisaTab",
+				"name": "NotesAndFilesTab",
 				"values": {
 					"order": 3
 				}
 			},
 			{
 				"operation": "merge",
-				"name": "NotesAndFilesTab",
+				"name": "ESNTab",
 				"values": {
 					"order": 4
 				}
 			},
 			{
-				"operation": "merge",
-				"name": "ESNTab",
-				"values": {
-					"order": 5
-				}
+				"operation": "remove",
+				"name": "Number"
 			},
 			{
 				"operation": "remove",
@@ -377,6 +412,22 @@ define("ContractPageV2", [], function () {
 			{
 				"operation": "remove",
 				"name": "Invoice"
+			},
+			{
+				"operation": "remove",
+				"name": "ContractVisaTab"
+			},
+			{
+				"operation": "remove",
+				"name": "ContractPageVisaTabContainer"
+			},
+			{
+				"operation": "remove",
+				"name": "ContractPageVisaBlock"
+			},
+			{
+				"operation": "remove",
+				"name": "Visa"
 			},
 			{
 				"operation": "move",

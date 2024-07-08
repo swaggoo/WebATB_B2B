@@ -2,7 +2,7 @@
 <Resources Culture="th-TH">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="UsrContractVisaPageV2" />
+			<Item Name="Caption" Value="WatbContractVisaPageV2" />
 		</Items>
 	</Group>
 </Resources>

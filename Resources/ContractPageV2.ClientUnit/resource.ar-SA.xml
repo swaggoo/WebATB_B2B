@@ -13,6 +13,7 @@
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="إذا تم تحديد الحقل [حساب]، فقط طلبات الحساب المحدد هي من ستكون متاحة" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="إضافة الكل" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="اختر المنتجات" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="فواتير" />
 		</Items>
 	</Group>
 </Resources>

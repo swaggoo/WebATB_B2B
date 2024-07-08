@@ -3,7 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Section schema: &quot;Accounts&quot;" />
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="{0}van de {1} bedrijven aangepast" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Bijwerken met sociale netwerkgegevens" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Instellen prijslijst" />
 		</Items>
 	</Group>
 </Resources>

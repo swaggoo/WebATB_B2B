@@ -3,7 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Section schema: &quot;Accounts&quot;" />
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="Comptes modifié: {0} sur {1}" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Mettre à jour les données des réseaux sociaux" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Configurer la liste des prix" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Ne plus suivre le feed" />
 		</Items>
 	</Group>
 </Resources>

@@ -1,0 +1,154 @@
+﻿{
+  "Descriptor": {
+    "UId": "b43dd4a0-5c44-c49d-9c9c-46e70cb087eb",
+    "Name": "Product",
+    "ModifiedOnUtc": "\/Date(1718628700000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "4c7a6ead-4eb8-4fc0-863e-98a664569fed",
+      "Name": "Product"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Category",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "WatbNominal",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "URL",
+        "DataTypeValueUId": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2"
+      },
+      {
+        "ColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Unit",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Owner",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "e3040d2d-93ff-4528-a4b7-42603e08bdcf",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Type",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "TradeMark",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsArchive",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "4c9ed783-148c-41eb-92dd-5975dcfbdcd1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Notes",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "GeneralConditions",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Tax",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "WatbCertificateTypes",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Picture",
+        "DataTypeValueUId": "b039feb0-ee7c-4884-8aa6-d6d45d84316f"
+      },
+      {
+        "ColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Currency",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ShortDescription",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Benefits",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Code",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Price",
+        "DataTypeValueUId": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+      }
+    ]
+  }
+}

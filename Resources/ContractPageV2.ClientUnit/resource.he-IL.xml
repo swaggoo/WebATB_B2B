@@ -13,6 +13,7 @@
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="אם השדה 'חברה' צוין, רק הזמנות עבור החברה שנבחרה זמינות" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="הוסף הכל" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="בחר מוצרים" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="חשבוניות" />
 		</Items>
 	</Group>
 </Resources>

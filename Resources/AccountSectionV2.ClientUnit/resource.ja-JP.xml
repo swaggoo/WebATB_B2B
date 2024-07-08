@@ -2,7 +2,9 @@
 <Resources Culture="ja-JP">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="アカウントが変更されました: {0} / {1}" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="ソーシャルネットワークデータの更新" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="価格リストを設定" />
 		</Items>
 	</Group>
 </Resources>

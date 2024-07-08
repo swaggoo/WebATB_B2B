@@ -13,6 +13,7 @@
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="Замовлення, за яким створено договір. Якщо заповнено поле [Контрагент], для вибору доступні тільки замовлення обраного контрагента" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Додати усі" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Вибрати" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Рахунки" />
 		</Items>
 	</Group>
 </Resources>

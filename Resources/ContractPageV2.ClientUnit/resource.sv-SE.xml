@@ -3,14 +3,17 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.AmountTip.Value" Value="Total contract amount. If the contract is created based on an order, the field becomes non-editable and is calculated as a total amount of products in the contract. The products are copied to the contract from the order.&#xA;The field is editable, if the contract is not connected to an order&#xA;&lt;a href=&quot;#&quot; data-context-help-id=&quot;1582&quot; &gt;Read more&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeBeställningsCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Ändra beställningsvaluta" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Kontraktdetaljer" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Belopp" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertBeställningsCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Beställningsvaluta för detta kontrakt konverteras till basvalutan. Fortsätta?" />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Vilka av de beställda produkterna vill du lägga till i kontrakt {0}?" />
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="Om fältet [Account] har angivits finns endast beställningar för valt konto tillgängliga" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Lägg till alla" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Välj produkter" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Fakturor" />
 		</Items>
 	</Group>
 </Resources>

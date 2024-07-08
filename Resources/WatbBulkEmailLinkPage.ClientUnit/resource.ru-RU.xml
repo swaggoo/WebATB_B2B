@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Картка схеми: &quot;Зв'язок з Email розсилкою&quot;" />
+			<Item Name="LocalizableStrings.GeneralInfoTabTabCaption.Value" Value="Общая информация" />
+			<Item Name="LocalizableStrings.WatbBulkEmailLinkDetailDetailCaptionOnPage.Value" Value="Все учасники этой рассылки " />
+		</Items>
+	</Group>
+</Resources>

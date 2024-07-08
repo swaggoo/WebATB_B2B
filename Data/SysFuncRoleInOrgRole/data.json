@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4aabdbc3-f18b-4449-8e5a-7100c12d842f"
+        },
+        {
+          "SchemaColumnUId": "99361ab4-386d-4c13-a0f4-19253b9f207f",
+          "Value": "f6726800-a75d-402e-bc6f-1c55ea613880",
+          "DisplayValue": "Менеджер з продажу"
+        },
+        {
+          "SchemaColumnUId": "a413f58f-4d46-4bb9-9824-b723c40af619",
+          "Value": "45534877-c75a-444f-83f4-d75ca9ce4209",
+          "DisplayValue": "B2B Department"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c901d8e5-6437-4528-a4fe-0fffe033eef9"
+        },
+        {
+          "SchemaColumnUId": "99361ab4-386d-4c13-a0f4-19253b9f207f",
+          "Value": "162d23a5-4f77-4d7d-a582-32b229f90f4e",
+          "DisplayValue": "Керівник відділу"
+        },
+        {
+          "SchemaColumnUId": "a413f58f-4d46-4bb9-9824-b723c40af619",
+          "Value": "f1a5328f-951e-44c6-9358-d8df253ca816",
+          "DisplayValue": "B2B department. Група керівників"
+        }
+      ]
+    }
+  ]
+}

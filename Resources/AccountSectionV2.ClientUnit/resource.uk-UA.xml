@@ -3,8 +3,13 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Схема розділу: &quot;Контрагенти&quot;" />
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="Змінено контрагентів: {0} з {1}" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Контрагенти" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Збагатити даними з соц. мереж" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Встановити прайс-лист" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Підписатись на оновлення стрічки" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Відписатись від оновлень стрічки" />
+			<Item Name="LocalizableStrings.WatbBulkEmailMenuItemCaption.Value" Value="Сформувати Email-розсилку" />
 		</Items>
 	</Group>
 </Resources>

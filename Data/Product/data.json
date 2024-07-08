@@ -1,0 +1,3829 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "02c6de61-e89a-4121-a182-c36773fbcdf4"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "29"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 29.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "0e4703be-2c81-49cc-a437-9d6e4c6382cb"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "2500"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 2500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "10e6d300-91b2-47ab-9ae7-fd846d7343d3"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1500"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1dc78704-5651-4524-96b5-c0135fae631b"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "2500"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 2500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2b4dcb7a-ec81-47c2-8df2-5ee3c8889255"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "500 "
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2d3a48e0-a61a-4400-8cdf-b9c7e4aa7eb9"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "50"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 50.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "31cb7c97-dd98-4bd0-8438-4d7137198a57"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "468724f5-4969-4a04-9a1e-abe6979fb540",
+          "DisplayValue": "Подарунковий"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "500"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "324244ad-b752-4915-82c9-35805177a0b7"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1350"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1350.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "41619f91-4caf-49ae-9fc9-a2ae2b617a67"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "5000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 5000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "434369ab-3af0-4020-8409-c20754fc7971"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "468724f5-4969-4a04-9a1e-abe6979fb540",
+          "DisplayValue": "Подарунковий"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "447a62b0-6b0b-4b49-abc1-ab45b76dc260"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "200"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 200.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "45487d3a-d2bf-400d-81e9-b8de60fb842b"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "500"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4a18bbab-29a2-4d94-9da5-839c1c0b41f8"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "100"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 100.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "545c4a9c-65de-4849-8636-22ca38a02c44"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "2000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 2000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "57d05749-f325-4f11-a172-88c57bd24571"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "50"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 50.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "5baada98-cb07-4a34-aee4-c101d6a7ca72"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "200"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 200.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "62dd4b9d-383d-46bf-9d07-e7264b569229"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "300"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 300.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6b053807-6174-4418-ab9d-8f5ee7e79110"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "700"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 700.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6d33f542-903c-4ddf-b9f4-57549b57089c"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "900"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 900.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6e2bfa9a-1219-456e-948d-f7508a821f1a"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "2000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 2000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "705d9b2b-418f-421a-bb48-2a5bcfc01338"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "250"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 250.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7a8abe2c-bfb8-413a-bcc2-abadc72261b9"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "10"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 10.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7b82b8e9-8ab4-4295-a134-f60df94eaa35"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "29"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 29.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "83b7b497-9d29-47c2-8417-b0a578cf9d68"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "250"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 250.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "877f35cf-773a-40b5-a790-5e753eb25772"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "900"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 900.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8830bf40-8ad7-450d-9786-60724823d846"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8cfcd3af-655d-4c2e-9aae-a162fa020324"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "468724f5-4969-4a04-9a1e-abe6979fb540",
+          "DisplayValue": "Подарунковий"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "300"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 300.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "921475f2-320a-438c-a310-fdd296ec1c11"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "30"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 30.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "98a6a286-cdc6-4e07-a8e9-4a7591dfd26c"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "300"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 300.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9b84f619-0bfe-4d74-a645-b9bc2ea17173"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "100"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 100.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a43ef251-a763-4a36-976c-19e99530213d"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "5000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 5000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "aeea4709-8f09-4b34-a0ed-501e7a357ea6"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1500"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1500.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "b4255dde-ecea-473c-a446-9762cc5ab469"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1350"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1350.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "cad6a2db-b6a5-4db2-87f1-3fdc98f31038"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "3000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 3000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "cda9534b-5992-43e9-8ff5-63e20babbc74"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "600 "
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 600.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "cf3c4fcb-8c25-4608-8cb2-8632acf144bb"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "30"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 30.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d5a7ee00-ac7c-4d6c-a26a-e41331febf9f"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "1000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 1000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e161514b-3d54-4f04-b0b8-b538f1b6b147"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "3000"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 3000.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e1f3b7c0-7e3f-470c-a616-6d866c37f296"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "150"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 150.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ee8a08c4-6bea-45fa-9756-e1c16d732813"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "10"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 10.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ef1e415f-7c8b-4132-98fd-a363e39abbb8"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "600"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 600.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f24fb2ad-75fe-45ab-b313-5e3efac843b6"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "700"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 700.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f50213fe-843d-4f1a-a87e-ec49e6188f25"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "a565b2a1-f192-4ba2-a249-8ab17f16ff43",
+          "DisplayValue": "Електронний (макет)"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "400"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 400.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "fc1cdbcb-99b0-4b3c-af49-ce4dd7eef20f"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "400"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 400.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "fe1c39a5-0c7c-464f-92c4-484a52e2761c"
+        },
+        {
+          "SchemaColumnUId": "2e1f4643-a44a-415e-8c4c-79283dc3d1d9",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "3da5d5e7-908f-4cb2-81af-aa137eabb041",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "3f6a282b-4d25-4f87-b63a-4a192abd19f6",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "43237b8a-cbcc-41af-aab2-3eb6b8a8be37",
+          "Value": "b65e5571-ccae-416e-9d60-d2a2dc00007b",
+          "DisplayValue": "Електронний"
+        },
+        {
+          "SchemaColumnUId": "51a20224-e62d-4198-b3e5-354d46e68af8",
+          "Value": "c6b3420e-f46b-1410-cf89-00155d043204",
+          "DisplayValue": "Sales Tax"
+        },
+        {
+          "SchemaColumnUId": "6cd88fbf-2355-45f8-8c8a-8e6308a77b96",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "8316f0e7-4201-42df-9acd-a105518d781f",
+          "Value": "150"
+        },
+        {
+          "SchemaColumnUId": "84c5953d-e261-449e-9189-8fac859db36d",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a1f91e7a-b322-de8c-9482-373b7cf109e1",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "a9f5e0b2-07d6-8524-d43e-ceebb2641658",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ab19483e-bd98-4b76-9565-56f7e309758b",
+          "Value": 150.00
+        },
+        {
+          "SchemaColumnUId": "ac574603-a4db-410c-877d-e383c0a6c51a",
+          "Value": "2a3058dd-fbec-44bc-bfe0-068d422eec6e",
+          "DisplayValue": "Сертифікат"
+        },
+        {
+          "SchemaColumnUId": "b2030ccd-1270-4bed-ac8b-4ebf4cfda0d1",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "bc105fcf-3068-4525-9c22-efc1942262cd",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "cfe90d40-8300-a5c6-7ed7-8164594f7d44",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e241007b-18ad-4411-a6fb-caf56fdaa941",
+          "Value": "c1057119-53e6-df11-971b-001d60e938c6",
+          "DisplayValue": "Hryvnia"
+        },
+        {
+          "SchemaColumnUId": "e485abc9-4cc0-48ba-a8e6-76a6dd2ea222",
+          "Value": "917f764e-62e6-df11-971b-001d60e938c6",
+          "DisplayValue": "pieces"
+        }
+      ]
+    }
+  ]
+}

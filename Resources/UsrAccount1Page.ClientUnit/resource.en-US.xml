@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
+			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="Адреса Контрагента" />
+			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="Communication options" />
+			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="Contacts" />
+			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Organizational structure" />
+			<Item Name="LocalizableStrings.ContractDetailV23c6e7da0DetailCaptionOnPage.Value" Value="Contracts" />
+			<Item Name="LocalizableStrings.EmailDetailV299a1161fDetailCaptionOnPage.Value" Value="Email" />
+			<Item Name="LocalizableStrings.FileDetailV29091ea8fDetailCaptionOnPage.Value" Value="Attachments" />
+			<Item Name="LocalizableStrings.OpportunityDetailV25cb23b02DetailCaptionOnPage.Value" Value="Opportunities" />
+			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Opportunities" />
+			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="Opportunities" />
+			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="Activities" />
+			<Item Name="LocalizableStrings.TabContactsAndStructureTabCaption.Value" Value="Контакти та структура" />
+			<Item Name="LocalizableStrings.TabFilesAndNotesTabCaption.Value" Value="Файли і примітки" />
+			<Item Name="LocalizableStrings.TabHistoryTabCaption.Value" Value="Історія" />
+			<Item Name="LocalizableStrings.TabMainInformationTabCaption.Value" Value="Основна інформація" />
+			<Item Name="LocalizableStrings.TabNotesControlGroupGroupCaption.Value" Value="Примітки" />
+			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Object" />
+			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="Object" />
+			<Item Name="LocalizableStrings.UsrAccountFilesAndLinksWithDocumentTypeDetailCaptionOnPage.Value" Value="Файли та посилання контрагента з типом документа" />
+			<Item Name="LocalizableStrings.UsrAccountFilesDetailDetailCaptionOnPage.Value" Value="Файли та посилання контрагента з типом" />
+			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="Object" />
+			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="Attachments" />
+			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Attachments" />
+			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="File and link of account" />
+			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="Attachments" />
+			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Attachments" />
+			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Attachments" />
+			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Attachments" />
+		</Items>
+	</Group>
+</Resources>

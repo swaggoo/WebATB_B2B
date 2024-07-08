@@ -2,7 +2,9 @@
 <Resources Culture="sq-AL">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="Llogaritë e modifikuara: {0} nga {1}" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Përditësohu me të dhënat e rrjeteve sociale" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Përcakto listën e çmimeve" />
 		</Items>
 	</Group>
 </Resources>

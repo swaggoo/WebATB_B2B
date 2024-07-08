@@ -3,7 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Section schema: &quot;Accounts&quot;" />
+			<Item Name="LocalizableStrings.AccountsChangedMessage.Value" Value="Cuentas modificadas: {0} de {1}" />
 			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Enriquecer con datos de redes sociales" />
+			<Item Name="LocalizableStrings.SetPriceListActionCaption.Value" Value="Configurar lista de precios" />
 		</Items>
 	</Group>
 </Resources>

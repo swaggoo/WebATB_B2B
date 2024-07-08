@@ -3,16 +3,17 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.AmountTip.Value" Value="Shuma totale e kontratës. Nëse kontrata është krijuar bazuar te një porosi, fusha bëhet e pamodifikueshme dhe llogaritet si një sasi totale produktesh në kontratë. Produktet janë kopjuar te kontrata nga porosia. &#xA;Fusha është e modifikueshme, nëse kontrata nuk është e lidhur me një porosi &lt;a href=&quot;#&quot; data-context-help-id=&quot;1582&quot; &gt;Lexo më shumë&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Ndrysho valutën e porosisë" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Detajet e kontratës" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Shuma" />
+			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Valuta e porosisë për këtë kontratë do të konvertohet në valutën bazë. Vazhdo?" />
-			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Faqja kryesore" />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Cilin nga produktet e porositura dëshiron të shtosh në kontratë {0}?" />
 			<Item Name="LocalizableStrings.OrderTip.Value" Value="Nëse fusha e [Account] është e specifikuar, vetëm porositë për llogarinë e specifikuar janë të disponueshme" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Shto të gjitha" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Përzgjidh produktet" />
-			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Tani po ndjek faqen: {0}" />
+			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Faturat" />
 		</Items>
 	</Group>
 </Resources>

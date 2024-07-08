@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "5ece4a7b-55ec-4906-a463-178659c41b47",
+    "Name": "AccountCommunicationDetail",
+    "ModifiedOnUtc": "\/Date(1720433458000)\/",
+    "Parent": {
+      "UId": "5d2fa11a-730f-408d-8c95-a925cb15ba50",
+      "Name": "AccountCommunicationDetail"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "AccountCommunicationDetail"
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0d702770-6571-4cf3-a9ba-b68c8d2f7793",
+    "Name": "WatbBulkEmailLink",
+    "ModifiedOnUtc": "\/Date(1720105628000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Bulk Email link",
+    "DependsOn": []
+  }
+}

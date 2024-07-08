@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e7d1370b-5993-4691-a632-17a175fb94e8",
+    "Name": "WatbBulkEmailLinkDetail",
+    "ModifiedOnUtc": "\/Date(1720106028000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема деталі: \"Email розсилки\"",
+    "DependsOn": []
+  }
+}

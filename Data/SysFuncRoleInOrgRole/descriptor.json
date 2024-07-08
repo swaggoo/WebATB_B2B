@@ -1,0 +1,35 @@
+﻿{
+  "Descriptor": {
+    "UId": "4b66f431-5ec0-15fa-b276-677298fa44fe",
+    "Name": "SysFuncRoleInOrgRole",
+    "ModifiedOnUtc": "\/Date(1718703756000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "d9bf8007-9380-4ef1-ac05-a27b9b44fc63",
+      "Name": "SysFuncRoleInOrgRole"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "99361ab4-386d-4c13-a0f4-19253b9f207f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "FuncRole",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a413f58f-4d46-4bb9-9824-b723c40af619",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "OrgRole",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      }
+    ]
+  }
+}
