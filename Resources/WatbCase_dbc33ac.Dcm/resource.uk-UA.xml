@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Кейс угоди" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок екземпляру процесу" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Назва процесу#]" />
+			<Item Name="Stages.Stage1.Caption" Value="Оформлення" />
+			<Item Name="Stages.Stage2.Caption" Value="Узгодження" />
+			<Item Name="Stages.Stage3.Caption" Value="Виконання" />
+			<Item Name="Stages.Stage4.Caption" Value="АТБ. Отримали підписану видаткову" />
+			<Item Name="Stages.Stage5.Caption" Value="Скасовано" />
+		</Items>
+	</Group>
+</Resources>

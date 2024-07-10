@@ -28,7 +28,7 @@ define("AccountPageV2", [], function () {
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "UsrDepartmentType32ad90b6-cca5-4997-bc24-8200eb8f82b5",
+				"name": "WatbDepartmentType32ad90b6-cca5-4997-bc24-8200eb8f82b5",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -37,7 +37,7 @@ define("AccountPageV2", [], function () {
 						"row": 9,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrDepartmentType"
+					"bindTo": "WatbDepartmentType"
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "025f1ddd-b29e-49b7-acf8-6b1487b39564",
+    "Name": "WatbExpenditureInvoiceStatuses",
+    "ModifiedOnUtc": "\/Date(1720525817000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Стани видаткової накладної",
+    "DependsOn": []
+  }
+}

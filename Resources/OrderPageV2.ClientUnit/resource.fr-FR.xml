@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="fr-FR">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Établir une nouvelle facture pour cette commande" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Établir une nouvelle facture pour cette commande" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess ne contient pas de valeur du processus." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Associer les produits commandés au contrat?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Tous" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Sélectionner" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Produits" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Echéancier" />
+		</Items>
+	</Group>
+</Resources>

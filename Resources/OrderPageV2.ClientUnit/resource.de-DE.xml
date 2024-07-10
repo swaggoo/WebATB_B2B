@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="de-DE">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Neue Rechnung auf Grundlage dieser Bestellung" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Neue Rechnung auf Grundlage dieser Bestellung" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Alle" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Auswählen" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Produkte" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Zahlungsplan" />
+		</Items>
+	</Group>
+</Resources>

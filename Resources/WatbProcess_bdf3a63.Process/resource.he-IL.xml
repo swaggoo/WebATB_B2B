@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Надіслання нагадувань про необіхдність заповнити обов'язкові поля контрагнета" />
+		</Items>
+	</Group>
+</Resources>

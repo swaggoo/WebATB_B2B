@@ -6,6 +6,7 @@
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Wijzig order valuta" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Contract details" />
+			<Item Name="LocalizableStrings.ContractProductDetailV26e97ba21DetailCaptionOnPage.Value" Value="Producten" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Bedrag" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Ordervaluta voor dit contract zal worden omgezet in de basisvaluta. Doorgaan?" />

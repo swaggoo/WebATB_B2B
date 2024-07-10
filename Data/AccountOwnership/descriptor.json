@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "23f0e758-d359-5e18-7ead-00ac0dbe2421",
     "Name": "AccountOwnership",
-    "ModifiedOnUtc": "\/Date(1717759516000)\/",
+    "ModifiedOnUtc": "\/Date(1720441166000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "ce243c2c-b7d3-4dc4-b474-ab24c677801b",
@@ -17,6 +17,13 @@
         "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
       },
       {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
         "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
         "IsForceUpdate": false,
         "IsKey": true,
@@ -28,13 +35,6 @@
         "IsForceUpdate": false,
         "IsKey": false,
         "ColumnName": "Description",
-        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
-      },
-      {
-        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Name",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       }
     ]

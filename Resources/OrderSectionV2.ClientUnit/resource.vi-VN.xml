@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="Hợp đồng mới dựa trên đơn hàng" />
+		</Items>
+	</Group>
+</Resources>

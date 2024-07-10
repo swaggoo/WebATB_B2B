@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ar-SA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="فاتورة جديدة استنادا على هذا الطلب" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="فاتورة جديدة استنادا على هذا الطلب" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="الكل" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="حدد" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="منتجات" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="خطة التقسيط" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="New invoice based on this order" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="New invoice based on this order" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.ExpenditureInvoiceTabTabCaption.Value" Value="Видаткова накладна" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.OrderProduct.Value" Value="Сертифікати" />
+			<Item Name="LocalizableStrings.PaymentTabTabCaption.Value" Value="Оплата" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="All" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Select" />
+			<Item Name="LocalizableStrings.WatbCertificatesTabTabCaption.Value" Value="Сертифікати" />
+			<Item Name="LocalizableStrings.WatbLayoutInformationFieldGroupGroupCaption.Value" Value="Інформація про макет" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Products" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Installment plan" />
+		</Items>
+	</Group>
+</Resources>

@@ -7,6 +7,7 @@
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Изменить валюту в заказе" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Паспорт договора" />
+			<Item Name="LocalizableStrings.ContractProductDetailV26e97ba21DetailCaptionOnPage.Value" Value="Продукты" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Сумма" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Валюта в заказе по этому договору будет переведена в базовую валюту. Продолжить?" />

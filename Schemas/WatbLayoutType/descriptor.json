@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6e2bdb9d-24fa-42bf-ba71-94cb34746537",
+    "Name": "WatbLayoutType",
+    "ModifiedOnUtc": "\/Date(1720450816000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тип макету"
+  }
+}

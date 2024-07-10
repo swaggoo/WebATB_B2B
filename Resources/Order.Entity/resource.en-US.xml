@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Угоди" />
+			<Item Name="Columns.DeliveryStatus.Caption" Value="Стан доставки" />
+			<Item Name="Columns.WatbAccountBillingInfo.Caption" Value="Платіжні реквізит контрагента" />
+			<Item Name="Columns.WatbAccountContact.Caption" Value="Контакт контрагента" />
+			<Item Name="Columns.WatbATBAccountNumber.Caption" Value="Номер рахунку АТБ" />
+			<Item Name="Columns.WatbCertificateStatus.Caption" Value="Статус сертифікатів" />
+			<Item Name="Columns.WatbContract.Caption" Value="Договір" />
+			<Item Name="Columns.WatbEmail.Caption" Value="Електронна скринька" />
+			<Item Name="Columns.WatbExpenditureDate.Caption" Value="Дата видаткової" />
+			<Item Name="Columns.WatbExpenditureInvoiceNumber.Caption" Value="Номер видаткової накладної" />
+			<Item Name="Columns.WatbExpenditureInvoiceStatus.Caption" Value="Стан видаткової накладної" />
+			<Item Name="Columns.WatbExpenditureReceivingWaybill.Caption" Value="ТТН отримання видаткової" />
+			<Item Name="Columns.WatbExpenditureSendingWaybill.Caption" Value="ТТН відправки видаткової" />
+			<Item Name="Columns.WatbIsFirstSale.Caption" Value="Перший продаж" />
+			<Item Name="Columns.WatbIsLayoutNeeded.Caption" Value="Потрібен макет" />
+			<Item Name="Columns.WatbLayoutType.Caption" Value="Тип макету" />
+			<Item Name="Columns.WatbMarketNumber.Caption" Value="Номер магазину" />
+			<Item Name="Columns.WatbPaymentDateTime.Caption" Value="Дата оплати" />
+			<Item Name="Columns.WatbRecipient.Caption" Value="Отримувач" />
+			<Item Name="Columns.WatbVendingConditions.Caption" Value="Умови отоварювання" />
+			<Item Name="Columns.WatbWaybill.Caption" Value="ТТН" />
+		</Items>
+	</Group>
+</Resources>

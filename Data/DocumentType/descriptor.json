@@ -1,0 +1,49 @@
+﻿{
+  "Descriptor": {
+    "UId": "57722167-0fca-ac7f-235e-06dc4c5d1fa3",
+    "Name": "DocumentType",
+    "ModifiedOnUtc": "\/Date(1720532036000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "fe5e6306-c1ae-454f-87fb-108461dd71f5",
+      "Name": "DocumentType"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "6efed541-ddcf-4af4-8908-63d697ea324d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Code",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "22b6f1c0-3886-848a-9f46-2774cbfd52c5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Color",
+        "DataTypeValueUId": "dafb71f9-ee9f-4e0b-a4d7-37aa15987155"
+      }
+    ]
+  }
+}

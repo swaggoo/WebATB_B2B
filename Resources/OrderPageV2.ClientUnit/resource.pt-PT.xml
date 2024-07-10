@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-PT">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nova fatura com base neste perdido" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nova fatura com base neste perdido" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceDeOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceDeOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Conectar os produtos encomendados ao contrato?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Todos" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Selecionar" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Produtos" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Parcelamento" />
+		</Items>
+	</Group>
+</Resources>

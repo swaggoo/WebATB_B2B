@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Columns.AlternativeName.Caption" Value="Альтернативна назва" />
 			<Item Name="Columns.WatbAccountCodeERP.Caption" Value="Код контрагента в ERP" />
+			<Item Name="Columns.WatbActiveStatusSettingDate.Caption" Value="Дата переведення статусу в активний" />
 			<Item Name="Columns.WatbDepartmentType.Caption" Value="Тип підрозділу" />
 			<Item Name="Columns.WatbDirector.Caption" Value="Директор" />
 			<Item Name="Columns.WatbDiscount.Caption" Value="Знижка %" />

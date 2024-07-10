@@ -6,6 +6,7 @@
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="注文通貨を変更" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="契約情報詳細" />
+			<Item Name="LocalizableStrings.ContractProductDetailV26e97ba21DetailCaptionOnPage.Value" Value="製品" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="総額" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="この契約の注文通貨は基本通貨に変換されます。続行しますか？" />

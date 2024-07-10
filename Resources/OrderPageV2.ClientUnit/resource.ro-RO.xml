@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Factura noua bazata pe aceasta comanda" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Factura noua bazata pe aceasta comanda" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess nu conține nicio valoare a procesului." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Conectați produsele comandate la contract?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Toate" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Selectati" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Produse" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Plan de plati in rate" />
+		</Items>
+	</Group>
+</Resources>

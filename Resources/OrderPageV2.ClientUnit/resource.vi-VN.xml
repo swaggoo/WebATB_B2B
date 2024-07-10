@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Hóa đơn mới dựa trên đơn hàng này" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Hóa đơn mới dựa trên đơn hàng này" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Kết nối các sản phẩm đã đặt hàng với hợp đồng?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Tất cả" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Chọn" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Sản phẩm trong sự kiện" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Kế hoạch trả góp" />
+		</Items>
+	</Group>
+</Resources>

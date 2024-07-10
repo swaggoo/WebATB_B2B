@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b695d383-eb01-45e6-9e6d-e1f096967666",
+    "Name": "WatbCase_dbc33ac",
+    "ModifiedOnUtc": "\/Date(1720528113000)\/",
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Кейс замовлення (custom)",
+    "DependsOn": []
+  }
+}

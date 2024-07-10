@@ -5,16 +5,16 @@
   },
   "projects": {
     "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj": {
-      "version": "8.1.2.3941",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
         "projectName": "WebATB_B2B",
         "projectPath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
-        "packagesPath": "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,17 +35,18 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "CreatioSDK": {
+              "target": "Package",
+              "version": "[8.1.3.6803, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

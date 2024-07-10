@@ -1,10 +1,9 @@
 using System;
-using Terrasoft.Core;
+using FX.Services;
 using Terrasoft.Core.Entities;
 using Terrasoft.Core.Entities.Events;
-using FX.Services;
 
-namespace FX.EntityEventListeners
+namespace WebATB_B2B
 {
     [EntityEventListener(SchemaName = "AccountAddress")]
     public class AccountAddressChangeListener : BaseEntityEventListener

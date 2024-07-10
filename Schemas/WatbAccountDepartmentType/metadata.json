@@ -4,7 +4,7 @@
 = MetaData.Schema.B6 "8108c094-174d-5046-f412-15f04639e24f"
 = MetaData.Schema.B8 "8.1.2.3941"
 = MetaData.Schema.EG1.UId "b4339cda-3b76-43bb-b4d0-1455f43e41eb"
-= MetaData.Schema.EG1.A2 "UsrAccountDepartmentTypeEventsProcess"
+= MetaData.Schema.EG1.A2 "WatbAccountDepartmentTypeEventsProcess"
 = MetaData.Schema.EG1.A5 "7a77d891-77bf-4563-bb36-319b80ce9f18"
 = MetaData.Schema.EG1.B1 []
 = MetaData.Schema.EG1.B3 []

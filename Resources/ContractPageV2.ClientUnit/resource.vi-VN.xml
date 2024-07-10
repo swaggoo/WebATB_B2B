@@ -6,6 +6,7 @@
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Thay đổi đơn vị tiền tệ đặt hàng" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Thông tin hợp đồng" />
+			<Item Name="LocalizableStrings.ContractProductDetailV26e97ba21DetailCaptionOnPage.Value" Value="Sản phẩm trong sự kiện" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Số tiền" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="Module tiện ích cho sản phẩm trong hợp đồng" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Đơn vị tiền tệ đặt hàng cho hợp đồng này sẽ được chuyển thành đơn vị tiền tệ gốc. Bạn có muốn tiếp tục không?" />

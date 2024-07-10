@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="Columns.Order.Caption" Value="Угода" />
 			<Item Name="Columns.WatbContractCodeERP.Caption" Value="Код договору ЕРП" />
 			<Item Name="Columns.WatbContractExternalNumber.Caption" Value="Номер договору" />
 			<Item Name="Columns.WatbContractTerms.Caption" Value="Умови договору" />

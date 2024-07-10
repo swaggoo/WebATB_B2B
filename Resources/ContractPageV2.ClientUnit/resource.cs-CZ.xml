@@ -6,6 +6,7 @@
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Caption" Value="ChangeOrdersCurrencyButtonCaption" />
 			<Item Name="LocalizableStrings.ChangeOrdersCurrencyButtonCaption.Value" Value="Změna měny v odjednávce" />
 			<Item Name="LocalizableStrings.ContractPassportTab.Value" Value="Podrobnosti smlouvy" />
+			<Item Name="LocalizableStrings.ContractProductDetailV26e97ba21DetailCaptionOnPage.Value" Value="Produkty" />
 			<Item Name="LocalizableStrings.ContractSumCaption.Value" Value="Celkem" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Caption" Value="ConvertOrdersCurrencyMessage" />
 			<Item Name="LocalizableStrings.ConvertOrdersCurrencyMessage.Value" Value="Pro tuto smlouvy měna objednávky bude převedena na základní měnu. Pokračovat?" />

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Схема розділу: &quot;Угода&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Угода" />
+			<Item Name="LocalizableStrings.CreateContract.Value" Value="New contract based on order" />
+		</Items>
+	</Group>
+</Resources>

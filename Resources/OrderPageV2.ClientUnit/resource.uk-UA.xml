@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Створити рахунок на підставі замовлення" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Створити рахунок на підставі замовлення" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="Не вдалося знайти процес з системного налаштування CreateInvoiceFromOrderProcess." />
+			<Item Name="LocalizableStrings.ExpenditureInvoiceTabTabCaption.Value" Value="Видаткова накладна" />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Зв'язати продукти в замовленні з договором?" />
+			<Item Name="LocalizableStrings.OrderProduct.Value" Value="Сертифікати" />
+			<Item Name="LocalizableStrings.PaymentTabTabCaption.Value" Value="Оплата" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Усі" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Вибрати" />
+			<Item Name="LocalizableStrings.WatbCertificatesTabTabCaption.Value" Value="Сертифікати" />
+			<Item Name="LocalizableStrings.WatbLayoutInformationFieldGroupGroupCaption.Value" Value="Інформація про макет" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Сертифікати" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="Графік поставок і оплат" />
+		</Items>
+	</Group>
+</Resources>

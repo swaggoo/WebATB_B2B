@@ -1,26 +1,164 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {}
+    ".NETFramework,Version=v4.7.2": {
+      "CreatioSDK/8.1.3.6803": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Creatio.FeatureToggling.dll": {},
+          "lib/net40/Quartz.dll": {},
+          "lib/net40/ServiceStack.Interfaces.dll": {},
+          "lib/net40/Terrasoft.Common.dll": {},
+          "lib/net40/Terrasoft.Core.ConfigurationBuild.dll": {},
+          "lib/net40/Terrasoft.Core.DI.dll": {},
+          "lib/net40/Terrasoft.Core.Packages.dll": {},
+          "lib/net40/Terrasoft.Core.Process.dll": {},
+          "lib/net40/Terrasoft.Core.Scheduler.dll": {},
+          "lib/net40/Terrasoft.Core.ScriptEngine.dll": {},
+          "lib/net40/Terrasoft.Core.ServiceModelContract.dll": {},
+          "lib/net40/Terrasoft.Core.Translation.dll": {},
+          "lib/net40/Terrasoft.Core.dll": {},
+          "lib/net40/Terrasoft.File.Abstractions.dll": {},
+          "lib/net40/Terrasoft.File.dll": {},
+          "lib/net40/Terrasoft.GlobalSearch.dll": {},
+          "lib/net40/Terrasoft.GoogleServerConnector.dll": {},
+          "lib/net40/Terrasoft.IO.dll": {},
+          "lib/net40/Terrasoft.Messaging.Common.Standard.dll": {},
+          "lib/net40/Terrasoft.Messaging.Common.dll": {},
+          "lib/net40/Terrasoft.Mobile.dll": {},
+          "lib/net40/Terrasoft.Monitoring.dll": {},
+          "lib/net40/Terrasoft.Nui.ServiceModel.dll": {},
+          "lib/net40/Terrasoft.Nui.dll": {},
+          "lib/net40/Terrasoft.Reports.dll": {},
+          "lib/net40/Terrasoft.Security.Secrets.dll": {},
+          "lib/net40/Terrasoft.Services.dll": {},
+          "lib/net40/Terrasoft.Social.dll": {},
+          "lib/net40/Terrasoft.Web.Common.dll": {},
+          "lib/net40/Terrasoft.Web.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Creatio.FeatureToggling.dll": {},
+          "lib/net40/Quartz.dll": {},
+          "lib/net40/ServiceStack.Interfaces.dll": {},
+          "lib/net40/Terrasoft.Common.dll": {},
+          "lib/net40/Terrasoft.Core.ConfigurationBuild.dll": {},
+          "lib/net40/Terrasoft.Core.DI.dll": {},
+          "lib/net40/Terrasoft.Core.Packages.dll": {},
+          "lib/net40/Terrasoft.Core.Process.dll": {},
+          "lib/net40/Terrasoft.Core.Scheduler.dll": {},
+          "lib/net40/Terrasoft.Core.ScriptEngine.dll": {},
+          "lib/net40/Terrasoft.Core.ServiceModelContract.dll": {},
+          "lib/net40/Terrasoft.Core.Translation.dll": {},
+          "lib/net40/Terrasoft.Core.dll": {},
+          "lib/net40/Terrasoft.File.Abstractions.dll": {},
+          "lib/net40/Terrasoft.File.dll": {},
+          "lib/net40/Terrasoft.GlobalSearch.dll": {},
+          "lib/net40/Terrasoft.GoogleServerConnector.dll": {},
+          "lib/net40/Terrasoft.IO.dll": {},
+          "lib/net40/Terrasoft.Messaging.Common.Standard.dll": {},
+          "lib/net40/Terrasoft.Messaging.Common.dll": {},
+          "lib/net40/Terrasoft.Mobile.dll": {},
+          "lib/net40/Terrasoft.Monitoring.dll": {},
+          "lib/net40/Terrasoft.Nui.ServiceModel.dll": {},
+          "lib/net40/Terrasoft.Nui.dll": {},
+          "lib/net40/Terrasoft.Reports.dll": {},
+          "lib/net40/Terrasoft.Security.Secrets.dll": {},
+          "lib/net40/Terrasoft.Services.dll": {},
+          "lib/net40/Terrasoft.Social.dll": {},
+          "lib/net40/Terrasoft.Web.Common.dll": {},
+          "lib/net40/Terrasoft.Web.Http.Abstractions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CreatioSDK/8.1.3.6803": {
+      "sha512": "RKEuk2kdMtgr5VEv257qZ1zhgk2OcoW+z6truouBS0T1ETe8r8IWCmNYys1meUBzzWQIWQgUrP/Za3fvLQryHQ==",
+      "type": "package",
+      "path": "creatiosdk/8.1.3.6803",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "creatiosdk.8.1.3.6803.nupkg.sha512",
+        "creatiosdk.nuspec",
+        "lib/net40/Creatio.FeatureToggling.dll",
+        "lib/net40/Quartz.dll",
+        "lib/net40/ServiceStack.Interfaces.dll",
+        "lib/net40/Terrasoft.Common.dll",
+        "lib/net40/Terrasoft.Core.ConfigurationBuild.dll",
+        "lib/net40/Terrasoft.Core.DI.dll",
+        "lib/net40/Terrasoft.Core.Packages.dll",
+        "lib/net40/Terrasoft.Core.Process.dll",
+        "lib/net40/Terrasoft.Core.Scheduler.dll",
+        "lib/net40/Terrasoft.Core.ScriptEngine.dll",
+        "lib/net40/Terrasoft.Core.ServiceModelContract.dll",
+        "lib/net40/Terrasoft.Core.Translation.dll",
+        "lib/net40/Terrasoft.Core.dll",
+        "lib/net40/Terrasoft.File.Abstractions.dll",
+        "lib/net40/Terrasoft.File.dll",
+        "lib/net40/Terrasoft.GlobalSearch.dll",
+        "lib/net40/Terrasoft.GoogleServerConnector.dll",
+        "lib/net40/Terrasoft.IO.dll",
+        "lib/net40/Terrasoft.Messaging.Common.Standard.dll",
+        "lib/net40/Terrasoft.Messaging.Common.dll",
+        "lib/net40/Terrasoft.Mobile.dll",
+        "lib/net40/Terrasoft.Monitoring.dll",
+        "lib/net40/Terrasoft.Nui.ServiceModel.dll",
+        "lib/net40/Terrasoft.Nui.dll",
+        "lib/net40/Terrasoft.Reports.dll",
+        "lib/net40/Terrasoft.Security.Secrets.dll",
+        "lib/net40/Terrasoft.Services.dll",
+        "lib/net40/Terrasoft.Social.dll",
+        "lib/net40/Terrasoft.Web.Common.dll",
+        "lib/net40/Terrasoft.Web.Http.Abstractions.dll",
+        "lib/netstandard2.0/Creatio.FeatureToggling.dll",
+        "lib/netstandard2.0/Quartz.dll",
+        "lib/netstandard2.0/Terrasoft.Common.dll",
+        "lib/netstandard2.0/Terrasoft.Core.ConfigurationBuild.dll",
+        "lib/netstandard2.0/Terrasoft.Core.DI.dll",
+        "lib/netstandard2.0/Terrasoft.Core.Packages.dll",
+        "lib/netstandard2.0/Terrasoft.Core.Process.dll",
+        "lib/netstandard2.0/Terrasoft.Core.Scheduler.dll",
+        "lib/netstandard2.0/Terrasoft.Core.ScriptEngine.dll",
+        "lib/netstandard2.0/Terrasoft.Core.ServiceModelContract.dll",
+        "lib/netstandard2.0/Terrasoft.Core.Translation.dll",
+        "lib/netstandard2.0/Terrasoft.Core.dll",
+        "lib/netstandard2.0/Terrasoft.File.Abstractions.dll",
+        "lib/netstandard2.0/Terrasoft.File.dll",
+        "lib/netstandard2.0/Terrasoft.GoogleServerConnector.dll",
+        "lib/netstandard2.0/Terrasoft.IO.dll",
+        "lib/netstandard2.0/Terrasoft.Messaging.Common.Standard.dll",
+        "lib/netstandard2.0/Terrasoft.Monitoring.dll",
+        "lib/netstandard2.0/Terrasoft.Nui.ServiceModel.dll",
+        "lib/netstandard2.0/Terrasoft.Nui.dll",
+        "lib/netstandard2.0/Terrasoft.Security.Secrets.dll",
+        "lib/netstandard2.0/Terrasoft.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/Terrasoft.Web.Common.dll",
+        "lib/netstandard2.0/Terrasoft.Web.Http.Abstractions.dll",
+        "license.txt",
+        "logo.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.2": []
+    ".NETFramework,Version=v4.7.2": [
+      "CreatioSDK >= 8.1.3.6803"
+    ]
   },
   "packageFolders": {
-    "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "8.1.2.3941",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
       "projectName": "WebATB_B2B",
       "projectPath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
-      "packagesPath": "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -41,17 +179,18 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "dependencies": {
+          "CreatioSDK": {
+            "target": "Package",
+            "version": "[8.1.3.6803, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="חשבונית חדשה המבוססת על הזמנה זו" />
+			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="חשבונית חדשה המבוססת על הזמנה זו" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
+			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
+			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="לחבר את המוצרים שהוזמנו לחוזה?" />
+			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="הכל" />
+			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="בחר" />
+			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="מוצרים" />
+			<Item Name="LocalizableStrings.WatbSupplyPaymentDetailDetailCaptionOnPage.Value" Value="תוכנית תשלומים" />
+		</Items>
+	</Group>
+</Resources>
