@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4517045d-6ceb-45b1-a73c-44d92f17f04e",
+    "Name": "WatbSendingAccountReminders",
+    "ModifiedOnUtc": "\/Date(1720692060000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Надіслання нагадувань про необіхдність заповнити обов'язкові поля контрагнета",
+    "DependsOn": []
+  }
+}

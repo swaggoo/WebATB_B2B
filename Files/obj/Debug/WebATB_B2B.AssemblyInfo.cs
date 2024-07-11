@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebATB_B2B")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+036ea012bf3feac3fb7f7f7786efd49ddf62126e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+959ec489d782b7312320341afef5020965c31382")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebATB_B2B")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebATB_B2B")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

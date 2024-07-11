@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "1710bdb5-c6b5-4055-92af-b519e0887b6f",
     "Name": "ReminderNotificationsSchema",
-    "ModifiedOnUtc": "\/Date(1720623314000)\/",
+    "ModifiedOnUtc": "\/Date(1720637195000)\/",
     "Parent": {
       "UId": "70570e1e-c333-49b8-a34f-1642cbd6d4a2",
       "Name": "ReminderNotificationsSchema"

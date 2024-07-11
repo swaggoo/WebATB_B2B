@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6f8f8fda-7934-47d5-a36b-b77635fb5c0d",
+    "Name": "WatbSchema976d9927Page",
+    "ModifiedOnUtc": "\/Date(1720628748000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Базова схема картки"
+  }
+}

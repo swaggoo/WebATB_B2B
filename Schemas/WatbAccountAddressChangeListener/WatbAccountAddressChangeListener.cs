@@ -2,6 +2,7 @@ using System;
 using FX.Services;
 using Terrasoft.Core.Entities;
 using Terrasoft.Core.Entities.Events;
+using Terrasoft.Core.Factories;
 
 namespace WebATB_B2B
 {
@@ -15,7 +16,8 @@ namespace WebATB_B2B
             var userConnection = accountAddress.UserConnection;
 			
             var accountId = accountAddress.GetTypedColumnValue<Guid>("AccountId");
-            var accountStatusUpdater = new AccountStatusUpdater();
+            var accountStatusUpdater = ClassFactory.Get<AccountStatusUpdater>();
+
             accountStatusUpdater.TryToUpdateAccountStatus(userConnection, accountId);
         }
 
@@ -26,7 +28,8 @@ namespace WebATB_B2B
             var userConnection = accountAddress.UserConnection;
 
             var accountId = accountAddress.GetTypedColumnValue<Guid>("AccountId");
-            var accountStatusUpdater = new AccountStatusUpdater();
+            var accountStatusUpdater = ClassFactory.Get<AccountStatusUpdater>();
+
             accountStatusUpdater.TryToUpdateAccountStatus(userConnection, accountId);
         }
     }

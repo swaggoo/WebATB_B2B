@@ -115,70 +115,70 @@
 }
 + MetaData.Schema.B2 {
   "UId": "eaefa67e-ee50-4eb4-a875-7d4d742664b4",
-  "A2": "UsrAccountFilesDetailDetailCaptionOnPage",
+  "A2": "WatbAccountFilesDetailDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "aa73e659-d711-4f18-a975-10142916ad72",
-  "A2": "UsrAccountFileWithTypeDetailDetailCaptionOnPage",
+  "A2": "WatbAccountFileWithTypeDetailDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "02f14851-a805-4f8e-9e5f-fa361e81e55b",
-  "A2": "UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage",
+  "A2": "WatbSchemade7ce88bDetail24efb1fbDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "3a2ed727-e0e7-4e9d-be80-ef6f342045fc",
-  "A2": "UsrAccountFilesAndLinksWithDocumentTypeDetailCaptionOnPage",
+  "A2": "WatbAccountFilesAndLinksWithDocumentTypeDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "c5dba090-420b-419b-a741-51ee4ee7c378",
-  "A2": "UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage",
+  "A2": "WatbAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "bb997fe6-d429-42e1-88b9-09c67162560d",
-  "A2": "UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage",
+  "A2": "WatbSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "975df02b-ef58-4202-8d95-533838bb1a2d",
-  "A2": "UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage",
+  "A2": "WatbFileAndLinkWithDocumentTypeDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "df7e5fa0-e1a3-4910-847f-b74ea19e1d45",
-  "A2": "UsrSchema10016162Detail5d9dedefDetailCaptionOnPage",
+  "A2": "WatbSchema10016162Detail5d9dedefDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "a519f935-b1e8-486f-a05b-9b2e4875a21b",
-  "A2": "UsrAccountFileDetailCaptionOnPage",
+  "A2": "WatbAccountFileDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"
 }
 + MetaData.Schema.B2 {
   "UId": "22dc2802-50c2-404e-9e25-f8b24990a771",
-  "A2": "UsrAccountFileWithDocumentTypeDetailCaptionOnPage",
+  "A2": "WatbAccountFileWithDocumentTypeDetailCaptionOnPage",
   "A3": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A4": "c491d8c0-1381-4540-9a10-9f803b49da81",
   "A5": "7a77d891-77bf-4563-bb36-319b80ce9f18"

@@ -1,4 +1,4 @@
-INSERT INTO TimelinePageSetting ([Key], [Data]) VALUES ('UsrAccount1Page', convert(VARBINARY(MAX),'[
+INSERT INTO TimelinePageSetting ([Key], [Data]) VALUES ('WatbAccount1Page', convert(VARBINARY(MAX),'[
     {
         "entityConfigKey": "706f803d-6a30-4bcd-88e8-36a0e722ea41",
         "referenceColumnName": "Account",

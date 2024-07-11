@@ -1,34 +1,46 @@
-define("ReminderNotificationsSchema", ["ReminderNotificationsSchemaResources"], function() {
+define("ReminderNotificationsSchema", ["ReminderNotificationsSchemaResources"], function () {
     return {
+        /* The name of the object schema. */
         entitySchemaName: "Reminding",
+        /* The methods of the view model. */
         methods: {
-            getIsAccountNotification: function() {
-				const entityName = "Account";
-				const entityUid = Terrasoft.configuration.ModuleStructure[entityName].entitySchemaUId;
-				console.log(entityUid);
-				const schemaName = this.get("SchemaName");
-                return schemaName === "Account";
+            /* Determine whether the reminder is connected to the lead. */
+            getIsLeadNotification: function () {
+                const entityName = "Account";
+                const entityUid = Terrasoft.configuration.ModuleStructure[entityName].entitySchemaUId;
+                console.log(entityUid);
+                return this.get("SchemaName") === "Account";
             },
-            getNotificationSubjectCaption: function() {
+            /* Return the reminder caption. */
+            getNotificationSubjectCaption: function () {
                 var caption = this.get("Description");
                 return caption;
             }
         },
+        /* Display the reminder. */
         diff: [
+            /* The properties to add the container. */
             {
+                /* Add the element to the page. */
                 "operation": "insert",
+                /* The meta name of the container to add. */
                 "name": "NotificationleadItemContainer",
+                /* The meta name of the parent container to add the current container. */
                 "parentName": "Notification",
+                /* Add the container to the parent element's collection of elements. */
                 "propertyName": "items",
+                /* The properties to pass to the element's constructor. */
                 "values": {
                     "itemType": Terrasoft.ViewItemType.CONTAINER,
                     "wrapClass": [
                         "reminder-notification-item-container"
                     ],
-                    "visible": {"bindTo": "getIsAccountNotification"},
+                    /* Display only for leads. */
+                    "visible": { "bindTo": "getIsLeadNotification" },
                     "items": []
                 }
             },
+            /* The properties to add the caption container. */
             {
                 "operation": "insert",
                 "name": "NotificationItemleadTopContainer",
@@ -40,6 +52,7 @@ define("ReminderNotificationsSchema", ["ReminderNotificationsSchemaResources"], 
                     "items": []
                 }
             },
+            /* The properties to add the image. */
             {
                 "operation": "insert",
                 "name": "NotificationleadImage",
@@ -48,10 +61,11 @@ define("ReminderNotificationsSchema", ["ReminderNotificationsSchemaResources"], 
                 "values": {
                     "itemType": Terrasoft.ViewItemType.BUTTON,
                     "className": "Terrasoft.ImageView",
-                    "imageSrc": {"bindTo": "getNotificationImage"},
-                    "classes": {"wrapClass": ["reminder-notification-icon-class"]}
+                    "imageSrc": { "bindTo": "getNotificationImage" },
+                    "classes": { "wrapClass": ["reminder-notification-icon-class"] }
                 }
             },
+            /* The properties for the date. */
             {
                 "operation": "insert",
                 "name": "NotificationDate",
@@ -59,10 +73,11 @@ define("ReminderNotificationsSchema", ["ReminderNotificationsSchemaResources"], 
                 "propertyName": "items",
                 "values": {
                     "itemType": Terrasoft.ViewItemType.LABEL,
-                    "caption": {"bindTo": "getNotificationDate"},
-                    "classes": {"labelClass": ["subject-text-labelClass"]}
+                    "caption": { "bindTo": "getNotificationDate" },
+                    "classes": { "labelClass": ["subject-text-labelClass"] }
                 }
             },
+            /* The properties for the reminder text. */
             {
                 "operation": "insert",
                 "name": "NotificationleadSubject",
@@ -70,9 +85,9 @@ define("ReminderNotificationsSchema", ["ReminderNotificationsSchemaResources"], 
                 "propertyName": "items",
                 "values": {
                     "itemType": Terrasoft.ViewItemType.LABEL,
-                    "caption": {"bindTo": "getNotificationSubjectCaption"},
-                    "click": {"bindTo": "onNotificationSubjectClick"},
-                    "classes": {"labelClass": ["subject-text-labelClass", "label-link", "label-url"]}
+                    "caption": { "bindTo": "getNotificationSubjectCaption" },
+                    "click": { "bindTo": "onNotificationSubjectClick" },
+                    "classes": { "labelClass": ["subject-text-labelClass", "label-link", "label-url"] }
                 }
             }
         ]

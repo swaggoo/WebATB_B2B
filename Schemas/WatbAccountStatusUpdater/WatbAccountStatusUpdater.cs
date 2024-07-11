@@ -1,4 +1,6 @@
 using System;
+using System.Data;
+using Terrasoft.Common;
 using Terrasoft.Core;
 using Terrasoft.Core.Entities;
 using Terrasoft.Core.DB;
@@ -12,17 +14,22 @@ namespace FX.Services
         private static readonly Guid ongoingAccountStatusId = Guid.Parse("d11b8021-1a7b-4109-8d7b-1f7fdeafb5de");
         private static readonly Guid documentAddressTypeId = Guid.Parse("9958c503-9788-438f-998c-e68dfe5887c7");
 
-        public void TryToUpdateAccountStatus(UserConnection userConnection, Guid accountId)
+        public void TryToUpdateAccountStatus(UserConnection userConnection, Guid accountId, Entity accountEntity = null)
         {
-            var accountEntity = GetAccountById(userConnection, accountId);
+            if (accountEntity is null)
+            {
+                accountEntity = GetAccountById(userConnection, accountId);
+            }
 
             if (accountEntity != null)
             {
                 var areAccountFieldsFilled = AreAccountFieldsFilled(accountEntity);
                 var hasAddressForDocumentsDelivery = HasAddressForDocumentsDelivery(userConnection, accountId);
-                
-                var hasDocument = HasDocument(userConnection, accountId) || accountEntity.GetTypedColumnValue<bool>("WatbIsNoNeedUploadDocuments");
-                var hasContract = HasContract(userConnection, accountId) || accountEntity.GetTypedColumnValue<bool>("WatbIsNoNeedUploadContract");
+
+                var hasDocument = HasDocument(userConnection, accountId) ||
+                                  accountEntity.GetTypedColumnValue<bool>("WatbIsNoNeedUploadDocuments");
+                var hasContract = HasContract(userConnection, accountId) ||
+                                  accountEntity.GetTypedColumnValue<bool>("WatbIsNoNeedUploadContract");
 
                 if (areAccountFieldsFilled && hasAddressForDocumentsDelivery)
                 {
@@ -33,6 +40,7 @@ namespace FX.Services
                     else
                     {
                         SetAccountStatus(userConnection, accountId, activeAccountStatusId);
+                        SetActiveStatusSettingDate(userConnection, accountId);
                     }
                 }
                 else
@@ -51,10 +59,10 @@ namespace FX.Services
             var edrpou = accountEntity.GetTypedColumnValue<string>("WatbEDRPOU");
 
             var areAccountFieldsFilled = !string.IsNullOrEmpty(name) &&
-                                             signerId != Guid.Empty &&
-                                             !string.IsNullOrEmpty(phone) &&
-                                             !string.IsNullOrEmpty(email) &&
-                                             !string.IsNullOrEmpty(edrpou);
+                                         signerId != Guid.Empty &&
+                                         !string.IsNullOrEmpty(phone) &&
+                                         !string.IsNullOrEmpty(email) &&
+                                         !string.IsNullOrEmpty(edrpou);
 
             return areAccountFieldsFilled;
         }
@@ -68,8 +76,8 @@ namespace FX.Services
             accountESQ.AddColumn("WatbEmail");
             accountESQ.AddColumn("WatbEDRPOU");
             accountESQ.AddColumn("WatbIsNoNeedUploadDocuments");
-			accountESQ.AddColumn("WatbIsNoNeedUploadContract");
-			
+            accountESQ.AddColumn("WatbIsNoNeedUploadContract");
+
             return accountESQ.GetEntity(userConnection, accountId);
         }
 
@@ -77,8 +85,10 @@ namespace FX.Services
         {
             var addressESQ = new EntitySchemaQuery(userConnection.EntitySchemaManager, "AccountAddress");
             addressESQ.AddColumn("Id");
-            addressESQ.Filters.Add(addressESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
-            addressESQ.Filters.Add(addressESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "AddressType", documentAddressTypeId));
+            addressESQ.Filters.Add(
+                addressESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
+            addressESQ.Filters.Add(addressESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "AddressType",
+                documentAddressTypeId));
 
             var addressCollection = addressESQ.GetEntityCollection(userConnection);
             return addressCollection.Count > 0;
@@ -88,7 +98,8 @@ namespace FX.Services
         {
             var contractESQ = new EntitySchemaQuery(userConnection.EntitySchemaManager, "Contract");
             contractESQ.AddColumn("Id");
-            contractESQ.Filters.Add(contractESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
+            contractESQ.Filters.Add(
+                contractESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
 
             var contractCollection = contractESQ.GetEntityCollection(userConnection);
             return contractCollection.Count > 0;
@@ -98,7 +109,8 @@ namespace FX.Services
         {
             var accountFileESQ = new EntitySchemaQuery(userConnection.EntitySchemaManager, "WatbAccountFile");
             accountFileESQ.AddColumn("Id");
-            accountFileESQ.Filters.Add(accountFileESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
+            accountFileESQ.Filters.Add(
+                accountFileESQ.CreateFilterWithParameters(FilterComparisonType.Equal, "Account", accountId));
 
             var accountFileCollection = accountFileESQ.GetEntityCollection(userConnection);
             return accountFileCollection.Count > 0;
@@ -112,6 +124,42 @@ namespace FX.Services
                 .IsEqual(Column.Parameter(accountId));
 
             update.Execute();
+        }
+
+        public void SetActiveStatusSettingDate(UserConnection userConnection, Guid accountId, Guid? statusId = null)
+        {
+            if (statusId != activeAccountStatusId)
+            {
+                return;
+            }
+            
+            var update = new Update(userConnection, "Account")
+                .Set("WatbActiveStatusSettingDate", Column.Parameter(DateTime.UtcNow))
+                .Where("Id")
+                .IsEqual(Column.Parameter(accountId));
+
+            update.Execute();
+        }
+
+        public bool IsAccountStatusChangedManually(UserConnection userConnection, Guid accountId,
+            Guid newAccountStatusId)
+        {
+            bool result;
+            var select = new Select(userConnection)
+                .Column("Id")
+                .From("Account")
+                .Where("Id").IsEqual(Column.Parameter(accountId))
+                .And("WatbStatusId").IsEqual(Column.Parameter(newAccountStatusId)) as Select;
+
+            using (DBExecutor dbExecutor = userConnection.EnsureDBConnection())
+            {
+                using (IDataReader dataReader = select.ExecuteReader(dbExecutor))
+                {
+                    result = !dataReader.Read();
+                }
+            }
+
+            return result;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Terrasoft.Common;
 using Terrasoft.Configuration;
 
-namespace WebATB_B2B
+namespace WebATB.B2B
 {
     public class WatbAccountStatusRemindingText : IRemindingTextFormer
     {

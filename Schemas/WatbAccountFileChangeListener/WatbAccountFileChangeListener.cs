@@ -3,6 +3,7 @@ using Terrasoft.Core;
 using Terrasoft.Core.Entities;
 using Terrasoft.Core.Entities.Events;
 using FX.Services;
+using Terrasoft.Core.Factories;
 
 namespace FX.EntityEventListeners
 {
@@ -16,7 +17,8 @@ namespace FX.EntityEventListeners
             var userConnection = accountFile.UserConnection;
 
             var accountId = accountFile.GetTypedColumnValue<Guid>("AccountId");
-            var accountStatusUpdater = new AccountStatusUpdater();
+            var accountStatusUpdater = ClassFactory.Get<AccountStatusUpdater>();
+
             accountStatusUpdater.TryToUpdateAccountStatus(userConnection, accountId);
         }
 
@@ -27,7 +29,8 @@ namespace FX.EntityEventListeners
             var userConnection = accountFile.UserConnection;
 
             var accountId = accountFile.GetTypedColumnValue<Guid>("AccountId");
-            var accountStatusUpdater = new AccountStatusUpdater();
+            var accountStatusUpdater = ClassFactory.Get<AccountStatusUpdater>();
+
             accountStatusUpdater.TryToUpdateAccountStatus(userConnection, accountId);
         }
     }
