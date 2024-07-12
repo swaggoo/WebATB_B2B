@@ -4,7 +4,7 @@
     "Name": "WatbSetAllAccountsWithEmptyDeparmentTypeToCC",
     "DBEngineType": 0,
     "InstallType": 1,
-    "ModifiedOnUtc": "\/Date(1720785319000)\/",
+    "ModifiedOnUtc": "\/Date(1720805386000)\/",
     "BackwardCompatibilityConfirmed": false,
     "DependsOn": []
   }
