@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "d30ae528-ffe0-5456-0adb-bd4e81689641",
+    "Name": "WatbChangeOrderSectionName",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1720783345000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

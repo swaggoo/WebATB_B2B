@@ -823,9 +823,7 @@
           "CI5": "FF939598",
           "CI6": 1,
           "CI11": "379;200",
-          "CI12": "508;200",
-          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
-          "GV3": []
+          "CI12": "508;200"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaConditionalFlow",
@@ -843,9 +841,7 @@
           "CI5": "FF939598",
           "CI6": 1,
           "CI11": "563;200",
-          "CI12": "696;200",
-          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
-          "GV3": []
+          "CI12": "696;200"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaConditionalFlow",
@@ -863,9 +859,7 @@
           "CI5": "FF939598",
           "CI6": 1,
           "CI11": "929;200",
-          "CI12": "1027;200",
-          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
-          "GV3": []
+          "CI12": "1027;200"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -972,9 +966,7 @@
           "CI5": "FF939598",
           "CI6": 1,
           "CI11": "751;200",
-          "CI12": "874;200",
-          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
-          "GV3": []
+          "CI12": "874;200"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",

@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "005dff71-30e8-308a-d090-cf67a3faff7e",
+    "Name": "WatbBindCCEditPage",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1720784099000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

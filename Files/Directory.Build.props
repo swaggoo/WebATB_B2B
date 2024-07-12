@@ -14,5 +14,7 @@
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbContractType/WatbContractType.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbContractType/WatbContractType.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbExpenditureInvoiceStatuses/WatbExpenditureInvoiceStatuses.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbExpenditureInvoiceStatuses/WatbExpenditureInvoiceStatuses.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbLayoutType/WatbLayoutType.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbLayoutType/WatbLayoutType.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbOrderDeliveryStatus/WatbOrderDeliveryStatus.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbOrderDeliveryStatus/WatbOrderDeliveryStatus.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbOrderPaymentStatus/WatbOrderPaymentStatus.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbOrderPaymentStatus/WatbOrderPaymentStatus.cs')" />
 	</ItemGroup>
 </Project>

@@ -63,27 +63,6 @@ define("AccountMiniPage", [], function() {
 				"index": 2
 			},
 			{
-				"operation": "insert",
-				"name": "WatbEDRPOUd3ede171-38f1-41c5-b2eb-47dc2cbd5f23",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 3,
-						"layoutName": "MiniPage"
-					},
-					"isMiniPageModelItem": true,
-					"visible": {
-						"bindTo": "isAddMode"
-					},
-					"bindTo": "WatbEDRPOU"
-				},
-				"parentName": "MiniPage",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
 				"operation": "merge",
 				"name": "WebContainer",
 				"values": {
@@ -124,7 +103,7 @@ define("AccountMiniPage", [], function() {
 				"name": "OwnerButtonContainer",
 				"parentName": "MiniPage",
 				"propertyName": "items",
-				"index": 6
+				"index": 5
 			},
 			{
 				"operation": "merge",
@@ -155,7 +134,7 @@ define("AccountMiniPage", [], function() {
 				"name": "PrimaryContactButtonContainer",
 				"parentName": "MiniPage",
 				"propertyName": "items",
-				"index": 8
+				"index": 7
 			},
 			{
 				"operation": "merge",

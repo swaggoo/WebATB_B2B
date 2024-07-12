@@ -3,12 +3,14 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Угоди" />
-			<Item Name="Columns.DeliveryStatus.Caption" Value="Стан доставки" />
+			<Item Name="Columns.DeliveryStatus.Caption" Value="Стан доставки (Не використовується)" />
+			<Item Name="Columns.PaymentStatus.Caption" Value="Стан оплати (Не використовується)" />
 			<Item Name="Columns.WatbAccountBillingInfo.Caption" Value="Платіжні реквізити контрагента" />
 			<Item Name="Columns.WatbAccountContact.Caption" Value="Контакт контрагента" />
 			<Item Name="Columns.WatbATBAccountNumber.Caption" Value="Номер рахунку АТБ" />
 			<Item Name="Columns.WatbCertificateStatus.Caption" Value="Статус сертифікатів" />
 			<Item Name="Columns.WatbContract.Caption" Value="Договір" />
+			<Item Name="Columns.WatbDeliveryStatus.Caption" Value="Стан доставки" />
 			<Item Name="Columns.WatbEmail.Caption" Value="Електронна скринька" />
 			<Item Name="Columns.WatbExpenditureDate.Caption" Value="Дата видаткової" />
 			<Item Name="Columns.WatbExpenditureInvoiceNumber.Caption" Value="Номер видаткової накладної" />
@@ -20,6 +22,7 @@
 			<Item Name="Columns.WatbLayoutType.Caption" Value="Тип макету" />
 			<Item Name="Columns.WatbMarketNumber.Caption" Value="Номер магазину" />
 			<Item Name="Columns.WatbPaymentDateTime.Caption" Value="Дата оплати" />
+			<Item Name="Columns.WatbPaymentStatus.Caption" Value="Стан оплати" />
 			<Item Name="Columns.WatbRecipient.Caption" Value="Отримувач" />
 			<Item Name="Columns.WatbVendingConditions.Caption" Value="Умови отоварювання" />
 			<Item Name="Columns.WatbWaybill.Caption" Value="ТТН" />

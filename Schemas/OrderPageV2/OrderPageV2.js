@@ -19,6 +19,17 @@ define("OrderPageV2", [], function () {
 					"detailColumn": "Order",
 					"masterColumn": "Id"
 				}
+			},
+			"Client": {
+				"caption": {
+					"bindTo": "Resources.Strings.Client"
+				},
+				"dataValueType": 10,
+				"multiLookupColumns": [
+					"Account",
+					"Contact"
+				],
+				"isRequired": false
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
@@ -134,25 +145,27 @@ define("OrderPageV2", [], function () {
 				"index": 3
 			},
 			{
-				"operation": "insert",
-				"name": "Contact0be08dce-e3ba-45a5-89f5-82b46e77e488",
+				"operation": "merge",
+				"name": "Client",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 2,
-						"layoutName": "Header"
-					},
-					"bindTo": "Contact"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 4
+						"row": 2
+					}
+				}
+			},
+			{
+				"operation": "remove",
+				"name": "Client",
+				"properties": [
+					"tip"
+				]
 			},
 			{
 				"operation": "insert",
-				"name": "Accountbac66e34-eae7-4eb3-a4a2-6978c98b24b9",
+				"name": "BOOLEAN096ce87a-0729-448c-a21d-0a1d3e14e542",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -161,9 +174,8 @@ define("OrderPageV2", [], function () {
 						"row": 2,
 						"layoutName": "Header"
 					},
-					"bindTo": "Account",
-					"enabled": true,
-					"contentType": 5
+					"bindTo": "WatbIsFirstSale",
+					"enabled": true
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -240,24 +252,6 @@ define("OrderPageV2", [], function () {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 9
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN096ce87a-0729-448c-a21d-0a1d3e14e542",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "Header"
-					},
-					"bindTo": "WatbIsFirstSale",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 10
 			},
 			{
 				"operation": "insert",
@@ -453,23 +447,6 @@ define("OrderPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "PaymentStatus8e332a36-83e9-4c1e-b638-049591aedb92",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "PaymentTabGridLayout609e8d19"
-					},
-					"bindTo": "PaymentStatus"
-				},
-				"parentName": "PaymentTabGridLayout609e8d19",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "Currency292280e3-083e-4c0b-96df-1f1a4782b7ab",
 				"values": {
 					"layout": {
@@ -483,7 +460,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 1
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -500,7 +477,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 2
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -517,7 +494,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 3
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -534,7 +511,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 4
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -550,6 +527,25 @@ define("OrderPageV2", [], function () {
 					"bindTo": "WatbAccountBillingInfo",
 					"enabled": true,
 					"contentType": 5
+				},
+				"parentName": "PaymentTabGridLayout609e8d19",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP650cdbbb-8178-42ea-b224-880e308e1348",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "PaymentTabGridLayout609e8d19"
+					},
+					"bindTo": "WatbPaymentStatus",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
@@ -712,25 +708,6 @@ define("OrderPageV2", [], function () {
 				}
 			},
 			{
-				"operation": "insert",
-				"name": "DeliveryStatus958adf7d-013f-417d-bf01-7b495030b80c",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "OrderDeliveryInformationBlock"
-					},
-					"bindTo": "DeliveryStatus",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "OrderDeliveryInformationBlock",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
 				"operation": "merge",
 				"name": "DeliveryType",
 				"values": {
@@ -755,6 +732,25 @@ define("OrderPageV2", [], function () {
 					},
 					"bindTo": "WatbWaybill",
 					"enabled": true
+				},
+				"parentName": "OrderDeliveryInformationBlock",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP8eba0c68-3a13-4ceb-96f3-dc5a66b322a3",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "OrderDeliveryInformationBlock"
+					},
+					"bindTo": "WatbDeliveryStatus",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "OrderDeliveryInformationBlock",
 				"propertyName": "items",
@@ -858,10 +854,6 @@ define("OrderPageV2", [], function () {
 			{
 				"operation": "remove",
 				"name": "Amount"
-			},
-			{
-				"operation": "remove",
-				"name": "Client"
 			},
 			{
 				"operation": "remove",

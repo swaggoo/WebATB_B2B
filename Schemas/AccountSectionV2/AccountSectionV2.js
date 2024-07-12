@@ -82,6 +82,10 @@ define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "Configu
 				var filters = this.callParent(arguments);
 				var currentUserRoles = this.get("CurrentUserRoles");
 
+				if (currentUserRoles.includes(SYSTEM_ADMINISTRATOR_ROLE_CAPTION)) {
+					return filters;
+				}
+
 				if (currentUserRoles.includes(B2B_DEPARTMENT_ROLE_CAPTION)) {
 					filters.add("FilterDepartmentType", this.Terrasoft.createColumnFilterWithParameter(
 						this.Terrasoft.ComparisonType.EQUAL, "WatbDepartmentType.Id", WATB_B2B_DEPARTMENT_TYPE_ID

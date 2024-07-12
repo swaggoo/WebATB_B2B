@@ -23,6 +23,34 @@ define("ContractPageV2", [], function () {
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
+			init: function() {
+                this.callParent(arguments);
+                this.on("change:WatbSigner", this.onSignerChange, this);
+            },
+
+			onSignerChange: function() {
+                var signer = this.get("WatbSigner");
+                if (signer) {
+                    this.setSignerPosition(signer);
+                } else {
+                    this.set("WatbSignerPosition", null);
+                }
+            },
+
+			setSignerPosition: function(signer) {
+                var signerId = signer.value;
+                var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+                    rootSchemaName: "Contact"
+                });
+                esq.addColumn("JobTitle");
+                esq.getEntity(signerId, function(response) {
+                    if (response.success) {
+                        var position = response.entity.get("JobTitle");
+                        this.set("WatbSignerPosition", position);
+                    }
+                }, this);
+            },
+
 			asyncValidate: function (callback, scope) {
 				this.callParent([function () {
 					var beginDate = this.get('StartDate');
@@ -37,6 +65,10 @@ define("ContractPageV2", [], function () {
 		
 					var monthsText = this.getMonthsText(totalMonths);
 		
+					if (isNaN(totalMonths)) {
+						return;
+					}
+
 					this.set('WatbDuration', `${totalMonths} ${monthsText}`);
 		
 					if (end > new Date()) {
@@ -218,7 +250,8 @@ define("ContractPageV2", [], function () {
 						"row": 4,
 						"layoutName": "Header"
 					},
-					"bindTo": "StartDate"
+					"bindTo": "StartDate",
+					"enabled": true
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -262,7 +295,7 @@ define("ContractPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "STRINGfa4a45e3-2764-4c20-8296-1a2711a5d236",
+				"name": "BOOLEAN91bd0465-2325-4eea-93bc-57bde3699e5c",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -271,7 +304,7 @@ define("ContractPageV2", [], function () {
 						"row": 5,
 						"layoutName": "Header"
 					},
-					"bindTo": "WatbContractTerms",
+					"bindTo": "WatbIsActive",
 					"enabled": true
 				},
 				"parentName": "Header",
@@ -280,17 +313,18 @@ define("ContractPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN91bd0465-2325-4eea-93bc-57bde3699e5c",
+				"name": "STRINGfa4a45e3-2764-4c20-8296-1a2711a5d236",
 				"values": {
 					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
+						"colSpan": 24,
+						"rowSpan": 2,
 						"column": 0,
 						"row": 6,
 						"layoutName": "Header"
 					},
-					"bindTo": "WatbIsActive",
-					"enabled": true
+					"bindTo": "WatbContractTerms",
+					"enabled": true,
+					"contentType": 0
 				},
 				"parentName": "Header",
 				"propertyName": "items",

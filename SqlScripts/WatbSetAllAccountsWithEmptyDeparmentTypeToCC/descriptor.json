@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "0ea993c4-26d6-0a2b-f4d1-01d48d25b1ef",
+    "Name": "WatbSetAllAccountsWithEmptyDeparmentTypeToCC",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1720785319000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

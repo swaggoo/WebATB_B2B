@@ -5,6 +5,18 @@
 			<Item Name="Columns.AlternativeName.Caption" Value="Альтернативна назва" />
 			<Item Name="Columns.WatbAccountCodeERP.Caption" Value="Код контрагента в ERP" />
 			<Item Name="Columns.WatbActiveStatusSettingDate.Caption" Value="Дата переведення статусу в активний" />
+			<Item Name="Columns.WatbContractCodeERP.Caption" Value="Код договору ЕРП" />
+			<Item Name="Columns.WatbContractCodeERP.Description" Value="Використовується лише для імпорту договорів з Excel" />
+			<Item Name="Columns.WatbContractDate.Caption" Value="Дата договору" />
+			<Item Name="Columns.WatbContractDate.Description" Value="Використовується лише для імпорту договорів з Excel" />
+			<Item Name="Columns.WatbContractExternalNumber.Caption" Value="Зовнішній номер договору" />
+			<Item Name="Columns.WatbContractExternalNumber.Description" Value="Використовується лише для імпорту договорів з Excel" />
+			<Item Name="Columns.WatbContractNumber.Caption" Value="Номер договору" />
+			<Item Name="Columns.WatbContractNumber.Description" Value="Використовується лише для імпорту договорів з Excel" />
+			<Item Name="Columns.WatbContractTerms.Caption" Value="Умови договору" />
+			<Item Name="Columns.WatbContractTerms.Description" Value="Використовується лише для імпорту договорів з Excel" />
+			<Item Name="Columns.WatbContractType.Caption" Value="Тип договору" />
+			<Item Name="Columns.WatbContractType.Description" Value="Використовується лише для імпорту договорів з Excel" />
 			<Item Name="Columns.WatbDepartmentType.Caption" Value="Тип підрозділу" />
 			<Item Name="Columns.WatbDirector.Caption" Value="Директор" />
 			<Item Name="Columns.WatbDiscount.Caption" Value="Знижка %" />
