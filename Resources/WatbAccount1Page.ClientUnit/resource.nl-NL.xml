@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
 			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="Adressen" />
+			<Item Name="LocalizableStrings.AccountBillingInfoDetailV23a5a1a8cDetailCaptionOnPage.Value" Value="Bankgegevens" />
 			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="Communicatie opties" />
 			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="Contacten" />
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Organisatiestructuur" />
@@ -15,14 +16,6 @@
 			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Verkoopkansen" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="Verkoopkansen" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="Activiteiten" />
-			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Object" />
-			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="Object" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="Object" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="Bijlagen" />
-			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Bijlagen" />
-			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="Bestand en link van account" />
-			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="Bijlagen" />
-			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Bijlagen" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Bijlagen" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Bijlagen" />
 			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Activiteiten" />

@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
 			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="주소" />
+			<Item Name="LocalizableStrings.AccountBillingInfoDetailV23a5a1a8cDetailCaptionOnPage.Value" Value="법인체" />
 			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="통신 옵션" />
 			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="연락처" />
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="조직구조" />
@@ -15,14 +16,6 @@
 			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="기회" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="기회" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="활동" />
-			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="개체" />
-			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="개체" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="개체" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="첨부 파일" />
-			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="첨부 파일" />
-			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="File and link of account" />
-			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="첨부 파일" />
-			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="첨부 파일" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="첨부 파일" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="첨부 파일" />
 			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="활동" />

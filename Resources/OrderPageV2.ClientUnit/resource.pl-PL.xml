@@ -2,11 +2,15 @@
 <Resources Culture="pl-PL">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Produkty" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nowa faktura na podstawie zlecenia" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nowa faktura na podstawie zlecenia" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Produkty" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="Produkty" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="Produkty" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Wszystko" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Wybierz" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Produkty" />

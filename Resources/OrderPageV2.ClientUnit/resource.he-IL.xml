@@ -2,11 +2,15 @@
 <Resources Culture="he-IL">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="מוצרים" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="חשבונית חדשה המבוססת על הזמנה זו" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="חשבונית חדשה המבוססת על הזמנה זו" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="לחבר את המוצרים שהוזמנו לחוזה?" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="מוצרים" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="מוצרים" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="מוצרים" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="הכל" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="בחר" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="מוצרים" />

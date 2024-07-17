@@ -2,11 +2,15 @@
 <Resources Culture="th-TH">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="ผลิตภัณฑ์" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="ใบแจ้งหนี้ใหม่ตามคำสั่งซื้อนี้" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="ใบแจ้งหนี้ใหม่ตามคำสั่งซื้อนี้" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Connect the ordered products to contract?" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="ผลิตภัณฑ์" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="ผลิตภัณฑ์" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="ผลิตภัณฑ์" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="ทั้งหมด" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="เลือก" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="ผลิตภัณฑ์" />

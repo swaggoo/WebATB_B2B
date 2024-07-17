@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
 			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="Adresat" />
+			<Item Name="LocalizableStrings.AccountBillingInfoDetailV23a5a1a8cDetailCaptionOnPage.Value" Value="Detajet bankare" />
 			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="Alternativat e komunikimit" />
 			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="Kontaktet" />
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Struktura organizative" />
@@ -15,14 +16,6 @@
 			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Mundësitë" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="Mundësitë" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="Aktivitetet" />
-			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Objekti" />
-			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="Objekti" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="Objekti" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="Bashkëlidhjet" />
-			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Bashkëlidhjet" />
-			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="Dosja dhe linku i llogarisë" />
-			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="Bashkëlidhjet" />
-			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Bashkëlidhjet" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Bashkëlidhjet" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Bashkëlidhjet" />
 			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Aktivitetet" />

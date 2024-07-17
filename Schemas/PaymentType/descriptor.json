@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "93ecfa17-1c08-4957-a5c5-bd9b91d11124",
+    "Name": "PaymentType",
+    "ModifiedOnUtc": "\/Date(1721046291000)\/",
+    "Parent": {
+      "UId": "9d6072ff-8b5d-4fb8-83df-f07b403028e7",
+      "Name": "PaymentType"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Payment type",
+    "DependsOn": []
+  }
+}

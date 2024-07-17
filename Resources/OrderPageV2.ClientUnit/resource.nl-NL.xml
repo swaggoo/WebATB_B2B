@@ -2,11 +2,15 @@
 <Resources Culture="nl-NL">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Producten" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nieuwe factuur op basis van de order" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nieuwe factuur op basis van de order" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="De bestelde producten koppelen aan contract?" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Producten" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="Producten" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="Producten" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Alle" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Selecteer" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Producten" />

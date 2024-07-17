@@ -1,0 +1,35 @@
+﻿{
+  "Descriptor": {
+    "UId": "f9a6db3f-82a3-5503-4f34-bbfba5844c81",
+    "Name": "SysTranslation",
+    "ModifiedOnUtc": "\/Date(1721070442000)\/",
+    "InstallType": 2,
+    "Schema": {
+      "UId": "4a564759-cf96-48d9-ae57-97bbb9c0b951",
+      "Name": "SysTranslation"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "4e54682a-31c5-4ec3-b1e9-d291901bfc9e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Key",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "57b0e5bd-8222-4e20-8e5c-85b88c2f21b8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ErrorMessage",
+        "DataTypeValueUId": "5ca35f10-a101-4c67-a96a-383da6afacfc"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      }
+    ]
+  }
+}

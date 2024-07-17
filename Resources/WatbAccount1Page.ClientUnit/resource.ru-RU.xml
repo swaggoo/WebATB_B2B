@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
 			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="Адреса Контрагента" />
+			<Item Name="LocalizableStrings.AccountBillingInfoDetailV23a5a1a8cDetailCaptionOnPage.Value" Value="Платежные реквизиты" />
 			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="Средства связи" />
 			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="Контакты контрагента" />
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Структура организации" />
@@ -15,14 +16,6 @@
 			<Item Name="LocalizableStrings.OpportunityDetailV289d1c87dDetailCaptionOnPage.Value" Value="Продажи" />
 			<Item Name="LocalizableStrings.OpportunityDetailV2f59f25e1DetailCaptionOnPage.Value" Value="Продажи" />
 			<Item Name="LocalizableStrings.OpportunityHistoryActivityDetail1e15040fDetailCaptionOnPage.Value" Value="Активности" />
-			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Объект" />
-			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="Объект" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="Объект" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="Файлы и ссылки" />
-			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Файлы и ссылки" />
-			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="Файл и ссылка контрагента" />
-			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="Файлы и ссылки" />
-			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Файлы и ссылки" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Файлы и ссылки" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Файлы и ссылки" />
 			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Активности" />

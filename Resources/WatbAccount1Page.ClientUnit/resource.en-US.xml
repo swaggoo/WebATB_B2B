@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
 			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="Адреса Контрагента" />
+			<Item Name="LocalizableStrings.AccountBillingInfoDetailV23a5a1a8cDetailCaptionOnPage.Value" Value="Banking details" />
 			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="Communication options" />
 			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="Contacts" />
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Organizational structure" />
@@ -20,16 +21,6 @@
 			<Item Name="LocalizableStrings.TabHistoryTabCaption.Value" Value="Історія" />
 			<Item Name="LocalizableStrings.TabMainInformationTabCaption.Value" Value="Основна інформація" />
 			<Item Name="LocalizableStrings.TabNotesControlGroupGroupCaption.Value" Value="Примітки" />
-			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Object" />
-			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="Object" />
-			<Item Name="LocalizableStrings.UsrAccountFilesAndLinksWithDocumentTypeDetailCaptionOnPage.Value" Value="Файли та посилання контрагента з типом документа" />
-			<Item Name="LocalizableStrings.UsrAccountFilesDetailDetailCaptionOnPage.Value" Value="Файли та посилання контрагента з типом" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="Object" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="Attachments" />
-			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Attachments" />
-			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="File and link of account" />
-			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="Attachments" />
-			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Attachments" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Attachments" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Attachments" />
 			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Activities" />

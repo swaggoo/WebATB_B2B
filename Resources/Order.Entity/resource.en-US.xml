@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Угоди" />
+			<Item Name="Columns.Amount.Caption" Value="Сума оплати" />
 			<Item Name="Columns.DeliveryStatus.Caption" Value="Стан доставки" />
 			<Item Name="Columns.PaymentStatus.Caption" Value="Стан оплати (Не використовується)" />
 			<Item Name="Columns.WatbAccountBillingInfo.Caption" Value="Платіжні реквізит контрагента" />

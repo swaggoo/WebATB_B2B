@@ -3,8 +3,11 @@
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Account/Account.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Activity/Activity.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Contract/Contract.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Contract/Contract.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/ContractState/ContractState.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/ContractState/ContractState.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Order/Order.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Order/Order.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/PaymentType/PaymentType.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/PaymentType/PaymentType.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/Product/Product.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/Product/Product.cs')" />
+		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/SourceOrder/SourceOrder.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/SourceOrder/SourceOrder.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbAccountDepartmentType/WatbAccountDepartmentType.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbAccountDepartmentType/WatbAccountDepartmentType.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbAccountFile/WatbAccountFile.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbAccountFile/WatbAccountFile.cs')" />
 		<Compile Include="$(PkgPath)/WebATB_B2B/Schemas/WatbAccountStatus/WatbAccountStatus.cs" Condition="Exists('$(PkgPath)/WebATB_B2B/Schemas/WatbAccountStatus/WatbAccountStatus.cs')" />

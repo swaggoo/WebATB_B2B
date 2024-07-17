@@ -1,0 +1,22 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "b87910dc-75c0-4dad-b4fc-0cad5e99f1da"
+        },
+        {
+          "SchemaColumnUId": "34b83991-65a0-4978-ac5e-73cd4e167a4a",
+          "Value": "4a60d0d5-7d2f-4e4e-a66e-d32df38d3ca8",
+          "DisplayValue": "Електронна пошта (п. 2.1)"
+        },
+        {
+          "SchemaColumnUId": "dfa76dad-9bb7-4c53-9a63-e4f6482776b9",
+          "Value": "ea350dd6-66cc-df11-9b2a-001d60e938c6",
+          "DisplayValue": "Е-mail"
+        }
+      ]
+    }
+  ]
+}

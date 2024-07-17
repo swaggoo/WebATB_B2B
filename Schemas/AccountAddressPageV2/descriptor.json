@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b7628948-7b7c-4a63-9f22-4a2fac8da760",
+    "Name": "AccountAddressPageV2",
+    "ModifiedOnUtc": "\/Date(1721057923000)\/",
+    "Parent": {
+      "UId": "6de2ef5e-08e8-4a27-ad05-b4f56be971ff",
+      "Name": "AccountAddressPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "AccountAddressPageV2"
+  }
+}

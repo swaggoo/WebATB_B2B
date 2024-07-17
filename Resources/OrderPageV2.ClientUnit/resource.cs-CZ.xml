@@ -2,11 +2,15 @@
 <Resources Culture="cs-CZ">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Produkty" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nová faktura dle objednávky" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nová faktura dle objednávky" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Připojit objednané produkty ke smlouvě?" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Produkty" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="Produkty" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="Produkty" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Vše" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Zvolit" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Produkty" />

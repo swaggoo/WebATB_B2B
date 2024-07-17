@@ -2,7 +2,8 @@
 <Resources Culture="uk-UA">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Угоди" />
+			<Item Name="Caption" Value="Угода" />
+			<Item Name="Columns.Amount.Caption" Value="Сума оплати" />
 			<Item Name="Columns.DeliveryStatus.Caption" Value="Стан доставки (Не використовується)" />
 			<Item Name="Columns.PaymentStatus.Caption" Value="Стан оплати (Не використовується)" />
 			<Item Name="Columns.WatbAccountBillingInfo.Caption" Value="Платіжні реквізити контрагента" />

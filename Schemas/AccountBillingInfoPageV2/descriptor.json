@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "146dfc00-ecf6-4c84-9971-259bee312592",
+    "Name": "AccountBillingInfoPageV2",
+    "ModifiedOnUtc": "\/Date(1720970108000)\/",
+    "Parent": {
+      "UId": "625e1d4c-bc26-4872-b76e-267c473ecdcc",
+      "Name": "AccountBillingInfoPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "AccountBillingInfoPageV2"
+  }
+}

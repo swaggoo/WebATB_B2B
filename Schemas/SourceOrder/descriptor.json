@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "f57cce5c-168a-4b2f-a82c-f7a65ad46fdc",
+    "Name": "SourceOrder",
+    "ModifiedOnUtc": "\/Date(1721069703000)\/",
+    "Parent": {
+      "UId": "ccfa0e1e-c7fb-4251-8fbc-b59e0817f7ed",
+      "Name": "SourceOrder"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Order channel",
+    "DependsOn": []
+  }
+}

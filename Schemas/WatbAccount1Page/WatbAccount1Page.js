@@ -122,9 +122,45 @@ define("WatbAccount1Page", [], function () {
 					"detailColumn": "Account",
 					"masterColumn": "Id"
 				}
+			},
+			"AccountBillingInfoDetailV23a5a1a8c": {
+				"schemaName": "AccountBillingInfoDetailV2",
+				"entitySchemaName": "AccountBillingInfo",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"WatbSignerPosition": {
+				"8660fa5c-ad32-49aa-a917-8ed92693f5cf": {
+					"uId": "8660fa5c-ad32-49aa-a917-8ed92693f5cf",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"dataValueType": 28,
+							"attribute": "WatbSigner",
+							"attributePath": "JobTitle"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"dataValueType": 10,
+								"attribute": "WatbSigner"
+							}
+						}
+					]
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
@@ -184,7 +220,7 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUPe3a9f33a-379e-4f50-b657-e0679ece6ee6",
+				"name": "WatbSignerPosition4368a5aa-f8e5-4f30-a108-9e07087dfc9f",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -193,9 +229,7 @@ define("WatbAccount1Page", [], function () {
 						"row": 3,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "WatbSignerPosition",
-					"enabled": true,
-					"contentType": 5
+					"bindTo": "WatbSignerPosition"
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -424,48 +458,13 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "Code8c88ff8d-d9d1-446d-8429-46800c88e200",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "TabMainInformationGridLayout39a4f714"
-					},
-					"bindTo": "Code"
-				},
-				"parentName": "TabMainInformationGridLayout39a4f714",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "STRINGa5147b22-df63-40e6-b346-b526813a5b81",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 1,
-						"layoutName": "TabMainInformationGridLayout39a4f714"
-					},
-					"bindTo": "WatbAccountCodeERP",
-					"enabled": true
-				},
-				"parentName": "TabMainInformationGridLayout39a4f714",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
 				"name": "BOOLEAN55f74d95-f631-4c6b-8a1f-1d5382576151",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 2,
+						"row": 1,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
 					"bindTo": "WatbIsNoNeedUploadDocuments",
@@ -473,7 +472,7 @@ define("WatbAccount1Page", [], function () {
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
-				"index": 4
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -483,7 +482,7 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 2,
+						"row": 1,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
 					"bindTo": "WatbIsNoNeedUploadContract",
@@ -491,7 +490,7 @@ define("WatbAccount1Page", [], function () {
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
-				"index": 5
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -501,7 +500,7 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 3,
+						"row": 2,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
 					"bindTo": "WatbDiscount",
@@ -509,7 +508,7 @@ define("WatbAccount1Page", [], function () {
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
-				"index": 6
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -519,7 +518,7 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 3,
+						"row": 2,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
 					"bindTo": "WatbPostponement",
@@ -527,7 +526,7 @@ define("WatbAccount1Page", [], function () {
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
-				"index": 7
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -537,7 +536,7 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 4,
+						"row": 3,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
 					"bindTo": "WatbDirector",
@@ -546,24 +545,7 @@ define("WatbAccount1Page", [], function () {
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
-				"index": 8
-			},
-			{
-				"operation": "insert",
-				"name": "WatbPrimaryContactfd46c2a9-a844-4ac1-babe-722fdb9c1b5f",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "TabMainInformationGridLayout39a4f714"
-					},
-					"bindTo": "WatbPrimaryContact"
-				},
-				"parentName": "TabMainInformationGridLayout39a4f714",
-				"propertyName": "items",
-				"index": 9
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -573,14 +555,49 @@ define("WatbAccount1Page", [], function () {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 5,
+						"row": 3,
 						"layoutName": "TabMainInformationGridLayout39a4f714"
 					},
 					"bindTo": "WatbSecondaryContact"
 				},
 				"parentName": "TabMainInformationGridLayout39a4f714",
 				"propertyName": "items",
-				"index": 10
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "WatbPrimaryContactfd46c2a9-a844-4ac1-babe-722fdb9c1b5f",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "TabMainInformationGridLayout39a4f714"
+					},
+					"bindTo": "WatbPrimaryContact"
+				},
+				"parentName": "TabMainInformationGridLayout39a4f714",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "STRINGa5147b22-df63-40e6-b346-b526813a5b81",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 4,
+						"layoutName": "TabMainInformationGridLayout39a4f714"
+					},
+					"bindTo": "WatbAccountCodeERP",
+					"enabled": true
+				},
+				"parentName": "TabMainInformationGridLayout39a4f714",
+				"propertyName": "items",
+				"index": 9
 			},
 			{
 				"operation": "insert",
@@ -625,6 +642,17 @@ define("WatbAccount1Page", [], function () {
 				"parentName": "TabMainInformation",
 				"propertyName": "items",
 				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "AccountBillingInfoDetailV23a5a1a8c",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "TabMainInformation",
+				"propertyName": "items",
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -797,6 +825,13 @@ define("WatbAccount1Page", [], function () {
 				"parentName": "TabFilesAndNotesGridLayout0513b180",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "merge",
+				"name": "ESNTab",
+				"values": {
+					"order": 5
+				}
 			},
 			{
 				"operation": "merge",

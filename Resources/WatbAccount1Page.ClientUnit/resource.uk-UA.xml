@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Account&quot; (B2B)" />
 			<Item Name="LocalizableStrings.AccountAddressDetailV2777fccfeDetailCaptionOnPage.Value" Value="Адреси" />
+			<Item Name="LocalizableStrings.AccountBillingInfoDetailV23a5a1a8cDetailCaptionOnPage.Value" Value="Платіжні реквізити" />
 			<Item Name="LocalizableStrings.AccountCommunicationDetailDetailCaptionOnPage.Value" Value="Засоби зв'язку" />
 			<Item Name="LocalizableStrings.AccountContactsDetailV2eb5a8155DetailCaptionOnPage.Value" Value="Контакти контрагента" />
 			<Item Name="LocalizableStrings.AccountOrganizationChartDetailV23dd69f63DetailCaptionOnPage.Value" Value="Структура організації" />
@@ -20,23 +21,13 @@
 			<Item Name="LocalizableStrings.TabHistoryTabCaption.Value" Value="Історія" />
 			<Item Name="LocalizableStrings.TabMainInformationTabCaption.Value" Value="Основна інформація" />
 			<Item Name="LocalizableStrings.TabNotesControlGroupGroupCaption.Value" Value="Примітки" />
-			<Item Name="LocalizableStrings.UsrAccountFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Файл та посилання контрагента з типом документа" />
-			<Item Name="LocalizableStrings.UsrAccountFileDetailCaptionOnPage.Value" Value="Файл контрагента з типом документа" />
-			<Item Name="LocalizableStrings.UsrAccountFilesAndLinksWithDocumentTypeDetailCaptionOnPage.Value" Value="Файли та посилання контрагента з типом документа" />
-			<Item Name="LocalizableStrings.UsrAccountFilesDetailDetailCaptionOnPage.Value" Value="Файли та посилання контрагента з типом" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithDocumentTypeDetailCaptionOnPage.Value" Value="Файли та посилання" />
-			<Item Name="LocalizableStrings.UsrAccountFileWithTypeDetailDetailCaptionOnPage.Value" Value="Файли і посилання" />
-			<Item Name="LocalizableStrings.UsrFileAndLinkWithDocumentTypeDetailCaptionOnPage.Value" Value="Файли і посилання" />
-			<Item Name="LocalizableStrings.UsrSchema10016162Detail5d9dedefDetailCaptionOnPage.Value" Value="Файл та URL контрагента" />
-			<Item Name="LocalizableStrings.UsrSchemaa1a20081Detaildc7bc0c1DetailCaptionOnPage.Value" Value="Файли і посилання" />
-			<Item Name="LocalizableStrings.UsrSchemade7ce88bDetail24efb1fbDetailCaptionOnPage.Value" Value="Файли і посилання" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocTypeDetailDetailCaptionOnPage.Value" Value="Файли і посилання" />
 			<Item Name="LocalizableStrings.WatbAccountFileWithDocumentTypebff8a4a2DetailCaptionOnPage.Value" Value="Файли і посилання" />
 			<Item Name="LocalizableStrings.WatbActivityDetailDetailCaptionOnPage.Value" Value="Активності" />
 			<Item Name="LocalizableStrings.WatbBulkEmailDetailDetailCaptionOnPage.Value" Value="Email розсилки" />
 			<Item Name="LocalizableStrings.WatbContractDetailDetailCaptionOnPage.Value" Value="Договори" />
 			<Item Name="LocalizableStrings.WatbInvoiceDetailDetailCaptionOnPage.Value" Value="Рахунки" />
-			<Item Name="LocalizableStrings.WatbOrderDetailDetailCaptionOnPage.Value" Value="Замовлення" />
+			<Item Name="LocalizableStrings.WatbOrderDetailDetailCaptionOnPage.Value" Value="Сертифікати" />
 			<Item Name="LocalizableStrings.WatbSalesTabTabCaption.Value" Value="Продажі" />
 		</Items>
 	</Group>

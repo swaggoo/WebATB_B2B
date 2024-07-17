@@ -856,8 +856,11 @@
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Account/Account.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Activity/Activity.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Activity/Activity.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Contract/Contract.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Contract/Contract.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/ContractState/ContractState.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/ContractState/ContractState.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Order/Order.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Order/Order.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/PaymentType/PaymentType.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/PaymentType/PaymentType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Product/Product.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/Product/Product.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/SourceOrder/SourceOrder.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/SourceOrder/SourceOrder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/WatbAccountDepartmentType/WatbAccountDepartmentType.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/WatbAccountDepartmentType/WatbAccountDepartmentType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/WatbAccountFile/WatbAccountFile.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/WatbAccountFile/WatbAccountFile.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/WebATB_B2B/Schemas/WatbAccountStatus/WatbAccountStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/WebATB_B2B/Schemas/WatbAccountStatus/WatbAccountStatus.cs')" />

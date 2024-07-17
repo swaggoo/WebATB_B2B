@@ -1,0 +1,49 @@
+﻿{
+  "Descriptor": {
+    "UId": "f54d2d10-8445-4ff6-8eb0-10273a42b28a",
+    "Name": "OrderStatus",
+    "ModifiedOnUtc": "\/Date(1721045685000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "41201050-146e-47a5-8952-c3d0242e0787",
+      "Name": "OrderStatus"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "fb5ac028-5d67-45c6-96ac-b8095646bd49",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Position",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ad96a8f1-ebfe-4235-8c37-31fc15a5cd5d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "FinalStatus",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

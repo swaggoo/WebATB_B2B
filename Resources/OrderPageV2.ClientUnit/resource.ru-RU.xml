@@ -2,11 +2,15 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Продукты" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Создать счет на основании заказа" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Создать счет на основании заказа" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="Не удалось найти процесс из системной настройки CreateInvoiceFromOrderProcess." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Связать продукты в заказе с договором?" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Продукты" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="Продукты" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="Продукты" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="Все" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="Выбрать" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="Продукты" />

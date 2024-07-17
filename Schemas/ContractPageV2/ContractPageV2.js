@@ -11,70 +11,60 @@ define("ContractPageV2", [], function () {
 					"detailColumn": "Contract",
 					"masterColumn": "Id"
 				}
-			},
-			"ContractProductDetail": {
-				"schemaName": "ContractProductDetailV2",
-				"entitySchemaName": "OrderProduct",
-				"filter": {
-					"detailColumn": "Contract",
-					"masterColumn": "Id"
-				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
-			init: function() {
-                this.callParent(arguments);
-                this.on("change:WatbSigner", this.onSignerChange, this);
-            },
+			init: function () {
+				this.callParent(arguments);
+				this.on("change:WatbSigner", this.onSignerChange, this);
+			},
 
-			onSignerChange: function() {
-                var signer = this.get("WatbSigner");
-                if (signer) {
-                    this.setSignerPosition(signer);
-                } else {
-                    this.set("WatbSignerPosition", null);
-                }
-            },
+			onSignerChange: function () {
+				var signer = this.get("WatbSigner");
+				if (signer) {
+					this.setSignerPosition(signer);
+				} else {
+					this.set("WatbSignerPosition", null);
+				}
+			},
 
-			setSignerPosition: function(signer) {
-                var signerId = signer.value;
-                var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
-                    rootSchemaName: "Contact"
-                });
-                esq.addColumn("JobTitle");
-                esq.getEntity(signerId, function(response) {
-                    if (response.success) {
-                        var position = response.entity.get("JobTitle");
-                        this.set("WatbSignerPosition", position);
-                    }
-                }, this);
-            },
+			setSignerPosition: function (signer) {
+				var signerId = signer.value;
+				var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+					rootSchemaName: "Contact"
+				});
+				esq.addColumn("JobTitle");
+				esq.getEntity(signerId, function (response) {
+					if (response.success) {
+						var position = response.entity.get("JobTitle");
+						this.set("WatbSignerPosition", position);
+					}
+				}, this);
+			},
 
 			asyncValidate: function (callback, scope) {
 				this.callParent([function () {
 					var beginDate = this.get('StartDate');
 					var endDate = this.get('EndDate');
-		
+
 					var start = new Date(beginDate);
 					var end = new Date(endDate);
-		
+
 					var yearsDifference = end.getFullYear() - start.getFullYear();
 					var monthsDifference = end.getMonth() - start.getMonth();
 					var totalMonths = yearsDifference * 12 + monthsDifference;
-		
-					var monthsText = this.getMonthsText(totalMonths);
-		
-					if (isNaN(totalMonths)) {
-						return;
-					}
 
-					this.set('WatbDuration', `${totalMonths} ${monthsText}`);
-		
-					if (end > new Date()) {
-						this.set('WatbIsActive', true);
-					} else {
-						this.set('WatbIsActive', false);
+					var monthsText = this.getMonthsText(totalMonths);
+
+					if (!isNaN(totalMonths) && totalMonths > 0) {
+						this.set('WatbDuration', `${totalMonths} ${monthsText}`);
+
+						if (end > new Date()) {
+							this.set('WatbIsActive', true);
+						} else {
+							this.set('WatbIsActive', false);
+						}
 					}
 
 					callback.call(scope || this, { success: true });
@@ -287,7 +277,7 @@ define("ContractPageV2", [], function () {
 						"layoutName": "Header"
 					},
 					"bindTo": "WatbDuration",
-					"enabled": true
+					"enabled": false
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -335,6 +325,13 @@ define("ContractPageV2", [], function () {
 				"name": "GeneralInfoTab",
 				"values": {
 					"order": 0
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "CustomerBillingInfo",
+				"values": {
+					"contentType": 5
 				}
 			},
 			{
@@ -387,17 +384,6 @@ define("ContractPageV2", [], function () {
 				"values": {
 					"order": 1
 				}
-			},
-			{
-				"operation": "insert",
-				"name": "ContractProductDetail",
-				"values": {
-					"itemType": 2,
-					"markerValue": "added-detail"
-				},
-				"parentName": "ContractPassportTab",
-				"propertyName": "items",
-				"index": 0
 			},
 			{
 				"operation": "merge",
@@ -458,10 +444,6 @@ define("ContractPageV2", [], function () {
 			{
 				"operation": "remove",
 				"name": "SubordinateContracts"
-			},
-			{
-				"operation": "remove",
-				"name": "Product"
 			},
 			{
 				"operation": "remove",

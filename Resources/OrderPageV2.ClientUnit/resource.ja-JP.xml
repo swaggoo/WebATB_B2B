@@ -2,11 +2,15 @@
 <Resources Culture="ja-JP">
 	<Group Type="String">
 		<Items>
+			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="製品" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="この注文に基づく新規請求書" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="この注文に基づく新規請求書" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess にはプロセス値が含まれていません。" />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="注文された製品を契約に接続しますか？" />
+			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="製品" />
+			<Item Name="LocalizableStrings.OrderProductDetailV279c1dcf1DetailCaptionOnPage.Value" Value="製品" />
+			<Item Name="LocalizableStrings.ProductInProductsTabDetailCaptionOnPage.Value" Value="製品" />
 			<Item Name="LocalizableStrings.QuestionAllCaption.Value" Value="すべて" />
 			<Item Name="LocalizableStrings.QuestionChoiceCaption.Value" Value="選択" />
 			<Item Name="LocalizableStrings.WatbOrderProductDetailCaptionOnPage.Value" Value="製品" />

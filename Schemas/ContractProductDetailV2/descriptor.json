@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6eee9b0c-9250-4e1b-81cf-bb843e095d63",
+    "Name": "ContractProductDetailV2",
+    "ModifiedOnUtc": "\/Date(1721123777000)\/",
+    "Parent": {
+      "UId": "efd6a229-77ca-47f5-a242-9d49d9e741f7",
+      "Name": "ContractProductDetailV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "ContractProductDetailV2"
+  }
+}

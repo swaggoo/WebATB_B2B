@@ -4,14 +4,6 @@ define("OrderPageV2", [], function () {
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
-			"WatbOrderProduct": {
-				"schemaName": "ContractProductDetailV2",
-				"entitySchemaName": "OrderProduct",
-				"filter": {
-					"detailColumn": "Order",
-					"masterColumn": "Id"
-				}
-			},
 			"WatbSupplyPaymentDetail": {
 				"schemaName": "SupplyPaymentDetailV2",
 				"entitySchemaName": "SupplyPaymentElement",
@@ -30,10 +22,89 @@ define("OrderPageV2", [], function () {
 					"Contact"
 				],
 				"isRequired": false
+			},
+			"OrderProductDetailV279c1dcf1": {
+				"schemaName": "OrderProductDetailV2",
+				"entitySchemaName": "OrderProduct",
+				"filter": {
+					"detailColumn": "Order",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"WatbAccountBillingInfo": {
+				"65b9bc96-1ccd-4b73-b2fa-b96697ca9027": {
+					"uId": "65b9bc96-1ccd-4b73-b2fa-b96697ca9027",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 1,
+					"baseAttributePatch": "Account",
+					"comparisonType": 3,
+					"autoClean": true,
+					"autocomplete": true,
+					"type": 1,
+					"dataValueType": 10,
+					"attribute": "Account"
+				}
+			},
+			"CreatedOn": {
+				"86484102-603a-47b0-b8ca-2f8328ad85d0": {
+					"uId": "86484102-603a-47b0-b8ca-2f8328ad85d0",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 6,
+							"dataValueType": null,
+							"formula": {
+								"type": 2,
+								"dataType": 7,
+								"code": "GETDATE",
+								"arguments": []
+							}
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 0,
+								"dataValueType": 12,
+								"value": true
+							},
+							"rightExpression": {
+								"type": 0,
+								"dataValueType": 12,
+								"value": true
+							}
+						}
+					]
+				}
+			},
+			"WatbAccountContact": {
+				"44ae80c9-669f-43ab-9001-84bff7058712": {
+					"uId": "44ae80c9-669f-43ab-9001-84bff7058712",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 1,
+					"baseAttributePatch": "Account",
+					"comparisonType": 3,
+					"autoClean": true,
+					"autocomplete": true,
+					"type": 1,
+					"dataValueType": 10,
+					"attribute": "Account"
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
+		methods: {
+			getTotalAmount: function() {
+				return this.get("TotalAmount");
+			}
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -56,7 +127,7 @@ define("OrderPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "Amount4b490b64-a725-4680-819d-5a2da347e73c",
+				"name": "Amounte53f636d-21fd-4151-81d8-19444ad662d3",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -108,22 +179,23 @@ define("OrderPageV2", [], function () {
 				"index": 1
 			},
 			{
-				"operation": "insert",
-				"name": "CreatedOnb523661b-9dee-47fd-9828-be2606ecb108",
+				"operation": "merge",
+				"name": "Client",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 1,
-						"layoutName": "Header"
-					},
-					"bindTo": "CreatedOn",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 2
+						"row": 1
+					}
+				}
+			},
+			{
+				"operation": "remove",
+				"name": "Client",
+				"properties": [
+					"tip"
+				]
 			},
 			{
 				"operation": "insert",
@@ -138,34 +210,33 @@ define("OrderPageV2", [], function () {
 					},
 					"bindTo": "SourceOrder",
 					"enabled": true,
-					"contentType": 5
+					"contentType": 3
 				},
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 3
 			},
 			{
-				"operation": "merge",
-				"name": "Client",
+				"operation": "insert",
+				"name": "CreatedOn645b670a-ff38-4725-b718-d283339ef475",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 2
-					}
-				}
-			},
-			{
-				"operation": "remove",
-				"name": "Client",
-				"properties": [
-					"tip"
-				]
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "CreatedOn",
+					"enabled": false
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN096ce87a-0729-448c-a21d-0a1d3e14e542",
+				"name": "LOOKUP8408b1ba-c944-4ed0-8675-48eb11a87206",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -174,8 +245,9 @@ define("OrderPageV2", [], function () {
 						"row": 2,
 						"layoutName": "Header"
 					},
-					"bindTo": "WatbIsFirstSale",
-					"enabled": true
+					"bindTo": "WatbContract",
+					"enabled": true,
+					"contentType": 5
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -202,7 +274,7 @@ define("OrderPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP8408b1ba-c944-4ed0-8675-48eb11a87206",
+				"name": "ActualDatefc104792-9a2e-4c49-83c4-4d24782c8ffa",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -211,9 +283,7 @@ define("OrderPageV2", [], function () {
 						"row": 3,
 						"layoutName": "Header"
 					},
-					"bindTo": "WatbContract",
-					"enabled": true,
-					"contentType": 5
+					"bindTo": "ActualDate"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -238,170 +308,148 @@ define("OrderPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "ActualDatefc104792-9a2e-4c49-83c4-4d24782c8ffa",
+				"name": "BOOLEAN096ce87a-0729-448c-a21d-0a1d3e14e542",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
-						"column": 12,
-						"row": 4,
+						"column": 0,
+						"row": 5,
 						"layoutName": "Header"
 					},
-					"bindTo": "ActualDate"
+					"bindTo": "WatbIsFirstSale",
+					"enabled": true
 				},
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 9
 			},
 			{
-				"operation": "insert",
-				"name": "WatbCertificatesTab",
+				"operation": "merge",
+				"name": "OrderProductTab",
 				"values": {
-					"caption": {
-						"bindTo": "Resources.Strings.WatbCertificatesTabTabCaption"
-					},
-					"items": [],
 					"order": 0
-				},
-				"parentName": "Tabs",
-				"propertyName": "tabs",
-				"index": 0
+				}
 			},
 			{
 				"operation": "insert",
-				"name": "WatbVendingConditions",
+				"name": "OrderProductTabGroup0ce3d8d2",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.WatbVendingConditionsGroupCaption"
+						"bindTo": "Resources.Strings.OrderProductTabGroup0ce3d8d2GroupCaption"
 					},
 					"itemType": 15,
 					"markerValue": "added-group",
 					"items": []
 				},
-				"parentName": "WatbCertificatesTab",
+				"parentName": "OrderProductTab",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "WatbCertificatesTabGridLayout77bfb9b9",
+				"name": "OrderProductTabGridLayoutf15b7f01",
 				"values": {
 					"itemType": 0,
 					"items": []
 				},
-				"parentName": "WatbVendingConditions",
+				"parentName": "OrderProductTabGroup0ce3d8d2",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "STRINGb6845b14-9796-4fae-90b6-fe51c2ba4d48",
+				"name": "WatbVendingConditions6a6c07cc-6189-4f41-a2f8-d43d5849f4bc",
 				"values": {
 					"layout": {
 						"colSpan": 24,
 						"rowSpan": 2,
 						"column": 0,
 						"row": 0,
-						"layoutName": "WatbCertificatesTabGridLayout77bfb9b9"
+						"layoutName": "OrderProductTabGridLayoutf15b7f01"
 					},
 					"bindTo": "WatbVendingConditions",
 					"enabled": true,
 					"contentType": 0
 				},
-				"parentName": "WatbCertificatesTabGridLayout77bfb9b9",
+				"parentName": "OrderProductTabGridLayoutf15b7f01",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "WatbLayoutInformationFieldGroup",
+				"name": "OrderProductTabGroupb66061e6",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.WatbLayoutInformationFieldGroupGroupCaption"
+						"bindTo": "Resources.Strings.OrderProductTabGroupb66061e6GroupCaption"
 					},
 					"itemType": 15,
 					"markerValue": "added-group",
 					"items": []
 				},
-				"parentName": "WatbCertificatesTab",
+				"parentName": "OrderProductTab",
 				"propertyName": "items",
 				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "WatbCertificatesTabGridLayout4810ed00",
+				"name": "OrderProductTabGridLayoutcf9c846d",
 				"values": {
 					"itemType": 0,
 					"items": []
 				},
-				"parentName": "WatbLayoutInformationFieldGroup",
+				"parentName": "OrderProductTabGroupb66061e6",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN9ac4f706-a780-4455-a551-df51c6c2fce2",
+				"name": "WatbIsLayoutNeededf7cbda9d-c8b8-4565-804d-6585dcf8f436",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 0,
-						"layoutName": "WatbCertificatesTabGridLayout4810ed00"
+						"layoutName": "OrderProductTabGridLayoutcf9c846d"
 					},
-					"bindTo": "WatbIsLayoutNeeded",
-					"enabled": true
+					"bindTo": "WatbIsLayoutNeeded"
 				},
-				"parentName": "WatbCertificatesTabGridLayout4810ed00",
+				"parentName": "OrderProductTabGridLayoutcf9c846d",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP31e27c5f-0a62-4a48-aad0-81d49ff779ef",
+				"name": "WatbLayoutType606bbfe3-60eb-47c8-ba5c-41aad009e654",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
 						"row": 0,
-						"layoutName": "WatbCertificatesTabGridLayout4810ed00"
+						"layoutName": "OrderProductTabGridLayoutcf9c846d"
 					},
-					"bindTo": "WatbLayoutType",
-					"enabled": true,
-					"contentType": 3
+					"bindTo": "WatbLayoutType"
 				},
-				"parentName": "WatbCertificatesTabGridLayout4810ed00",
+				"parentName": "OrderProductTabGridLayoutcf9c846d",
 				"propertyName": "items",
 				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP67b59914-25ae-4a61-a00c-b0b05d6de3bf",
+				"name": "WatbCertificateStatusc70bcba4-43d0-4583-85d2-1fd50a82987b",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 1,
-						"layoutName": "WatbCertificatesTabGridLayout4810ed00"
+						"layoutName": "OrderProductTabGridLayoutcf9c846d"
 					},
-					"bindTo": "WatbCertificateStatus",
-					"enabled": true,
-					"contentType": 3
+					"bindTo": "WatbCertificateStatus"
 				},
-				"parentName": "WatbCertificatesTabGridLayout4810ed00",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "WatbOrderProduct",
-				"values": {
-					"itemType": 2,
-					"markerValue": "added-detail"
-				},
-				"parentName": "WatbCertificatesTab",
+				"parentName": "OrderProductTabGridLayoutcf9c846d",
 				"propertyName": "items",
 				"index": 2
 			},
@@ -447,6 +495,25 @@ define("OrderPageV2", [], function () {
 			},
 			{
 				"operation": "insert",
+				"name": "LOOKUP650cdbbb-8178-42ea-b224-880e308e1348",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "PaymentTabGridLayout609e8d19"
+					},
+					"bindTo": "WatbPaymentStatus",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "PaymentTabGridLayout609e8d19",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Currency292280e3-083e-4c0b-96df-1f1a4782b7ab",
 				"values": {
 					"layout": {
@@ -460,11 +527,11 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "PaymentAmount58733ff5-ace7-4f22-93fa-95a53713ef86",
+				"name": "Amount2c1c4ae2-30ef-470c-ad9c-26c37b814fc1",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -473,11 +540,12 @@ define("OrderPageV2", [], function () {
 						"row": 1,
 						"layoutName": "PaymentTabGridLayout609e8d19"
 					},
-					"bindTo": "PaymentAmount"
+					"bindTo": "Amount",
+					"enabled": true
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -494,7 +562,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -511,7 +579,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -530,25 +598,6 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "PaymentTabGridLayout609e8d19",
 				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP650cdbbb-8178-42ea-b224-880e308e1348",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "PaymentTabGridLayout609e8d19"
-					},
-					"bindTo": "WatbPaymentStatus",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "PaymentTabGridLayout609e8d19",
-				"propertyName": "items",
 				"index": 5
 			},
 			{
@@ -563,13 +612,6 @@ define("OrderPageV2", [], function () {
 				"index": 1
 			},
 			{
-				"operation": "merge",
-				"name": "ESNTab",
-				"values": {
-					"order": 6
-				}
-			},
-			{
 				"operation": "insert",
 				"name": "ExpenditureInvoiceTab",
 				"values": {
@@ -581,7 +623,7 @@ define("OrderPageV2", [], function () {
 				},
 				"parentName": "Tabs",
 				"propertyName": "tabs",
-				"index": 3
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -702,10 +744,36 @@ define("OrderPageV2", [], function () {
 			},
 			{
 				"operation": "merge",
+				"name": "ESNTab",
+				"values": {
+					"order": 6
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "OrderDeliveryTab",
 				"values": {
 					"order": 2
 				}
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP8eba0c68-3a13-4ceb-96f3-dc5a66b322a3",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "OrderDeliveryInformationBlock"
+					},
+					"bindTo": "WatbDeliveryStatus",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "OrderDeliveryInformationBlock",
+				"propertyName": "items",
+				"index": 0
 			},
 			{
 				"operation": "merge",
@@ -732,25 +800,6 @@ define("OrderPageV2", [], function () {
 					},
 					"bindTo": "WatbWaybill",
 					"enabled": true
-				},
-				"parentName": "OrderDeliveryInformationBlock",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP8eba0c68-3a13-4ceb-96f3-dc5a66b322a3",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "OrderDeliveryInformationBlock"
-					},
-					"bindTo": "WatbDeliveryStatus",
-					"enabled": true,
-					"contentType": 3
 				},
 				"parentName": "OrderDeliveryInformationBlock",
 				"propertyName": "items",
@@ -866,14 +915,6 @@ define("OrderPageV2", [], function () {
 			{
 				"operation": "remove",
 				"name": "Status"
-			},
-			{
-				"operation": "remove",
-				"name": "OrderProductTab"
-			},
-			{
-				"operation": "remove",
-				"name": "ProductInProductsTab"
 			},
 			{
 				"operation": "remove",
