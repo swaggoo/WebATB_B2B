@@ -1,17 +1,57 @@
-define("WatbAccount1Page", [], function () {
+define("WatbAccount1Page", ["CommunicationSynchronizerMixin"], function () {
 	return {
 		entitySchemaName: "Account",
-		attributes: {},
+		attributes: {
+			"CommunicationDetailName": {
+				dataValueType: this.Terrasoft.DataValueType.TEXT,
+				value: "Communications"
+			},
+			"Phone": {
+				"dependencies": [
+					{
+						"columns": ["Phone"],
+						"methodName": "syncEntityWithCommunicationDetail"
+					}
+				]
+			},
+			"AdditionalPhone": {
+				"dependencies": [
+					{
+						"columns": ["AdditionalPhone"],
+						"methodName": "syncEntityWithCommunicationDetail"
+					}
+				]
+			},
+			"WatbEmail": {
+				"dependencies": [
+					{
+						"columns": ["WatbEmail"],
+						"methodName": "syncEntityWithCommunicationDetail"
+					}
+				]
+			}
+		},
+		mixins: {
+			CommunicationSynchronizerMixin: "Terrasoft.CommunicationSynchronizerMixin",
+			AccountPageMixin: "Terrasoft.AccountPageMixin",
+			CommunicationOptionsMixin: "Terrasoft.CommunicationOptionsMixin"
+		},
+		messages: {
+			"GetCommunicationsList": {
+				mode: Terrasoft.MessageMode.PTP,
+				direction: Terrasoft.MessageDirectionType.PUBLISH
+			},
+			"SyncCommunication": {
+				mode: Terrasoft.MessageMode.PTP,
+				direction: Terrasoft.MessageDirectionType.PUBLISH
+			},
+			"GetCommunicationsSynchronizedByDetail": {
+				mode: Terrasoft.MessageMode.PTP,
+				direction: Terrasoft.MessageDirectionType.PUBLISH
+			},
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
-			"AccountCommunicationDetail": {
-				"schemaName": "AccountCommunicationDetail",
-				"entitySchemaName": "AccountCommunication",
-				"filter": {
-					"detailColumn": "Account",
-					"masterColumn": "Id"
-				}
-			},
 			"OpportunityDetailV25cb23b02": {
 				"schemaName": "OpportunityDetailV2",
 				"entitySchemaName": "Opportunity",
@@ -130,6 +170,14 @@ define("WatbAccount1Page", [], function () {
 					"detailColumn": "Account",
 					"masterColumn": "Id"
 				}
+			},
+			"Communications": {
+				"schemaName": "AccountCommunicationDetail",
+				"entitySchemaName": "AccountCommunication",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
@@ -161,7 +209,12 @@ define("WatbAccount1Page", [], function () {
 				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+			save: function () {
+				this.clearChangedValuesSynchronizedByDetail();
+				this.callParent(arguments);
+			}
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -601,7 +654,7 @@ define("WatbAccount1Page", [], function () {
 			},
 			{
 				"operation": "insert",
-				"name": "AccountCommunicationDetail",
+				"name": "Communications",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"

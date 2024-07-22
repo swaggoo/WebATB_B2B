@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ActualizeActionCaption.Value" Value="모든 전자 메일 주소를 유효한 것으로 표시" />
+			<Item Name="LocalizableStrings.ActualizeActionMessageCaption.Value" Value="선택한 연락처의 모든 전자 메일 주소에 모든 전자 메일 주소를 유효한 것으로 표시하시겠습니까?" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="소셜 네트워크 데이터로 업데이트" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="동기화 설정을 받는 동안 오류가 발생했습니다." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="동기화 설정" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="연락처 동기화 설정" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="MS Exchange 연락처 동기화" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="동기화 시작됨" />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="동기화 설정을 지정하지 않았습니다." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="동기화 설정 팁 캡션 설정" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="이제 연락처가 항상 최신 상태가 됩니다!&lt;br&gt; 필요한 경우 &lt;a href=&quot;#&quot;&gt; 설정을 변경합니다. &lt;/a&gt;" />
+		</Items>
+	</Group>
+</Resources>

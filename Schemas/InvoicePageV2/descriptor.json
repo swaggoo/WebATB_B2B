@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f30ae992-a96d-4793-952b-5fda1f241375",
+    "Name": "InvoicePageV2",
+    "ModifiedOnUtc": "\/Date(1721646862000)\/",
+    "Parent": {
+      "UId": "b8a98131-367e-4bc0-88b7-06bea6a143de",
+      "Name": "InvoicePageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "InvoicePageV2"
+  }
+}

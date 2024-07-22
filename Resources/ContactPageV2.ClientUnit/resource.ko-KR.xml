@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="클라우드 아이콘 강화" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="통신 채널" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="사용자 1에게 보내는 메시지" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="프로필 완료 비율입니다. 프로필을 완료하는 데 필요한 데이터를 보려면 표시기를 클릭하십시오." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="프로필 완료" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="공정" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="새 데이터가 발견되었습니다" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="소셜 네트워크 데이터로 업데이트" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="()에 연결됨" />
+		</Items>
+	</Group>
+</Resources>

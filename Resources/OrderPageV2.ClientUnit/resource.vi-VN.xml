@@ -3,9 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Sản phẩm trong sự kiện" />
-			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Hóa đơn mới dựa trên đơn hàng này" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Hóa đơn mới dựa trên đơn hàng này" />
-			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess does not contain any process value." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Kết nối các sản phẩm đã đặt hàng với hợp đồng?" />
 			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Sản phẩm trong sự kiện" />

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.BlankSlateDescription.Value" Value="Your browser is not supported. Please use Chrome, Safari or Firefox in order to work with contact event's history" />
+			<Item Name="LocalizableStrings.ButtonLoadMoreCaption.Value" Value="Load more" />
+			<Item Name="LocalizableStrings.ColumnNameCostCaption.Value" Value="Cost" />
+			<Item Name="LocalizableStrings.ColumnNameDateTimeCaption.Value" Value="תאריך ושעה" />
+			<Item Name="LocalizableStrings.ColumnNameEventTypeCaption.Value" Value="סוג אירוע" />
+			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="שם" />
+			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="ערך" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="ערוצי תקשורת" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="הודעה למשתמש 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="אחוז השלמת הפרופיל. לחץ על המחוון כדי להציג את הנתונים הדרושים להשלמת הפרופיל." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="פרופיל הושלם" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="מאושר" />
+			<Item Name="LocalizableStrings.ContactPageServiceTab.Value" Value="תחזוקה" />
+			<Item Name="LocalizableStrings.EngagementTabTabCaption.Value" Value="פעילות ברשת" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="נמצאו נתונים חדשים" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="עדכן מנתוני רשת חברתית" />
+			<Item Name="LocalizableStrings.FormSubmitDetailDetailCaptionOnPage.Value" Value="טפסים שהוגשו" />
+			<Item Name="LocalizableStrings.LabelLoadingCaption.Value" Value="Data loading is in progress. This may take a few seconds." />
+			<Item Name="LocalizableStrings.LabelNoDataCaption.Value" Value="There are no website events for this record." />
+			<Item Name="LocalizableStrings.PropertyBrowserCaption.Value" Value="דפדפן" />
+			<Item Name="LocalizableStrings.PropertyColorDepthCaption.Value" Value="Color Depth" />
+			<Item Name="LocalizableStrings.PropertyDisplayCaption.Value" Value="תצוגה" />
+			<Item Name="LocalizableStrings.PropertyLanguageCaption.Value" Value="שפה" />
+			<Item Name="LocalizableStrings.PropertyLanguagesCaption.Value" Value="שפות" />
+			<Item Name="LocalizableStrings.PropertyPageUrlCaption.Value" Value="כתובת אתר של דף" />
+			<Item Name="LocalizableStrings.PropertyPixelDepthCaption.Value" Value="Pixel Depth" />
+			<Item Name="LocalizableStrings.PropertyPlatformCaption.Value" Value="Platform" />
+			<Item Name="LocalizableStrings.PropertyRefererCaption.Value" Value="Referer" />
+			<Item Name="LocalizableStrings.PropertyScreenAvailCaption.Value" Value="Screen Avail" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="מחובר אל" />
+			<Item Name="LocalizableStrings.ShowTrackingDataCaption.Value" Value="Show tracking data" />
+			<Item Name="LocalizableStrings.TouchDetailDetailCaptionOnPage.Value" Value="פעילות באינטרנט" />
+			<Item Name="LocalizableStrings.TrackingEventsTabCaption.Value" Value="אירועי אתר אינטרנט" />
+		</Items>
+	</Group>
+</Resources>

@@ -9,8 +9,10 @@
 			<Item Name="Columns.WatbAccountBillingInfo.Caption" Value="Платіжні реквізити контрагента" />
 			<Item Name="Columns.WatbAccountContact.Caption" Value="Контакт контрагента" />
 			<Item Name="Columns.WatbATBAccountNumber.Caption" Value="Номер рахунку АТБ" />
+			<Item Name="Columns.WatbAttachedFilesCount.Caption" Value="Кількість прикріплених файлів" />
 			<Item Name="Columns.WatbCertificateStatus.Caption" Value="Статус сертифікатів" />
 			<Item Name="Columns.WatbContract.Caption" Value="Договір" />
+			<Item Name="Columns.WatbContractExternalNumber.Caption" Value="Номер договору" />
 			<Item Name="Columns.WatbDeliveryStatus.Caption" Value="Стан доставки" />
 			<Item Name="Columns.WatbEmail.Caption" Value="Електронна скринька" />
 			<Item Name="Columns.WatbExpenditureDate.Caption" Value="Дата видаткової" />

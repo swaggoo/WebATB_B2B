@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DMpBgXN4YcY=",
+  "dgSpecHash": "6a5PsE00dHE=",
   "success": true,
   "projectFilePath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\creatiosdk\\8.1.3.6803\\creatiosdk.8.1.3.6803.nupkg.sha512"
+    "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\.nuget\\packages\\creatiosdk\\8.1.3.6803\\.nupkg.metadata"
   ],
   "logs": []
 }

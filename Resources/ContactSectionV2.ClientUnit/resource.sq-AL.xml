@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.ActualizeActionCaption.Value" Value="Shëno të gjitha adresat e emailit si të vlefshme" />
+			<Item Name="LocalizableStrings.ActualizeActionMessageCaption.Value" Value="A do të shënosh të gjitha adresat e emailit si të vlefshme për të gjitha adresat e emailit të kontakteve të përzgjedhura?" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Përditësohu me të dhënat e rrjeteve sociale" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Gabim në marrjen e konfigurimeve të sinkronizimit." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="SetUpSynchronization" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Përcakto sinkronizimin e kontaktit" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Sinkronizimi i kontakteve të MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Sinkronizimi filloi" />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Konfigurimet e sinkronizimit nuk janë specifikuar." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="SyncSettingsSetTipCaption" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Tani kontaktet e tua do të jenë gjithmonë në përditësim!&lt;br&gt;Nëse është e nevojshme &lt;a href=&quot;#&quot;&gt;ndrysho konfigurimet&lt;/a&gt;" />
+		</Items>
+	</Group>
+</Resources>

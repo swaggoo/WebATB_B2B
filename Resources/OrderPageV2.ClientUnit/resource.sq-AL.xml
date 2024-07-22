@@ -3,9 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Produktet" />
-			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Fatura e re bazuar te kjo porosi" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Fatura e re bazuar te kjo porosi" />
-			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess nuk përmban ndonjë vlerë të procesit." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="Lidh produktet e porositura me kontratën?" />
 			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Produktet" />

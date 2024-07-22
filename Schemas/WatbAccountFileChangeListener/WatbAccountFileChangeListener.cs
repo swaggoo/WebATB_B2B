@@ -5,7 +5,7 @@ using Terrasoft.Core.Entities.Events;
 using FX.Services;
 using Terrasoft.Core.Factories;
 
-namespace FX.EntityEventListeners
+namespace EntityEventListeners
 {
     [EntityEventListener(SchemaName = "WatbAccountFile")]
     public class AccountFileChangeListener : BaseEntityEventListener

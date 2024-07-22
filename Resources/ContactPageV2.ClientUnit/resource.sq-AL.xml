@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Kanalet e komunikimit" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Mesazh për përdoruesin 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Përqindja e përfundimit të profilit. Kliko tek treguesi për të parë se cilat të dhëna të duhen për të përfunduar profilin." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profili u përfundua" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Konfirmuar" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="U gjetën të dhëna të reja" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Përditësohu me të dhënat e rrjeteve sociale" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Lidhur me" />
+		</Items>
+	</Group>
+</Resources>

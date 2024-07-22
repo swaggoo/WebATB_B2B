@@ -146,19 +146,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "8.1.2.3941",
     "restore": {
       "projectUniqueName": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
       "projectName": "WebATB_B2B",
       "projectPath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\WebATB_B2B.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "packagesPath": "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\.nuget\\packages\\",
       "outputPath": "D:\\8.1.2.3941_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_MSSQL_ENU\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\WebATB_B2B\\Files\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Windows\\TEMP\\3\\IIS APPPOOL_Creatio_8.1\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

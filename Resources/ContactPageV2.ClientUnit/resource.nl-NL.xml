@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="CommunicatieKANALEN" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Bericht aan gebruiker 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Percentage gereed van profiel. Klik op de indicator om te bekijken welke gegevens u nodig hebt om het profiel te voltooien." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profiel compleet" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Bevestigd" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="New data found" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Bijwerken met sociale netwerkgegevens" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Verbonden met" />
+		</Items>
+	</Group>
+</Resources>

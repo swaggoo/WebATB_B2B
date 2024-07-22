@@ -3,9 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="제품" />
-			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="이 주문에 기반한 새로운 송장" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="이 주문에 기반한 새로운 송장" />
-			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="주문 프로세스에서 송장 만들기 설정 안 됨" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="시스템 설정 CreateInvoiceFromOrderProcess에 프로세스 값이 없습니다." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="주문한 제품을 계약서에 연결하시겠습니까?" />
 			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="제품" />

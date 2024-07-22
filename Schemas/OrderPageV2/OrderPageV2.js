@@ -1,7 +1,34 @@
-define("OrderPageV2", [], function () {
+define("OrderPageV2", ["WatbCurrentUserRolesMixin"], function () {
 	return {
 		entitySchemaName: "Order",
-		attributes: {},
+		attributes: {
+			"WatbCertificateStatus": {
+				dataValueType: Terrasoft.DataValueType.LOOKUP,
+				lookupListConfig: {
+					orders: [{ columnPath: "WatbPosition" }]
+				}
+			},
+			"OrderCertificatesCount": {
+				dataValueType: Terrasoft.DataValueType.INTEGER
+			},
+			"IsLayoutInformationTabVisible": {
+				dataValueType: Terrasoft.DataValueType.BOOLEAN,
+				value: false
+			},
+			"Account": {
+				"dataValueType": Terrasoft.DataValueType.LOOKUP,
+				"lookupListConfig": {
+					"filters": [
+						function () {
+							return this.filterAccountsLookupByUserRole();
+						}
+					]
+				}
+			}
+		},
+		mixins: {
+			WatbCurrentUserRolesMixin: "Terrasoft.WatbCurrentUserRolesMixin"
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
 			"WatbSupplyPaymentDetail": {
@@ -98,12 +125,73 @@ define("OrderPageV2", [], function () {
 					"dataValueType": 10,
 					"attribute": "Account"
 				}
+			},
+			"WatbContractExternalNumber": {
+				"5588f67c-a432-4b0a-b6ad-75421eba79a3": {
+					"uId": "5588f67c-a432-4b0a-b6ad-75421eba79a3",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"dataValueType": null,
+							"attribute": "WatbContract",
+							"attributePath": "WatbContractExternalNumber"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"dataValueType": 10,
+								"attribute": "WatbContract"
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
-			getTotalAmount: function() {
+			init: function () {
+				this.callParent(arguments);
+				this.setCurrentUserRoles();
+				Terrasoft.ServerChannel.on(Terrasoft.EventName.ON_MESSAGE, this.onOrderProductSaved, this);
+			},
+
+			onEntityInitialized: function () {
+				this.callParent(arguments);
+				this.setLayoutInformationTabVisibility();
+			},
+
+			onOrderProductSaved: function (sender, message) {
+				if (message && message.Header && message.Header.Sender === "OrderProductChangeListener") {
+					var result = this.Ext.decode(message.Body);
+					this.set("IsLayoutInformationTabVisible", result.OrderProductCount > 0);
+				}
+			},
+
+			getTotalAmount: function () {
 				return this.get("TotalAmount");
-			}
+			},
+
+			setLayoutInformationTabVisibility: function () {
+				var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+					rootSchemaName: "OrderProduct"
+				});
+				esq.addColumn("Id");
+				esq.filters.add("OrderFilter", this.Terrasoft.createColumnFilterWithParameter(
+					this.Terrasoft.ComparisonType.EQUAL, "Order.Id", this.get("Id")
+				));
+				esq.getEntityCollection(function (response) {
+					if (response.success) {
+						var collection = response.collection;
+						this.set("IsLayoutInformationTabVisible", collection.getItems().length > 0);
+					}
+				}, this);
+			},
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
@@ -280,7 +368,7 @@ define("OrderPageV2", [], function () {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 3,
+						"row": 4,
 						"layoutName": "Header"
 					},
 					"bindTo": "ActualDate"
@@ -323,6 +411,24 @@ define("OrderPageV2", [], function () {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "STRING4246b26f-0a57-4f3a-905b-0b387ecdc82b",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 3,
+						"layoutName": "Header"
+					},
+					"bindTo": "WatbContractExternalNumber",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 10
 			},
 			{
 				"operation": "merge",
@@ -385,7 +491,8 @@ define("OrderPageV2", [], function () {
 					},
 					"itemType": 15,
 					"markerValue": "added-group",
-					"items": []
+					"items": [],
+					"visible": { "bindTo": "IsLayoutInformationTabVisible" }
 				},
 				"parentName": "OrderProductTab",
 				"propertyName": "items",

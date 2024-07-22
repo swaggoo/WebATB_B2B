@@ -2,12 +2,13 @@
   "Descriptor": {
     "UId": "6631038e-d0a6-4666-89de-35aa94832b06",
     "Name": "WatbCertificateStatus",
-    "ModifiedOnUtc": "\/Date(1720450809000)\/",
+    "ModifiedOnUtc": "\/Date(1721312220000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Статус сертифікату"
+    "Caption": "Статус сертифікату",
+    "DependsOn": []
   }
 }

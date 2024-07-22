@@ -3,9 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="LocalizableStrings.ContractProductDetailV27ceff92eDetailCaptionOnPage.Value" Value="Productos" />
-			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Caption" Value="Nueva factura basada en este pedido" />
 			<Item Name="LocalizableStrings.CreateInvoiceByOrderCaption.Value" Value="Nueva factura basada en este pedido" />
-			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Caption" Value="CreateInvoiceFromOrderProcessNotSet" />
 			<Item Name="LocalizableStrings.CreateInvoiceFromOrderProcessNotSet.Value" Value="SysSetting CreateInvoiceFromOrderProcess no contiene ningún valor de proceso." />
 			<Item Name="LocalizableStrings.LinkProductCaption.Value" Value="¿Conectar los productos pedidos al contrato?" />
 			<Item Name="LocalizableStrings.OrderProductDetailPageDetailCaptionOnPage.Value" Value="Productos" />

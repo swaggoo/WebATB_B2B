@@ -1,13 +1,4 @@
-define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "ConfigurationConstants", "ConfigurationEnums", "NetworkUtilities"], function (resources, EmailHelper, ConfigurationConstants, ConfigurationEnums, NetworkUtilities) {
-	const B2B_DEPARTMENT_ROLE_CAPTION = "B2B Department";
-	const CC_DEPARTMENT_ROLE_CAPTION = "CC agents";
-	const SYSTEM_ADMINISTRATOR_ROLE_CAPTION = "System administrators";
-	const B2B_EDIT_PAGE_ID = "05c7545e-7e05-45f0-902c-712d5bb16644";
-	const CC_EDIT_PAGE_ID = "94bbf9b4-8d32-4791-b178-7f3f318e3856";
-	const EMAIL_COMMUNICATION_ID = "ea350dd6-66cc-df11-9b2a-001d60e938c6";
-	const WATB_B2B_DEPARTMENT_TYPE_ID = "05c7545e-7e05-45f0-902c-712d5bb16644";
-	const WATB_CC_DEPARTMENT_TYPE_ID = "94bbf9b4-8d32-4791-b178-7f3f318e3856";
-
+define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "ConfigurationConstants", "ConfigurationEnums", "NetworkUtilities", "WatbCurrentUserRolesMixin"], function (resources, EmailHelper, ConfigurationConstants, ConfigurationEnums, NetworkUtilities) {
 	return {
 		entitySchemaName: "Account",
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
@@ -34,20 +25,21 @@ define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "Configu
 									"converter": function (editPages) {
 										const currentUserRoles = this.get("CurrentUserRoles");
 
-										editPages.collection.items = editPages.collection.items.filter(function (item ) {
-											if (currentUserRoles.includes(SYSTEM_ADMINISTRATOR_ROLE_CAPTION)) {
+										editPages.collection.items = editPages.collection.items.filter((item) => {
+											if (currentUserRoles.includes(this.constants.SYSTEM_ADMINISTRATOR_ROLE_CAPTION)) {
 												return true;
 											}
-											if (currentUserRoles.includes(B2B_DEPARTMENT_ROLE_CAPTION)) {
-												return item.values.Id === B2B_EDIT_PAGE_ID;
+											if (currentUserRoles.includes(this.constants.B2B_DEPARTMENT_ROLE_CAPTION)) {
+												return item.values.Id === this.constants.WATB_B2B_DEPARTMENT_TYPE_ID;
 											}
-											if (currentUserRoles.includes(CC_DEPARTMENT_ROLE_CAPTION)) {
-												return item.values.Id === CC_EDIT_PAGE_ID;
+											if (currentUserRoles.includes(this.constants.CC_DEPARTMENT_ROLE_CAPTION)) {
+												return item.values.Id === this.constants.WATB_CC_DEPARTMENT_TYPE_ID;
 											}
 										});
 
 										return editPages;
 									}
+
 								}
 							}
 						}
@@ -55,6 +47,9 @@ define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "Configu
 				}
 			}
 		]/**SCHEMA_DIFF*/,
+		mixins: {
+			WatbCurrentUserRolesMixin: "Terrasoft.WatbCurrentUserRolesMixin"
+		},
 		methods: {
 			init: function () {
 				this.callParent(arguments);
@@ -82,47 +77,23 @@ define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "Configu
 				var filters = this.callParent(arguments);
 				var currentUserRoles = this.get("CurrentUserRoles");
 
-				if (currentUserRoles.includes(SYSTEM_ADMINISTRATOR_ROLE_CAPTION)) {
+				if (currentUserRoles.includes(this.constants.SYSTEM_ADMINISTRATOR_ROLE_CAPTION)) {
 					return filters;
 				}
 
-				if (currentUserRoles.includes(B2B_DEPARTMENT_ROLE_CAPTION)) {
+				if (currentUserRoles.includes(this.constants.B2B_DEPARTMENT_ROLE_CAPTION)) {
 					filters.add("FilterDepartmentType", this.Terrasoft.createColumnFilterWithParameter(
-						this.Terrasoft.ComparisonType.EQUAL, "WatbDepartmentType.Id", WATB_B2B_DEPARTMENT_TYPE_ID
+						this.Terrasoft.ComparisonType.EQUAL, "WatbDepartmentType.Id", this.constants.WATB_B2B_DEPARTMENT_TYPE_ID
 					));
 				}
-				else if (currentUserRoles.includes(CC_DEPARTMENT_ROLE_CAPTION)) {
+				else if (currentUserRoles.includes(this.constants.CC_DEPARTMENT_ROLE_CAPTION)) {
 					filters.add("FilterDepartmentType", this.Terrasoft.createColumnFilterWithParameter(
-						this.Terrasoft.ComparisonType.EQUAL, "WatbDepartmentType.Id", WATB_CC_DEPARTMENT_TYPE_ID
+						this.Terrasoft.ComparisonType.EQUAL, "WatbDepartmentType.Id", this.constants.WATB_CC_DEPARTMENT_TYPE_ID
 					));
 				}
 
 				return filters;
 			},
-
-
-			setCurrentUserRoles: function () {
-				var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
-					rootSchemaName: "SysUserInRole"
-				});
-				esq.addColumn("SysRole");
-
-				esq.filters.add("UserFilter", Terrasoft.createColumnFilterWithParameter(
-					Terrasoft.ComparisonType.EQUAL, "SysUser", Terrasoft.SysValue.CURRENT_USER.value
-				));
-
-				esq.getEntityCollection(function (result) {
-					if (result.success && result.collection.getCount() > 0) {
-						var roles = result.collection.getItems().map(function (item) {
-							return item.get("SysRole").displayValue;
-						});
-						this.set("CurrentUserRoles", roles);
-					} else {
-						this.set("CurrentUserRoles", []);
-					}
-				}, this);
-			},
-
 
 			watbAddBulkEmailButtonSection: function (actionMenuItems) {
 				actionMenuItems.addItem(this.getButtonMenuItem({
@@ -276,7 +247,7 @@ define("AccountSectionV2", ["AccountSectionV2Resources", "EmailHelper", "Configu
 						esq.filters.add("AccountFolderFilter", accountInFolderGroup);
 					}
 
-					esq.filters.add("EmailCommunicationFilter", Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "[ComTypebyCommunication:CommunicationType:CommunicationType].Communication", EMAIL_COMMUNICATION_ID));
+					esq.filters.add("EmailCommunicationFilter", Terrasoft.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "[ComTypebyCommunication:CommunicationType:CommunicationType].Communication", this.constants.EMAIL_COMMUNICATION_ID));
 
 					esq.getEntityCollection(function (response) {
 						if (response && response.success) {

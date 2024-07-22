@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="it-IT">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Display schema - Contact card" />
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Canali di comunicazione" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Messaggio a utente 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Percentuale di completamento del profilo. Clicca sull'indicatore per vedere con quali dati devi completare il profilo." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profilo completato" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Confermato" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="trovati nuovi dati" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Aggiorna con dati dai social network" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Collegato a" />
+		</Items>
+	</Group>
+</Resources>

@@ -2,14 +2,13 @@
   "Descriptor": {
     "UId": "debbca8e-2fba-417d-bc30-6a38d045d222",
     "Name": "Order",
-    "ModifiedOnUtc": "\/Date(1721045578000)\/",
+    "ModifiedOnUtc": "\/Date(1721397831000)\/",
     "Parent": {
       "UId": "80294582-06b5-4faa-a85f-3323e5536b71",
       "Name": "Order"
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Угоди",
-    "DependsOn": []
+    "Caption": "Угода"
   }
 }

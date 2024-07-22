@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Display schema - Contact card" />
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="ช่องทางการติดต่อสื่อสาร" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="ข้อความถึงผู้ใช้ 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="ร้อยละของความสมบูรณ์ของโปร์ไฟล์ คลิกที่ตัวชี้เพื่อดูว่ามีข้อมูลไหนบ้างที่คุณต้องทำโปรไฟล์ให้สมบูรณ์." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="โปรไฟล์เสร็จสมบูรณ์" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="ยืนยันแล้ว" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="พบข้อมูลใหม่" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="อัพเดตด้วยข้อมูลโซเชียลเนตเวิต์ก" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="ถูกเชื่อมต่อกับ" />
+		</Items>
+	</Group>
+</Resources>

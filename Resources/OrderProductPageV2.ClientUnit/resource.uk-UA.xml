@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="OrderProductPageV2" />
+			<Item Name="LocalizableStrings.ChangeInvoice.Value" Value="З оплати виставлено рахунок. Ви хочете змінити дані рахунку?" />
+		</Items>
+	</Group>
+</Resources>

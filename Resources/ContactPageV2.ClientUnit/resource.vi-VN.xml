@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Display schema - Contact card" />
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Các kênh liên lạc" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Tin nhắn cho người dùng 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Phần trăm mức hoàn thành hồ sơ. Click vào dấu chỉ dẫn để xem dữ liệu nào mà bạn cần để hoàn thành hồ sơ." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Hoàn thành hồ sơ" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Xác nhận" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="Đã tìm thấy dữ liệu mới" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Cập nhật với dữ liệu mạng xã hội" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Đã được kết nối đến" />
+		</Items>
+	</Group>
+</Resources>

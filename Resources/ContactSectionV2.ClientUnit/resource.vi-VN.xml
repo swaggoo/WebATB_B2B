@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Contacts section" />
+			<Item Name="LocalizableStrings.ActualizeActionCaption.Value" Value="Đánh dấu tất cả các địa chỉ email là hợp lệ" />
+			<Item Name="LocalizableStrings.ActualizeActionMessageCaption.Value" Value="Đánh dấu tất cả các địa chỉ email là hợp lệ cho tất cả các địa chỉ email của các liên hệ được chọn?" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Cập nhật với dữ liệu mạng xã hội" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Lỗi khi nhận cài đặt đồng bộ hóa." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="SetUpSynchronization" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Thiết lập đồng bộ hóa liên lạc" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Đồng bộ hóa các liên hệ MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Đồng bộ hóa được bắt đầu. Chúng tôi sẽ thông báo khi hoàn tất." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Cài đặt đồng bộ hóa không được chỉ định." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="SyncSettingsSetTipCaption" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Giờ đây, các liên hệ của bạn sẽ luôn được cập nhật! &lt;br&gt; Nếu cần, &lt;a href=&quot;#&quot;&gt; thay đổi cài đặt &lt;/a&gt;" />
+		</Items>
+	</Group>
+</Resources>

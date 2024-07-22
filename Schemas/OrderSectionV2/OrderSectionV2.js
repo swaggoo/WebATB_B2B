@@ -11,6 +11,17 @@ define("OrderSectionV2", [], function() {
                 }
             }
 		]/**SCHEMA_DIFF*/,
-		methods: {}
+		methods: {
+			init: function() {
+				this.callParent(arguments);
+				Terrasoft.ServerChannel.on(Terrasoft.EventName.ON_MESSAGE, this.onOrdeFileSaved, this);
+			},
+
+			onOrdeFileSaved: function(sender, message) {
+				if (message && message.Header && message.Header.Sender === "OrderFileChangeListener") {
+					this.reloadGridData();
+				}
+			}
+		}
 	};
 });

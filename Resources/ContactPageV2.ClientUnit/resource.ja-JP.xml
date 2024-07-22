@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="コミュニケ―ジョンチャネル" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="ユーザへのメッセージ 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="プロフィールの完成率です。インジケーターをクリックすると、プロフィールを完成させるために必要なデータが表示されます。." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="プロフィール設定完了" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="確定済み" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="あら" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="ソーシャルネットワークデータの更新" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="紐づけ" />
+		</Items>
+	</Group>
+</Resources>

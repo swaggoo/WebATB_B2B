@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="ContactPageV2" />
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.addToCallListCaption.Value" Value="Додати в Call list" />
+			<Item Name="LocalizableStrings.BlankSlateDescription.Value" Value="Ваш браузер не підтримується. Будь ласка, використовуйте Chrome, Safari або Firefox для роботи з історією подій контакту" />
+			<Item Name="LocalizableStrings.ButtonLoadMoreCaption.Value" Value="Завантажити ще" />
+			<Item Name="LocalizableStrings.ColumnNameCostCaption.Value" Value="Вартість" />
+			<Item Name="LocalizableStrings.ColumnNameDateTimeCaption.Value" Value="Час і дата" />
+			<Item Name="LocalizableStrings.ColumnNameEventTypeCaption.Value" Value="Тип події" />
+			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Назва" />
+			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Зміст" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Канали комунікації" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Повідомлення користувачу 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Ступінь наповненості даними профіля. Натисніть на шкалу, щоб подивитись, яких даних не вистачає у профілі." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Повнота профілю" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Підтверджено" />
+			<Item Name="LocalizableStrings.ContactPageServiceTab.Value" Value="Обслуговування" />
+			<Item Name="LocalizableStrings.deleteFromCallListCaption.Value" Value="Видалити з Call list" />
+			<Item Name="LocalizableStrings.EngagementTabTabCaption.Value" Value="Приваблення" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="Знайдено дані" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Збагатити даними із соц. мереж" />
+			<Item Name="LocalizableStrings.FormSubmitDetailDetailCaptionOnPage.Value" Value="Заповнені веб-форми" />
+			<Item Name="LocalizableStrings.LabelLoadingCaption.Value" Value="Завантаження даних. Це може зайняти кілька секунд." />
+			<Item Name="LocalizableStrings.LabelNoDataCaption.Value" Value="Для цього запису немає даних про події сайту." />
+			<Item Name="LocalizableStrings.PropertyBrowserCaption.Value" Value="Браузер" />
+			<Item Name="LocalizableStrings.PropertyColorDepthCaption.Value" Value="Глибина кольору" />
+			<Item Name="LocalizableStrings.PropertyDisplayCaption.Value" Value="Монітор" />
+			<Item Name="LocalizableStrings.PropertyLanguageCaption.Value" Value="Мова" />
+			<Item Name="LocalizableStrings.PropertyLanguagesCaption.Value" Value="Мови" />
+			<Item Name="LocalizableStrings.PropertyPageUrlCaption.Value" Value="URL Сторінки" />
+			<Item Name="LocalizableStrings.PropertyPixelDepthCaption.Value" Value="Глибина пікселя" />
+			<Item Name="LocalizableStrings.PropertyPlatformCaption.Value" Value="Платформа" />
+			<Item Name="LocalizableStrings.PropertyRefererCaption.Value" Value="URL Сторінки джерела" />
+			<Item Name="LocalizableStrings.PropertyScreenAvailCaption.Value" Value="Доступний простір екрану" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="взаємозв'язки" />
+			<Item Name="LocalizableStrings.ShowTrackingDataCaption.Value" Value="Показати дані трекінгу" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Підписатись на оновлення стрічки" />
+			<Item Name="LocalizableStrings.TouchDetailDetailCaptionOnPage.Value" Value="Сесії на сайті" />
+			<Item Name="LocalizableStrings.TrackingEventsTabCaption.Value" Value="Події сайту" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Відписатись від оновлень стрічки" />
+		</Items>
+	</Group>
+</Resources>

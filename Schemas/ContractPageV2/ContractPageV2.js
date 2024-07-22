@@ -1,7 +1,21 @@
-define("ContractPageV2", [], function () {
+define("ContractPageV2", ["WatbCurrentUserRolesMixin"], function () {
 	return {
 		entitySchemaName: "Contract",
-		attributes: {},
+		mixins: {
+			WatbCurrentUserRolesMixin: "Terrasoft.WatbCurrentUserRolesMixin"
+		},
+		attributes: {
+			"Account": {
+				"dataValueType": Terrasoft.DataValueType.LOOKUP,
+				"lookupListConfig": {
+					"filters": [
+						function() {
+							return this.filterAccountsLookupByUserRole();
+						}
+					]
+				}
+			}
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
 			"WatbInvoiceDetail": {
@@ -18,6 +32,7 @@ define("ContractPageV2", [], function () {
 			init: function () {
 				this.callParent(arguments);
 				this.on("change:WatbSigner", this.onSignerChange, this);
+				this.setCurrentUserRoles();
 			},
 
 			onSignerChange: function () {

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Kommunkationskanaler" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Meddelande till användare 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Hur komplett profilen är i procent. Klicka på indikatorn för att visa vilka data du behöver för att göra profilen komplett." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profil komplett" />
+			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Bekräftad" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="Nya data hittades" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Uppdatera med sociala nätverk-data" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Ansluten till" />
+		</Items>
+	</Group>
+</Resources>
